@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../xk-html"
+		},
+		{
+			"path": "../javascrpt"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "xk-html"
+	}
+}
