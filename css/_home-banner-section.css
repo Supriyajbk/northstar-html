@@ -3,7 +3,6 @@
 .home-banner-text{color: var(--white); text-align: center;}
 .home-banner-text span{font-size: 20px; line-height:24px; font-family: 'lexend',sansserif; font-weight: 400; margin-bottom: 18px; display: block;}
 .home-banner-text h1{line-height: normal; letter-spacing: normal; font-family: 'lexend',sans-serif; font-weight: 500; margin-bottom: 31px;}
-.home-banner-text .button{border: 1px solid var(--white); font-size: 14px; font-family: 'lexend',sans-serif; font-weight: 500; line-height: 18px;}
 
 
 /*-- media css starts here --*/
