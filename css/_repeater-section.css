@@ -1,0 +1,15 @@
+.repeater-main{padding: 135px 0 130.5px;}
+.repeater-image{max-width: 790px;}
+.repeater-text{color: #091735; opacity: 0.8}
+.repeater-text h3{font-size: 30px; line-height: normal; color: #091735; max-width: 428px; font-weight: 500;}
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+.repeater-main{gap: 102px;}
+.repeater-image{flex: 0 0 calc(100% - 612px);}
+.repeater-text{flex: 0 0 510px;}
+
+
+}

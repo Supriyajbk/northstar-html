@@ -2,10 +2,12 @@
 .trading-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute;}
 .trading-text{color: var(--white); font-size: 1rem; line-height: 27px; letter-spacing: normal; font-family: 'worksans',sans-serif; font-weight: 400;}
 .trading-text span{font-size: 20px; line-height: normal; display: block; font-family: 'lexend',sans-serif; font-weight: 400; margin-bottom: 16px;}
-.trading-text h2{font-size: 34px; line-height: normal; font-weight: 500; }
+.trading-text h2{font-size: 34px; line-height: normal; font-weight: 500; color: var(--white);}
 .statistic-main{margin-top: 131px;}
 .statistic-list{color: var(--white); font-size: 14px; line-height: normal; font-family: 'lexend',sans-serif; font-weight: 400; opacity: 0.8;}
 .number{font-size: 47px;}
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .trading-wrap{flex-direction: column;}

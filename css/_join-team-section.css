@@ -1,0 +1,13 @@
+.join-team-main{padding: 138px 0;}
+.join-team-pos{left: 118px; right: 0; bottom: 215px; position: absolute; width: 100%;}
+.join-team-text{color: var(--white);}
+.join-team-text h3{color: var(--white);}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .join-team-section .container{max-width: 1234px;}
+    .join-team-text{width: 522px;}
+
+
+
+}
