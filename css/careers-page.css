@@ -1,0 +1,11 @@
+/* Careers banner section */
+.career-banner-section{background-color: #00add8;}
+.career-banner-main { padding: 50px 0; max-width: 969px; margin: 0 auto; }
+
+
+/* Media query */
+@media screen and (min-width: 1024px) {
+    .career-banner-text { flex: 0 0 590px; margin-right: 32px; }
+    .career-banner-image { flex: 0 0 calc(100% - 622px); }
+    
+}
