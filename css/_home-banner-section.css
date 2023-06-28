@@ -2,7 +2,7 @@
 .home-banner-pos{left: 0; right: 0; top: 48%; transform: translateY(-52%); width: 100%; position: absolute;}
 .home-banner-text{color: var(--white); text-align: center;}
 .home-banner-text span{font-size: 20px; line-height:24px; font-family: 'lexend',sansserif; font-weight: 400; margin-bottom: 18px; display: block;}
-.home-banner-text h1{line-height: normal; letter-spacing: normal; margin-bottom: 31px; font-weight: 500;}
+.home-banner-text h1{line-height: normal; letter-spacing: normal; margin-bottom: 31px; font-weight: 500; color: var(--white);}
 
 
 /*-- media css starts here --*/

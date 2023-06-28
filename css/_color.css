@@ -13,5 +13,10 @@
     --white-85: rgb(255 255 255 / 80%);
     --error: #f00;
     --text-color:#1F1F1F;
+<<<<<<< HEAD
     --blue-color:#022572;
+=======
+    --electric-color:#00add8;
+    --purple-color:#022572;
+>>>>>>> 71c73fb8216a0e2d0ee61399cb2a3cd87f6c8fcb
 }

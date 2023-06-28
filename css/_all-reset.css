@@ -94,7 +94,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--text-color); border-radius: 0; color: var(--electric-color); display: inline-block; font-size: 14px; line-height: 18px; letter-spacing: 0; padding: 14px 31px 15px 30px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center;  font-family: "lexend", sans-serif; font-weight: 500; text-transform: none; transition: all 0.45s ease-in-out;}
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--purple-color); border-radius: 0; color: var(--white); display: inline-block; font-size: 14px; line-height: 18px; letter-spacing: 0; padding: 14px 31px 15px 30px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center;  font-family: "lexend", sans-serif; font-weight: 500; text-transform: none; transition: all 0.45s ease-in-out;}
 button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--electric-color); color: var(--text-color); box-shadow: inset 0px 5px 10px var(--white-40);}
 .button::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ width: 50%; bottom: 0; height: 0; left: 0%; box-shadow: 0 5px 16px var(--slate-50); transition: all 0.45s ease-in-out; background: 0 0; content: ''; position: absolute; z-index: -1; }
 .button:hover::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ left: 50%; height: 5px; bottom: 6px; transform: translateX(-50%) translateY(100%); }
@@ -166,7 +166,7 @@ img.aligncenter{margin: 25px 0;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 
 body{font-size: 1rem; line-height: 1.7rem; letter-spacing: normal; font-family:'Work Sans', sans-serif; overflow: hidden; color: var(--text-color); background-color: transparent;}
-span.optional-text{margin-bottom: 22px; color: var(--midnight-50); font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
+span.optional-text{margin-bottom: 22px; color: var(--electric-color); font-size: 20px; line-height: 22px; letter-spacing: normal; font-weight: normal; display: block; font-family: 'lexend', sans-serif; text-transform: none;}
 span.optional-text.black{color: var(--slate-color);}
 .sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--text-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
 .sub-heading a{color: var(--text-color);}

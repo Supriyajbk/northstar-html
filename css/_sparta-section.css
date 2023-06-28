@@ -1,0 +1,10 @@
+.sparta-pos{left: 0; right: 0; top: 50%; transform: translatey(-50%); position: absolute; width: 100%;}
+.sparta-text{color: var(--white);}
+.sparta-icon{margin-bottom: 39px;}
+.sparta-text p{margin-bottom: 34px; opacity: 0.8}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .sparta-main{width: 600px;}
+
+}

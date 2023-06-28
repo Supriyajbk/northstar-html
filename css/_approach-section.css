@@ -1,0 +1,13 @@
+
+.approach-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute;}
+.approach-list{color: var(--white);}
+.approach-text{max-width: 410px;}
+.approach-text h3{color: var(--white); font-size: 30px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+.approach-list{flex: 0 0 50%;}
+
+
+
+}
