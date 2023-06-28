@@ -3,9 +3,12 @@
 .trading-text{color: var(--white); font-size: 1rem; line-height: 27px; letter-spacing: normal; font-family: 'worksans',sans-serif; font-weight: 400;}
 .trading-text span{font-size: 20px; line-height: normal; display: block; font-family: 'lexend',sans-serif; font-weight: 400; margin-bottom: 16px;}
 .trading-text h2{font-size: 34px; line-height: normal; font-weight: 500; }
-
-.statistic-list{color: var(--white); font-size: 14px; line-height: ; letter-spacing: ; font-family: '';}
+.statistic-main{margin-top: 131px;}
+.statistic-list{color: var(--white); font-size: 14px; line-height: normal; font-family: 'lexend',sans-serif; font-weight: 400; opacity: 0.8;}
+.number{font-size: 47px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .trading-main{width: 610px;}
+    .statistic-row{gap: 70.5px;}
+    .statistic-list{flex: calc(25% - 119px);}
 }
