@@ -1,11 +1,13 @@
 /* Careers banner section */
 .career-banner-section{background-color: #00add8;}
 .career-banner-main { padding: 50px 0; max-width: 969px; margin: 0 auto; }
+.career-banner-text{color: var(--white);}
+.career-banner-thumb img{clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%); min-height: 415px; max-height: 415px;}
 
 
 /* Media query */
 @media screen and (min-width: 1024px) {
-    .career-banner-text { flex: 0 0 590px; margin-right: 32px; }
-    .career-banner-image { flex: 0 0 calc(100% - 622px); }
+    .career-banner-text{flex: 0 0 580px; margin-right: 42px;}
+    .career-banner-image{flex: 0 0 calc(100% - 622px);}
     
 }
