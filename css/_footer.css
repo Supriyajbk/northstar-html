@@ -1,25 +1,27 @@
 
-.footer-main{padding: 35px 0; background-color: #091735;}
-.footer{justify-content: space-between;}
+.main-footer{padding: 35px 0; background-color: #091735;}
 .footer-copyright p{font-size: 16px; line-height: 1.7; color: var(--white-80); font-family: 'Work Sans', sans-serif;}
-.footer-privacy-links{margin: 0;}
-.footer-privacy-links li{font-size: 16px; font-weight: 500; line-height: 1.7; padding: 0 20px 0 17px; margin-bottom: 0;}
-.footer-privacy-links li > a{color: rgba(255, 255, 255, 0.9); font-family: 'Work Sans', sans-serif;}
-.footer-privacy-links li::before{content: ""; height: 70%; width: 1px; background-color: var(--white-50); top: 4px; left: 0;}
-.footer-privacy-links li:first-child{padding-left: 0;}
-.footer-privacy-links li:first-child::before{display: none;}
-.footer-privacy-links li:last-child{padding-right: 0;}
+ul.privacy-links{margin: 0; gap: 0 28px;}
+ul.privacy-links li{font-size: 16px; font-weight: 500; line-height: 1.7; margin-bottom: 0;}
+ul.privacy-links li > a{color: var(--white-90);}
+ul.privacy-links li > a:hover{color: var(--blue-color);}
+ul.privacy-links li::before{top: 5px; left: -18px; height: 19px; width: 1px; background-color: var(--white-50); border-radius: 0;}
+ul.privacy-links li:last-child:before{left: -10px;}
+ul.privacy-links li:first-child::before{display: none;}
+
 
 /* Media query css */
 @media screen and (min-width: 1024px) {
-
+    .footer{gap: 20px; align-items: center;}
+    .footer-copyright{flex: calc(50% - 10px);}
+    .footer-privacy{flex: calc(50% - 10px);}
+    ul.privacy-links{justify-content: flex-end;}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 200px) {
-    .footer-main{padding: 21px 0 26px;}
+    .main-footer{padding: 21px 0 26px;}
     .footer-copyright{width: 100%; margin-bottom: 23px;}
     .footer-copyright p{font-size: 14px; line-height: 1.5; text-align: center;}
     .footer-privacy{width: 100%; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255 , 0.15);}
-    .footer-privacy-links{justify-content: center;}
-    .footer-privacy-links li{font-size: 14px;}
+    ul.privacy-links{justify-content: center;}
+    ul.privacy-links li{font-size: 14px;}
 }
