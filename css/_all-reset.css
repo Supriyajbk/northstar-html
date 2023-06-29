@@ -166,7 +166,7 @@ img.aligncenter{margin: 25px 0;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 
 body{font-size: 1rem; line-height: 1.7rem; letter-spacing: normal; font-family:'Work Sans', sans-serif; overflow: hidden; color: var(--text-color); background-color: transparent;}
-span.optional-text{margin-bottom: 22px; color: var(--electric-color); font-size: 20px; line-height: 22px; letter-spacing: normal; font-weight: normal; display: block; font-family: 'lexend', sans-serif; text-transform: none;}
+span.optional-text{margin-bottom: 16px; color: var(--electric-color); font-size: 20px; line-height: 22px; letter-spacing: normal; font-weight: normal; display: block; font-family: 'lexend', sans-serif; text-transform: none;}
 span.optional-text.black{color: var(--slate-color);}
 .sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--text-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
 .sub-heading a{color: var(--text-color);}
