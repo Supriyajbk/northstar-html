@@ -94,22 +94,42 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--purple-color); border-radius: 0; color: var(--white); display: inline-block; font-size: 14px; line-height: 18px; letter-spacing: 0; padding: 14px 31px 15px 30px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center;  font-family: "lexend", sans-serif; font-weight: 500; text-transform: none; transition: all 0.45s ease-in-out;}
-button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--electric-color); color: var(--text-color); box-shadow: inset 0px 5px 10px var(--white-40);}
-.button::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ width: 50%; bottom: 0; height: 0; left: 0%; box-shadow: 0 5px 16px var(--slate-50); transition: all 0.45s ease-in-out; background: 0 0; content: ''; position: absolute; z-index: -1; }
-.button:hover::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ left: 50%; height: 5px; bottom: 6px; transform: translateX(-50%) translateY(100%); }
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--purple-color); border-radius: 0; color: var(--white); display: inline-block; font-size: 14px; line-height: 18px; letter-spacing: 0; padding: 14px 31px 15px 30px; vertical-align: middle; cursor: pointer; border: none; outline: none; position: relative; text-align: center;  font-family: "lexend", sans-serif; font-weight: 500; text-transform: none; transition: all 0.45s ease-in-out;}
+button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--electric-color); color: var(--text-color); }
+.btn-transparent.white{padding: 13px 33px 13px; border-left: 1px solid var(--white); border-right: 1px solid var(--white); background-color: transparent; color: var(--white); z-index: 1;}
+.btn-transparent.white::before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: -1;
+	width: 100%;
+	height: 1px;
+	background-color: var(--white);
+	display: block;
+	-webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+	transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+}
+.btn-transparent.white::after {
+	content: '';
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: -1;
+	width: 100%;
+	height: 1px;
+	background-color: var(--white);
+	-webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+	transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+}
+.btn-transparent.white:hover {
 
-.button.btn-transparent{padding: 14px 30px 15px 31px; background-color: transparent; border: 1px solid var(--white); color: var(--slate-color);}
-.button.btn-transparent:hover{color: var(--white);}
-.button.btn-transparent:hover::after{background-color: var(--health-color);}
-.button.black{color: var(--slate-color);}
-.button.black:hover{color: var(--white);}
-.button.white{color: var(--white); border-color: var(--privacy-color);}
-.button.white:hover:after{background-color: var(--privacy-color);}
+    background-color: var(--purple-color);
+    border-color: transparent;
+}
+.btn-transparent.white:hover::before{width: 0%;}
+.btn-transparent.white:hover::after{width: 0%;}
 
-.button.electric{background-color: var(--electric-color); color: var(--text-color); font-family: 'Gotham-Bold', sans-serif;}
-.button.electric:hover{background-color: var(--text-color); color: var(--electric-color);}
-.btn-gray{background: rgba(0, 240, 255, 0.05);}
 
 .text-link{padding-right: 50px; color: var(--text-color); font-size: 12px; line-height: 12px; letter-spacing: 0.2em; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif; position: relative;}
 .text-link::before{width: 1px; height: 20px; right: 34px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute; transition: all 0.45s ease-in-out; }
