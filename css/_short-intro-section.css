@@ -1,0 +1,8 @@
+.short-intro-main{padding: 76px 0 122px;}
+.short-intro-text h2{margin-bottom: 30px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .short-intro-main{max-width: 794px;}
+}

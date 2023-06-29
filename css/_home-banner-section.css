@@ -1,5 +1,6 @@
 .home-banner-bg{clip-path: polygon(100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);}
-.home-banner-pos{left: 0; right: 0; top: 48%; transform: translateY(-52%); width: 100%; position: absolute;}
+.home-banner-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute;}
+.home-banner-main{padding-bottom: 30px;}
 .home-banner-text{color: var(--white); text-align: center;}
 .home-banner-text span{font-size: 20px; line-height:24px; font-family: 'lexend',sansserif; font-weight: 400; margin-bottom: 18px; display: block;}
 .home-banner-text h1{line-height: normal; letter-spacing: normal; margin-bottom: 31px; font-weight: 500; color: var(--white);}
