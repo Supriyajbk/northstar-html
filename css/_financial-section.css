@@ -1,0 +1,10 @@
+.financial-section{background-color: var(--dark-blue);}
+.financial-main{padding: 117px 0 137px;}
+.financial-text{color: var(--white);}
+.financial-text h2{color: var(--white);}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+.financial-text{max-width: 795px;}
+
+}
