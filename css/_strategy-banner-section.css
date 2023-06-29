@@ -1,0 +1,13 @@
+.strategy-banner-bg{clip-path: polygon(100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);}
+.strategy-banner-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute;}
+.strategy-banner-main{padding-bottom: 30px;}
+.strategy-banner-text{color: var(--white); text-align: center;}
+.strategy-banner-text h1{line-height: normal; letter-spacing: normal; margin-bottom: 31px; font-weight: 500; color: var(--white);}
+.strategy-banner-text p{}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .strategy-banner-thumb img{max-height: 644px; overflow: hidden;}
+    .strategy-banner-main{width: 590px;}
+}
