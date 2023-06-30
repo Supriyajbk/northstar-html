@@ -1,0 +1,8 @@
+
+.career-opportunities-main{padding: 98px 0 109px;}
+
+
+@media screen and (min-width: 1024px) {
+    .career-opportunities-title{flex: 0 0 408px; margin-right: 102px;}
+    .career-opportunities-content{flex: 0 0 calc(100% - 510px); }
+}
