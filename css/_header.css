@@ -1,12 +1,14 @@
 
-.main-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 850; padding-top: 28px;}
-.logo a{width: 100%; display: block;}
+.main-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 850;}
+.logo a{width: 100%; display: block; position: relative;}
+.logo-dark{top: 0; left: 0; opacity: 0; position: absolute;}
+.fixed-header{background-color: var(--white);}
+.fixed-header .logo-dark{opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .header{transition: padding 0.45s ease-in-out;}
+    .header{transition: padding 0.45s ease-in-out; padding: 23px 0;}
     .logo{flex: 0 0 189px; min-height: 42px; z-index: 1;}
-    .logo a{width: 100%; height: auto; display: block;}
     .logo img{width: 100%; object-fit: contain;}
     .navigation{flex: 1; gap: 63px;}
     ul.main-menu{margin: 0; gap: 63px;  flex: 1; justify-content: flex-end;}
@@ -18,6 +20,9 @@
     ul.main-menu > li > ul > li > a{font-size: 14px; line-height: 24px; color:  #091735; font-family: 'lexend',sanserif; font-weight: 500;}
     ul.main-menu > li > ul > li:hover{background-color: #ebebeb;}
     ul.main-menu > li:hover > ul{visibility: visible; opacity: 1;}
+
+
+    .fixed-header ul.main-menu > li > a{color: var(--dark-blue);}
 }
 
 
