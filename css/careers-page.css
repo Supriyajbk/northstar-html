@@ -68,11 +68,32 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
+
+    .career-banner-text{margin-bottom: 37px;}
+
     .our-team-item{text-align: center; width: 250px; margin: 0 30px;}
     .team-slider .slick-list{overflow: visible;}
     .team-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
     .team-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
     .team-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
+
+    .career-feature-main{padding: 64px 0 66px;}
+    .career-feature-main::before{display: none;}
+    .career-feature-list, .career-feature-list.reverse{flex-direction: column-reverse; margin-bottom: 63px;}
+    .career-feature-list:last-child{margin-bottom: 0;}
+    .career-feature-list.reverse .career-feature-text{margin: 0;}
+    .career-feature-image{margin-bottom: 20px;}
+    .career-feature-text h3{font-size: 1.625rem; margin-bottom: 13px;}
+
+    .perks-main{padding: 43px 0 45px;}
+    .perks-main h2{font-size: 1.875rem; margin-bottom: 27px;}
+    .perks-item span{margin-bottom: 12px;}
+    .perks-item h5{margin-bottom: 20px;}
+    .perks-item{text-align: center; width: 250px; margin: 0 30px;}
+    .perks-slider .slick-list{overflow: visible;}
+    .perks-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
+    .perks-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
+    .perks-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
 
 }
 
@@ -105,8 +126,12 @@
     .career-feature-image{margin-bottom: 20px;}
     .career-feature-text h3{font-size: 1.625rem; margin-bottom: 13px;}
 
-    .slider.testimonial-slider-nav{width: 244px;}
-    .slider.testimonial-slider-for{width: 100%;}
+    .testimonial-slider-nav{width: 100%;}
+    .testimonial-slider-nav .slick-list{overflow: visible;}
+    .testimonial-img{width: 132px; margin: 0 58px;}
+    .testimonial-slider-for{width: 100%;}
+    .testimonial-slider-for .slick-list{overflow: visible;}
+    .testimonial-slider-for .slick-arrow{width: 40px; height: 49px; font-size: 1.5rem;}
 
     .perks-main{padding: 43px 0 45px;}
     .perks-main h2{font-size: 1.875rem; margin-bottom: 27px;}

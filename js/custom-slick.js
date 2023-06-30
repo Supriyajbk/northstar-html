@@ -78,15 +78,6 @@ $(document).ready(function(){
       autoplaySpeed: 3000,
         responsive: [
           {
-            breakpoint: 1023,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-                  centerMode: true,
-                  variableWidth: true,
-                }
-            },
-          {
           breakpoint: 768,
               settings: {
                 slidesToShow: 1,
