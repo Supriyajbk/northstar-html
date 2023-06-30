@@ -25,10 +25,13 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
-    .career-opportunities-wrap{padding: 50px 0 109px;}
+    .career-opportunities-wrap{padding: 50px 0 64px;}
     .career-opportunities-heading{margin-bottom: 39px;}
     .career-opportunities-title{margin-bottom: 32px;}
-    .career-opportunities-list{padding: 15px 24px 23px 9px;}
+    .career-opportunities-content{width: 100%;}
+    .career-opportunities-list{padding: 23px 24px 19px 9px; margin-bottom: 24px;}
+    .career-opportunities-list:last-child{margin-bottom: 0;}
+    .career-opportunities-text{flex: 0 0 100%;}
     .career-opportunities-date{margin: 0 20px 0 0;}
-    .career-opportunities-position{width: calc(100% - 80px);}
+    .career-opportunities-position{width: calc(100% - 80px); font-size: 0.938rem;}
 }

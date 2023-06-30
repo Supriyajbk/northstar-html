@@ -67,6 +67,15 @@
     
 }
 
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .our-team-item{text-align: center; width: 250px; margin: 0 30px;}
+    .team-slider .slick-list{overflow: visible;}
+    .team-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
+    .team-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
+    .team-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
+
+}
+
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .career-banner-section{overflow: inherit;}
     .career-banner-main{padding: 125px 0 266px;}
