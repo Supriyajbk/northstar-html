@@ -31,18 +31,21 @@ $(document).ready(function(){
         autoplaySpeed: 3000,
         adaptiveHeight: true,
         asNavFor: '.testimonial-slider-nav',
-    responsive: [
-    
-      {
-        breakpoint: 768,
-        settings: {
-          dots: true,
-    
-        }
-      },
-    
-    ]
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              dots: false,
+              arrows: true,
+              prevArrow: '<span class="slick-arrow slick-prev"></span>',
+            nextArrow: '<span class="slick-arrow slick-next"></span>',
+              centerMode: true,
+                variableWidth: true,
+            }
+          },
+        ]
     });
+
     jQuery('.testimonial-slider-nav').slick({
         vertical: true,
         arrows: false,
@@ -50,19 +53,65 @@ $(document).ready(function(){
         useCss:true, 
         asNavFor: '.testimonial-slider-for',
         focusOnSelect: true,
-    responsive: [
-    
-      {
-        breakpoint: 768,
-        settings: {
-          dots: false,
-          vertical: false,
-          verticalSwiping: false,
-        }
-      },
-    
-    ]
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              dots: false,
+              vertical: false,
+              verticalSwiping: false,
+              centerMode: true,
+              variableWidth: true,
+            }
+          },
+        
+        ]
     });
+
+    if($(window).width() <= 1023){
+    $('.team-slider').slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: false,
+      autoplay: false,
+      autoplaySpeed: 3000,
+        responsive: [
+          {
+          breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                variableWidth: true,
+              }
+          }
+        ]
+    });
+    }
+
+    
+    if($(window).width() <= 1023){
+      $('.perks-slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        autoplay: false,
+        autoplaySpeed: 3000,
+          responsive: [
+            {
+            breakpoint: 768,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  centerMode: true,
+                  variableWidth: true,
+                }
+            }
+          ]
+      });
+      }
 
 });
 

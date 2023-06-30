@@ -3,9 +3,9 @@
 
 /* Careers banner section */
 .career-banner-section{background-color: var(--blue-color); overflow: hidden;}
-.career-banner-main{padding: 50px 0 108px; max-width: 968px; margin: 0 auto; z-index: 1;}
-.career-banner-main::before{content: ""; position: absolute; background-image: url("/images/pattern-white@2x.svg"); width: 726px; height: 597.5px; left: -546px; top: 42px; z-index: -1;}
-.career-banner-main::after{content: ""; position: absolute; background-image: url("/images/pattern-white@2x.svg"); width: 726px; height: 597.5px; right: -632px; top: 35px; z-index: -1;}
+.career-banner-main{padding: 125px 0 108px; max-width: 968px; margin: 0 auto; z-index: 1;}
+.career-banner-main::before{content: ""; position: absolute; background-image: url("/images/pattern-white@2x.svg"); width: 726px; height: 597.5px; left: -546px; top: 109px; z-index: -1;}
+.career-banner-main::after{content: ""; position: absolute; background-image: url("/images/pattern-white@2x.svg"); width: 726px; height: 597.5px; right: -632px; top: 110px; z-index: -1;}
 .career-banner-text{color: var(--white);}
 .career-banner-text h1{color: var(--white); margin-bottom: 21px;}
 .outline-btn{padding: 9px 41px 8px 34px; border: solid 1px var(--white); color: var(--white); font-family: Lexend; font-size: .875rem; font-weight: 500; display: inline-block;}
@@ -19,8 +19,9 @@
 .our-team-lists{justify-content: space-between;}
 .our-team-item span{font-size: 2rem; margin-bottom: 16px;}
 
-.career-feature-section{background-color: #091735; padding: 176px 0 157px;}
-.career-feature-main::before{content: ""; position: absolute; width: 1026px; height: 662px; background-image: url("/images/logo-symbol.svg"); right: -550px; top: -53px;}
+.career-feature-section{background-color: #091735;}
+.career-feature-main{padding: 176px 0 157px; z-index: 1;}
+.career-feature-main::before{content: ""; position: absolute; width: 1026px; height: 662px; background-image: url("/images/logo-symbol.svg"); right: -550px; top: -53px; z-index: -1;}
 .career-feature-list{margin-bottom: 127px;}
 .career-feature-list:last-child{margin-bottom: 0;}
 .career-feature-list.reverse{flex-direction: row-reverse;}
@@ -63,5 +64,50 @@
 
     .perks-item{flex: 0 0 17.1%;}
     
+    
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .career-banner-section{overflow: inherit;}
+    .career-banner-main{padding: 125px 0 266px;}
+    .career-banner-main{max-width: 100%; flex-direction: column;}
+    .career-banner-text{text-align: center; margin-bottom: 37px;}
+    .career-banner-text h1{margin-bottom: 14px; font-size: 2.25rem; line-height: normal;}
+    .career-banner-text p{line-height: 1.531rem; max-width: 344px; margin: 0 auto 23px;}
+    .career-banner-image{position: absolute; bottom: -123px; left: 0;}
+    .career-banner-thumb::before{left: 26px; top: 22px;}
+    .career-banner-thumb img{min-height: 388px; max-width: 325px;}
+
+    .our-team-main{padding: 193px 0 45px;}
+    .our-team-main h2{font-size: 1.875rem; margin-bottom: 27px;}
+    .our-team-item span{margin-bottom: 20px;}
+    .our-team-item h5{margin-bottom: 10px;}
+    .our-team-item{text-align: center; width: 250px; margin: 0 30px;}
+    .team-slider .slick-list{overflow: visible;}
+    .team-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
+    .team-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
+    .team-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
+
+    .career-feature-main{padding: 64px 0 66px;}
+    .career-feature-main::before{display: none;}
+    .career-feature-list, .career-feature-list.reverse{flex-direction: column-reverse; margin-bottom: 63px;}
+    .career-feature-list:last-child{margin-bottom: 0;}
+    .career-feature-list.reverse .career-feature-text{margin: 0;}
+    .career-feature-image{margin-bottom: 20px;}
+    .career-feature-text h3{font-size: 1.625rem; margin-bottom: 13px;}
+
+    .slider.testimonial-slider-nav{width: 244px;}
+    .slider.testimonial-slider-for{width: 100%;}
+
+    .perks-main{padding: 43px 0 45px;}
+    .perks-main h2{font-size: 1.875rem; margin-bottom: 27px;}
+    .perks-item span{margin-bottom: 12px;}
+    .perks-item h5{margin-bottom: 20px;}
+    .perks-item{text-align: center; width: 250px; margin: 0 30px;}
+    .perks-slider .slick-list{overflow: visible;}
+    .perks-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
+    .perks-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
+    .perks-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
+
     
 }

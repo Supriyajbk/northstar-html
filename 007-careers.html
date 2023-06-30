@@ -65,7 +65,7 @@
     <div class="container">
     <div class="our-team-main">
         <h2>Why Join Our Team</h2>
-        <div class="our-team-lists flex">
+        <div class="our-team-lists team-slider flex">
             <div class="our-team-item">
                 <span class="fa-sharp fa-regular fa-house-medical"></span>
                 <h5>Reason Heading</h5>
@@ -127,27 +127,30 @@
     <section class="full-slider-section">
     <div class="full-slider-main">
     <div class="full-slider-list pos-relative">
-        <figure class="object-fit">
-            <img src="images/slider-thumb@2x.jpg" alt="slider-thumb">
-        </figure>
+        <picture class="object-fit">
+            <source srcset="images/slider-thumb@2x.jpg" media="(min-width:768px)">
+            <img src="images/slider-thumb-mobile@2x.jpg" alt="slider-thumb-mobile">
+        </picture>
         <div class="full-slider-caption">
             <h5>Image Title/Caption</h5>
             <p>Short Description</p>
         </div>
     </div>
     <div class="full-slider-list pos-relative">
-        <figure class="object-fit">
-            <img src="images/slider-thumb@2x.jpg" alt="slider-thumb">
-        </figure>
+        <picture class="object-fit">
+            <source srcset="images/slider-thumb@2x.jpg" media="(min-width:768px)">
+            <img src="images/slider-thumb-mobile@2x.jpg" alt="slider-thumb-mobile">
+        </picture>
         <div class="full-slider-caption">
             <h5>Image Title/Caption</h5>
             <p>Short Description</p>
         </div>
     </div>
     <div class="full-slider-list pos-relative">
-        <figure class="object-fit">
-            <img src="images/slider-thumb@2x.jpg" alt="slider-thumb">
-        </figure>
+        <picture class="object-fit">
+            <source srcset="images/slider-thumb@2x.jpg" media="(min-width:768px)">
+            <img src="images/slider-thumb-mobile@2x.jpg" alt="slider-thumb-mobile">
+        </picture>
         <div class="full-slider-caption">
             <h5>Image Title/Caption</h5>
             <p>Short Description</p>
@@ -215,7 +218,7 @@
     <div class="container">
     <div class="perks-main">
         <h2>Perks Section</h2>
-        <div class="perks-lists flex">
+        <div class="perks-lists perks-slider flex">
             <div class="perks-item">
                 <span class="fa-sharp fa-regular fa-person"></span>
                 <h5>Perk Title</h5>
@@ -245,7 +248,7 @@
         <div class="cta-panel-image">
             <picture class="object-fit">
                 <source src="images/cta-panel-bg@2x.jpg" media="(min-width:768px)">
-                <img src="images/cta-panel-bg@2x.jpg" alt="cta-panel-bg">
+                <img src="images/cta-panel-bg-mobile@2x.jpg" alt="cta-panel-bg-mobile">
             </picture>
         </div>
         <div class="cta-panel-content">
@@ -256,48 +259,79 @@
         </div>
     </div>
     </section>
-    <section class="career-opportunities-module">
-<<<<<<< HEAD
+    <section class="career-opportunities-module pos-relative">
         <div class="container">
-            <div class="career-opportunities-main flex">
-                <div class="career-opportunities-title">
-                    <h4>Sample Introductory heading to opportunities feed.</h4>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <div class="career-opportunities-wrap">
+                <div class="career-opportunities-heading aligncenter">
+                    <h3>Career Opportunities</h3>
                 </div>
-                <div class="career-opportunities-content">
-                    <div class="career-opportunities-list flex">
-                        <div class="career-opportunities-text flex">
-                            <div class="career-opportunities-date">
-                                <span>12</span>
-                                <span>April</span>
-                            </div>
-                            <div class="career-opportunities-position">
-                                <h6><a href="#">Position Title/Job Title</a></h6>
-                                <span>Office Location | Other Filter</span>
-                            </div>
-                        </div>
-                        <div class="career-opportunities-button">
-                            <a href="#" class="button">View Opportunity</a>
-                        </div>
-=======
-    <div class="container">
-        <div class="career-opportunities-main flex">
-            <div class="career-opportunities-title">
-                <h4>Sample Introductory heading to opportunities feed.</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            </div>
-            <div class="career-opportunities-content">
-                <div class="career-opportunities-list flex">
-                    <div class="career-opportunities-text flex">
-                        <div class="career-opportunities-date">
-                            <span>12</span>
-                            <span>April</span>
-                        </div>
-                        <div class="career-opportunities-position"></div>
->>>>>>> b35b2fe019759dd7ec4db395fc3344f9fc73a751
+                <div class="career-opportunities-main flex">
+                    <div class="career-opportunities-title">
+                        <h4>A third headline as H4</h4>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                     </div>
-                    <div class="career-opportunities-button"></div>
-
+                    <div class="career-opportunities-content">
+                        <div class="career-opportunities-list flex">
+                            <div class="career-opportunities-text flex">
+                                <div class="career-opportunities-date aligncenter">
+                                    <span>12</span>
+                                    <span>April</span>
+                                </div>
+                                <div class="career-opportunities-position">
+                                    <h6><a href="#">Position Title/Job Title</a></h6>
+                                    <span>Office Location | Other Filter</span>
+                                </div>
+                            </div>
+                            <div class="career-opportunities-button hide-mobile">
+                                <a href="#" class="button">View Opportunity</a>
+                            </div>
+                        </div>
+                        <div class="career-opportunities-list flex">
+                            <div class="career-opportunities-text flex">
+                                <div class="career-opportunities-date aligncenter">
+                                    <span>12</span>
+                                    <span>April</span>
+                                </div>
+                                <div class="career-opportunities-position">
+                                    <h6><a href="#">Position Title/Job Title</a></h6>
+                                    <span>Office Location | Other Filter</span>
+                                </div>
+                            </div>
+                            <div class="career-opportunities-button hide-mobile">
+                                <a href="#" class="button">View Opportunity</a>
+                            </div>
+                        </div>
+                        <div class="career-opportunities-list flex">
+                            <div class="career-opportunities-text flex">
+                                <div class="career-opportunities-date aligncenter">
+                                    <span>12</span>
+                                    <span>April</span>
+                                </div>
+                                <div class="career-opportunities-position">
+                                    <h6><a href="#">Position Title/Job Title</a></h6>
+                                    <span>Office Location | Other Filter</span>
+                                </div>
+                            </div>
+                            <div class="career-opportunities-button hide-mobile">
+                                <a href="#" class="button">View Opportunity</a>
+                            </div>
+                        </div>
+                        <div class="career-opportunities-list flex">
+                            <div class="career-opportunities-text flex">
+                                <div class="career-opportunities-date aligncenter">
+                                    <span>12</span>
+                                    <span>April</span>
+                                </div>
+                                <div class="career-opportunities-position">
+                                    <h6><a href="#">Position Title/Job Title</a></h6>
+                                    <span>Office Location | Other Filter</span>
+                                </div>
+                            </div>
+                            <div class="career-opportunities-button hide-mobile">
+                                <a href="#" class="button">View Opportunity</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
