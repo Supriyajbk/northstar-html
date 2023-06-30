@@ -31,6 +31,7 @@
     
     .fixed-header ul.main-menu > li > a{color: var(--dark-blue);}
     .fixed-header ul.main-menu > li > a:hover{color: var(--blue-color);}
+    .toggle_icon{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .main-header{display: none;}
