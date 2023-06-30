@@ -1,17 +1,11 @@
 .expertise-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); position: absolute;}
- .expertise-main{padding: 200px 0;} 
+ .expertise-main{padding: 218px 0;} 
 .expertise-text{color: var(--white);}
 .expertise-text h2{color: var(--white);}
 .expertise-text p{opacity: 0.9;}
-.expertise-row{color: var(--white);}
-.expertise-row p{opacity: 0.5;}
-.expertise-icon span {
-    
-    display: block;
-    text-align: center;
-    font-size: 27px;
-    margin-bottom: 5px;
-  }
+.expertise-row{color: var(--white); opacity: 0.5; border-top: 1px solid rgba(255, 255, 255, 0.21); padding: 33px 0;}
+.expertise-icon span {display: block; text-align: center; font-size: 27px; margin-bottom: 5px;}
+
 
 
 
