@@ -31,5 +31,5 @@
     .financial-text{margin-bottom: 50px;}
     .financial-row{display: block;}
     .financial-list{margin-bottom: 20px;}
-
+    .financial-button .button{width: 100%;}
 }
