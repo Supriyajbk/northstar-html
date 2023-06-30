@@ -13,11 +13,52 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
 <meta name="keywords" content="HTML, CSS, XML, PHP, JavaScript, jQuery">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/6e1f84394a.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css" media="all">
 <link rel="stylesheet" href="./core.bundle.css" media="all">
 </head>
 <body>
-
-</body>
-</html>
+<header class="main-header">
+<div class="container lg">
+    <div class="header flex flex-vcenter">
+        <div class="logo">
+            <a href="index.html" title="Northstar Trading">
+                <img class="hide-mobile hide-tablet" src="images/logo.svg" alt="logo">
+            </a>
+        </div>
+        <nav class="navigation flex">
+            <ul class="main-menu flex">
+                <li class="menu-item-has-children"><a href="#">What We Do</a>
+                    <ul class="sub-menu">
+                        <li><a href="https://northstartrading.parachutedevelopment.ca/solutions/our Strategy/">Our Strategy</a></li>
+                        <li><a href="https://northstartrading.parachutedevelopment.ca/solutions/markets/">Markets</a></li>
+                    </ul>   
+                </li>
+                <li class=""><a href="#">Who We Are</a></li>
+                <li class=""><a href="#">Our Culture</a></li>
+                <li class=""><a href="#">Careers</a></li>
+                <li class=""><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</header>
+<main class="main-content"><!-- main tag starts here -->
+<section class="default-banner-section pos-relative">
+    <div class="default-banner-bg">
+        <picture class="default-banner-thumb object-fit">
+            <source srcset="images/default-banner@2x.jpg" media="(min-width: 768px)">
+            <img src="images/default-banner-mobile@2x.jpg" alt="strategy-mobile-banner"> 
+        </picture>
+    </div>
+    <div class="container home-banner-pos">
+        <div class="default-banner-main aligncenter">
+            <div class="default-banner-text">
+                <h1>General Default</h1>
+                <p>Separated they live in Bookmarks right at the coast of the famous large language ocean Separated they live in Bookmarks right.</p>
+                <a href="#" class="button btn-transparent white">Optional CTA</a>
+            </div>
+        </div>
+    </div>
+</section>
