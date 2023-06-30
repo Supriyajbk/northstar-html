@@ -10,9 +10,10 @@
     --white-70: rgb(255 255 255 / 70%);
     --white-75: rgb(255 255 255 / 75%);
     --white-80: rgb(255 255 255 / 80%);
-    --white-85: rgb(255 255 255 / 80%);
+    --white-90: rgb(255 255 255 / 90%);
     --error: #f00;
     --text-color:#1F1F1F;
-    --electric-color:#00add8;
     --purple-color:#022572;
+    --dark-blue:#091735;
+    --blue-color: #00ADD8;
 }

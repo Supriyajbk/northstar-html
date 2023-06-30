@@ -1,0 +1,16 @@
+.financial-section{background-color: var(--dark-blue); z-index: 1;}
+.financial-pattern-bg{background-repeat: no-repeat; background-size: contain; background-position: center bottom;}
+.financial-main{padding: 117px 0 137px;}
+.financial-text{color: var(--white); margin-bottom: 130px;}
+.financial-text h2{color: var(--white); margin-bottom: 21px;}
+.financial-icon{margin-bottom: 34px;}
+.financial-desc{background-color: var(--white); padding: 21px 14px 54px 28px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .financial-pattern-bg{background-image: url("./images/pattern-bg.svg");}
+    .financial-text{max-width: 795px;}
+    .financial-row{gap: 19px;}
+    .financial-list{flex: 0 0 387px;}
+}

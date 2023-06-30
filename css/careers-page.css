@@ -2,7 +2,7 @@
 @import url("../css/_cta-panel-module.css");
 
 /* Careers banner section */
-.career-banner-section{background-color: var(--electric-color); overflow: hidden;}
+.career-banner-section{background-color: var(--blue-color); overflow: hidden;}
 .career-banner-main{padding: 50px 0 108px; max-width: 968px; margin: 0 auto; z-index: 1;}
 .career-banner-main::before{content: ""; position: absolute; background-image: url("/images/pattern-white@2x.svg"); width: 726px; height: 597.5px; left: -546px; top: 42px; z-index: -1;}
 .career-banner-main::after{content: ""; position: absolute; background-image: url("/images/pattern-white@2x.svg"); width: 726px; height: 597.5px; right: -632px; top: 35px; z-index: -1;}
@@ -30,7 +30,7 @@
 
 .testimonial-module{background-color: #f6f6f6; padding: 139px 0 129px;}
 .testimonial-module ul.slick-dots li button{border: solid 1px #1f1f1f;}
-.testimonial-module ul.slick-dots li.slick-active button{border-color: var(--electric-color);}
+.testimonial-module ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
 .testimonial-img img{border-radius: 50%;}
 .testimonial-content img{position: absolute; top: 0; left: 0;}
 .testimonial-content p{font-size: 1.25rem; opacity: 0.9; line-height: 1.913rem; margin-bottom: 30px;}
