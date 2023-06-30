@@ -7,13 +7,15 @@
     --white: #ffffff;
     --white-40: rgb(255 255 255 / 40%);
     --white-50: rgb(255 255 255 / 50%);
+    --white-60: rgb(255 255 255 / 60%);
     --white-70: rgb(255 255 255 / 70%);
-    --white-75: rgb(255 255 255 / 75%);
     --white-80: rgb(255 255 255 / 80%);
     --white-90: rgb(255 255 255 / 90%);
     --error: #f00;
     --text-color:#1F1F1F;
     --purple-color:#022572;
-    --dark-blue:#091735;
+    --dark-purple: #002677;
     --blue-color: #00ADD8;
+    --dark-blue:#091735;
+    --light-gray-color: #EBEBEB;
 }
