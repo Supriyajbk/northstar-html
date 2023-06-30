@@ -1,22 +1,27 @@
 .expertise-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); position: absolute;}
- .expertise-main{padding: 200px 0;} 
+.expertise-thumb::before { top: 0; left: 0; width: 100%; height: 100%; background-image: linear-gradient( rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0.37) 17%); content: ""; position: absolute; }
 .expertise-text{color: var(--white);}
 .expertise-text h2{color: var(--white);}
-.expertise-text p{opacity: 0.9;}
-.expertise-row{color: var(--white);}
-.expertise-row p{opacity: 0.5;}
-.expertise-icon span {
-    
-    display: block;
-    text-align: center;
-    font-size: 27px;
-    margin-bottom: 5px;
-  }
+.expertise-text p{opacity: 0.9;} 
+.expertise-row{color: var(--white); padding: 33px 0;}
+.expertise-row::before{width: 500%; height: 1px; top: 0; left: -100%; opacity: 0.21; background-color: var(--white); content: ""; display: block; position: absolute;}
+.expertise-list{opacity: 0.5; transition: all 0.45s ease-in-out;} 
+.expertise-list p{font-size: 14px;}
+.expertise-list:hover{opacity: 1;}
+.expertise-icon span {display: block; text-align: center; font-size: 27px; margin-bottom: 5px;}
 
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-.expertise-main{max-width: 507px;}
-.expertise-row{gap: 56px;}
+    .expertise-main{max-width: 507px; padding: 270px 0 178px;}
+    .expertise-row{gap: 56px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .expertise-main{padding: 100px 0 80px;}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .expertise-main{padding: 40px 0 50px;}
+    .expertise-row{gap: 30px;}
 }
