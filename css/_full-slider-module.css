@@ -5,6 +5,6 @@
 .full-slider-caption h5{color: var(--white); margin-bottom: 4px;}
 
 
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .full-slider-caption{padding: 25px 23px 86px; width: 100%; text-align: center;}
 }

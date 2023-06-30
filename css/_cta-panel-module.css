@@ -7,7 +7,7 @@
 .cta-panel-content p{color: var(--white-80);}
 
 
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .cta-panel-main{min-height: 547px; height: 100%; display: flex;}
     .cta-panel-image::before{background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.30) 100%);}
     .cta-panel-content{max-width: 100%; padding: 20px 20px 34px; margin-top: auto;}
