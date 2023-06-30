@@ -28,4 +28,7 @@
     .career-opportunities-wrap{padding: 50px 0 109px;}
     .career-opportunities-heading{margin-bottom: 39px;}
     .career-opportunities-title{margin-bottom: 32px;}
+    .career-opportunities-list{padding: 15px 24px 23px 9px;}
+    .career-opportunities-date{margin: 0 20px 0 0;}
+    .career-opportunities-position{width: calc(100% - 80px);}
 }
