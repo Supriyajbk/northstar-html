@@ -1,16 +1,13 @@
-.repeater-main{padding: 135px 0 130.5px;}
-.repeater-image{max-width: 790px;}
-.repeater-text{color: #091735; opacity: 0.8}
-.repeater-text h3{font-size: 30px; line-height: normal; color: #091735; max-width: 428px; font-weight: 500; margin-bottom: 18px;}
-.repeater-text p{margin-bottom: 28px;}
 
+.optional-repeater-main{padding: 135px 0 130.5px;}
+.optional-repeater-text{color: #091735; opacity: 0.8}
+.optional-repeater-text h3{font-size: 30px; line-height: normal; color: #091735; max-width: 428px; font-weight: 500; margin-bottom: 18px;}
+.optional-repeater-text p{margin-bottom: 28px;}
 
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
-.repeater-main{gap: 102px;}
-.repeater-image{flex: 0 0 calc(100% - 612px);}
-.repeater-text{flex: 0 0 510px;}
-
-
+@media only screen and (min-width: 1400px){
+    .optional-repeater-main{gap: 0 102px; flex-wrap: nowrap;}
+    .optional-repeater-image{flex: 0 0 calc(100% - 612px); min-width: 790px; margin-left: -200px;}
+    .optional-repeater-text{flex: 0 0 510px;}
 }

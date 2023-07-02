@@ -17,7 +17,7 @@ let header = jQuery(".main-header");
       jQuery(this).toggleClass("active");
       jQuery(this).parent().siblings().find('ul.sub-menu').slideUp();
       jQuery(this).next('ul.sub-menu').slideToggle();
-      jQuery(this).parent().siblings().toggleClass('sib');
     });
   }
+
 });

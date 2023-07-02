@@ -149,7 +149,7 @@ img.aligncenter{margin: 25px 0;}
 .table-cell{display: table-cell; vertical-align: middle;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 
-body{font-size: 1rem; line-height: 1.7rem; letter-spacing: normal; font-family:'Work Sans', sans-serif; overflow: hidden; color: var(--text-color); background-color: transparent;}
+body{font-size: 1rem; line-height: 1.7rem; font-family:'Work Sans', sans-serif; overflow: hidden; color: var(--text-color); background-color: transparent;}
 span.optional-text{margin-bottom: 16px; color: var(--blue-color); font-size: 20px; line-height: 22px; letter-spacing: normal; font-weight: normal; display: block; font-family: 'lexend', sans-serif; text-transform: none;}
 span.optional-text.black{color: var(--text-color);}
 .sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--text-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
@@ -204,6 +204,7 @@ ul.slick-dots li.slick-active button{background-color: var(--blue-color); border
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{max-width: 1200px; margin: 0 auto;}
+    .container.x-lg{max-width: 1234px;}
     .container.md{max-width: 1040px;}
     .container.x-md{max-width: 888px;}
     .container.sm{max-width: 884px;}
