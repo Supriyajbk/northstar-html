@@ -20,7 +20,7 @@ jQuery(document).ready(function(){
     });
 
     jQuery('.testimonial-slider-for').slick({
-        slidesToShow:1,
+        slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
         arrows: false,
@@ -30,14 +30,16 @@ jQuery(document).ready(function(){
         asNavFor: '.testimonial-slider-nav',
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 767,
             settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
               dots: false,
               arrows: true,
               prevArrow: '<span class="slick-arrow slick-prev"></span>',
-            nextArrow: '<span class="slick-arrow slick-next"></span>',
-              centerMode: true,
-                variableWidth: true,
+              nextArrow: '<span class="slick-arrow slick-next"></span>',
+              // centerMode: true,
+              // variableWidth: true,
             }
           },
         ]
