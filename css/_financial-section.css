@@ -2,8 +2,8 @@
 .financial-pattern-bg{background-repeat: no-repeat; background-size: contain; background-position: center bottom;}
 .financial-wrap{padding: 117px 0 137px;}
 .financial-row{z-index: 1;}
-.financial-text{color: var(--white); margin-bottom: 122px;}
-.financial-text h2{color: var(--white); margin-bottom: 21px;}
+.financial-head{color: var(--white); margin-bottom: 122px;}
+.financial-head h2{color: var(--white); margin-bottom: 21px;}
 .financial-icon{margin-bottom: 34px;}
 .financial-desc{padding: 18px 14px 54px 28px; font-size: 1rem; line-height: 22.4px; background-color: var(--white); }
 .financial-desc h3{margin-bottom: 8px;}
@@ -15,7 +15,7 @@
     .financial-pattern-bg{background-image: url("./images/pattern-bg.svg");}
 }
 @media only screen and (min-width: 1024px){
-    .financial-text{max-width: 795px;}
+    .financial-head{max-width: 795px;}
     .financial-row{gap: 19px;}
     .financial-list{flex: 0 0 calc(33.33% - 13px);}
 }
@@ -29,7 +29,7 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .financial-pattern-bg{width: calc(100% + 40px); height: calc(100% + 170px); left: -20px; top: -170px; opacity: 0.05; background-image: url("./images/pattern-bg-mobile.svg"); background-position: center top; background-size: cover;}
     .financial-wrap{padding: 50px 0 0;}
-    .financial-text{margin-bottom: 50px;}
+    .financial-head{margin-bottom: 50px; padding: 0 7px;}
     .financial-main{padding-bottom: 64px;}
     .financial-row{display: block;}
     .financial-list{margin-bottom: 20px;}

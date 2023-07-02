@@ -22,6 +22,12 @@ let header = jQuery(".main-header");
 
   jQuery(".financial-more-btn").on("click", function(e){
     e.preventDefault();
+    let list = jQuery(".financial-row");
+    let listItems = list.children(".financial-list");
+    if(listItems.length > 4){
+      jQuery(listItems).slice(4).fadeToggle(900);
+      jQuery(this).text(jQuery(this).text() == 'load more' ? 'no posts' : 'load more');
+    }
   });
 
 });
