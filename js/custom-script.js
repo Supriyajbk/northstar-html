@@ -20,4 +20,8 @@ let header = jQuery(".main-header");
     });
   }
 
+  jQuery(".financial-more-btn").on("click", function(e){
+    e.preventDefault();
+  });
+
 });

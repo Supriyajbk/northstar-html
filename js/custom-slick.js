@@ -122,6 +122,7 @@ jQuery(document).ready(function(){
         autoplaySpeed: 3000,
         centerMode: true,
         centerPadding: '0',
+        focusOnSelect: true,
       };
       $window.on('load resize', function(){
         if ($window.width() >= 768) {
