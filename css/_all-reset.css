@@ -204,6 +204,18 @@ ul.slick-dots li.slick-active button{background-color: var(--blue-color); border
 
 .page-not-number{margin-bottom: 21px; font-size: 124px; line-height: 128px; filter: drop-shadow(2px 2px 0 #00f0ff); color: transparent; -webkit-text-stroke-color: var(--text-color); -webkit-text-stroke-width: 1px; display: block; }
 
+/* Cookie bar */
+body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: #008000;}
+body .cky-box-bottom-left{right: 40px; left: auto;}
+body .cky-revisit-bottom-left{right: 15px; left: auto;}
+body .cky-revisit-bottom-left:hover::before{background: var(--heading-color); right: calc(100% + 7px); left: auto;}
+body .cky-revisit-bottom-left:hover::after{right: calc(100% + 2px); border-right-color: var(--heading-color); left: auto;}
+body .cky-btn.cky-btn-reject, body .cky-btn.cky-btn-preferences, body .cky-btn.cky-btn-customize{font-size: 14px; font-weight: 500; font-family: 'lexend', sans-serif; border: 1px solid var(--purple-color) !important; color: var(--purple-color) !important;  transition: all .45s ease-in-out;}
+body .cky-btn.cky-btn-reject:hover, body .cky-btn.cky-btn-accept:hover,body .cky-btn.cky-btn-customize:hover{background-color: var(--purple-color)!important; color: var(--white) !important; border-color: transparent !important; opacity: 1;}
+body .cky-btn.cky-btn-accept:hover{background-color: transparent !important; color: var(--purple-color) !important; border-color: var(--purple-color) !important; opacity: 1;}
+body .cky-modal.cky-modal-open button.cky-btn.cky-btn-reject:hover, body .cky-modal.cky-modal-open button.cky-btn.cky-btn-preferences:hover{background-color: var(--purple-color) !important; color: var(--white) !important; border-color: transparent !important; opacity: 1;}
+body .cky-btn.cky-btn-accept{font-size: 14px; font-weight: 500; font-family: 'lexend', sans-serif; border: 1px solid transparent !important; color: var(--white) !important; background-color: var(--purple-color) !important; transition: all .45s ease-in-out;}
+body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color: var(--purple-color) !important; color: var(--purple-color) !important; background-color: transparent !important; opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -227,4 +239,6 @@ ul.slick-dots li.slick-active button{background-color: var(--blue-color); border
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .hide-mobile{display: none;}
+
+    ol{margin: 28px 0 32px 38px; }
 }
