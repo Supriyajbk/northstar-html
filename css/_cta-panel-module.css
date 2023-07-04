@@ -7,7 +7,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
-    .cta-panel-main{padding: 53px 0 48px; max-width: 392px; min-height: 547px; align-items: center;}
+    .cta-panel-main{padding: 53px 0 48px; max-width: 482px; min-height: 547px; align-items: center;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .cta-panel-main{min-height: 547px; align-items: flex-end;}
