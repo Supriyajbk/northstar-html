@@ -208,8 +208,8 @@ ul.slick-dots li.slick-active button{background-color: var(--blue-color); border
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{max-width: 1200px; margin: 0 auto;}
+    .container.lg{max-width: 100%;}
     .container.x-lg{max-width: 1234px;}
-
     .container.sm{max-width: 803px;}
     .hide-desktop{display: none;}
 }
