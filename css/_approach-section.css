@@ -1,14 +1,15 @@
 
-.approach-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute;}
+
 .approach-list{color: var(--white);}
+.approach-bg{background-color: var(--black); opacity: 0.5; z-index: 0;}
+.approach-icon{max-width: 51px; margin-bottom: 22px;}
+.approach-icon img{width: 100%; object-fit: contain;}
 .approach-text{max-width: 410px;}
-.approach-text h3{color: var(--white); font-size: 30px;}
-.approach-text p{opacity: 0.8;}
+.approach-text h3{color: var(--white); margin-bottom: 14px; font-size: 30px; line-height: 34px;}
+.approach-text p{margin-bottom: 34px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-.approach-list{flex: 0 0 50%;}
-
-
-
+    .approach-image{height: 100%;}
+    .approach-list{flex: 0 0 50%;}
 }

@@ -90,13 +90,17 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--purple-color); border-radius: 0; color: var(--white); display: inline-block; font-size: 14px; line-height: 18px; letter-spacing: 0; padding: 14px 31px 15px 30px; vertical-align: middle; cursor: pointer; border: none; border-left: 1px solid transparent; border-right: 1px solid transparent; outline: none; position: relative; text-align: center;  font-family: "lexend", sans-serif; font-weight: 500; text-transform: none; transition: all 0.45s ease-in-out;}
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--purple-color); border-radius: 0; color: var(--white); display: inline-block; font-size: 14px; line-height: 18px; letter-spacing: 0; padding: 14px 31px 15px 30px; vertical-align: middle; cursor: pointer; border: none; border-left: 1px solid transparent; border-right: 1px solid transparent; outline: none; position: relative; text-align: center;  font-family: "lexend", sans-serif; font-weight: 500; text-transform: none; transition: all 0.45s ease-in-out; text-transform: capitalize; z-index: 0;}
 .button::before, .button::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ width: 0%; height: 1px; background-color: var(--purple-color); transition: all 0.45s cubic-bezier(.75, .24, 0, 1); content: ''; display: block; position: absolute; z-index: -1; }
 .button::before { left: 0px; bottom: 0px; }
 .button::after { right: 0px; top: 0px; }
 .button:hover::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{width: 100%;}
 .button:hover::after,  body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::after{width: 100%;}
 button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: transparent; border-left-color: var(--purple-color); border-right-color: var(--purple-color); color: var(--purple-color); }
+
+.button.blue{background-color: var(--blue-color);}
+.button.blue::before, .button.blue::after{background-color: var(--blue-color);}
+.button.blue:hover{background-color: transparent; border-color: var(--blue-color); color: var(--blue-color);}
 
 .btn-transparent.white{padding: 13px 33px 13px; border-left: 1px solid var(--white); border-right: 1px solid var(--white); background-color: transparent; color: var(--white); z-index: 1;}
 .btn-transparent.white::before { width: 100%; background-color: var(--white); }
@@ -149,7 +153,7 @@ img.aligncenter{margin: 25px 0;}
 .table-cell{display: table-cell; vertical-align: middle;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 
-body{font-size: 1rem; line-height: 1.7rem; letter-spacing: normal; font-family:'Work Sans', sans-serif; overflow: hidden; color: var(--text-color); background-color: transparent;}
+body{font-size: 1rem; line-height: 1.7rem; font-family:'Work Sans', sans-serif; overflow: hidden; color: var(--text-color); background-color: transparent;}
 span.optional-text{margin-bottom: 16px; color: var(--blue-color); font-size: 20px; line-height: 22px; letter-spacing: normal; font-weight: normal; display: block; font-family: 'lexend', sans-serif; text-transform: none;}
 span.optional-text.black{color: var(--text-color);}
 .sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--text-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
@@ -204,6 +208,7 @@ ul.slick-dots li.slick-active button{background-color: var(--blue-color); border
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{max-width: 1200px; margin: 0 auto;}
+    .container.x-lg{max-width: 1234px;}
     .container.md{max-width: 1040px;}
     .container.x-md{max-width: 888px;}
     .container.sm{max-width: 884px;}
