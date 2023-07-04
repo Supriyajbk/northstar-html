@@ -36,9 +36,9 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 0 0 32px 25px;}
+ul {list-style: none; margin: 0 0 32px 42px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before {content: ""; position: absolute; top: 15px; left: -15px; width: 4px; height: 4px; background-color: var(--text-color); border-radius: 50%;} 
+ul > li:before {content: ""; position: absolute; top: 12px; left: -15px; width: 5px; height: 5px; background-color: var(--blue-color); border-radius: 50%;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 32px 34px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
