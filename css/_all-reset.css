@@ -36,9 +36,9 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 0 0 32px 25px;}
+ul {list-style: none; margin: 0 0 32px 42px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before {content: ""; position: absolute; top: 15px; left: -15px; width: 4px; height: 4px; background-color: var(--text-color); border-radius: 50%;} 
+ul > li:before {content: ""; position: absolute; top: 12px; left: -15px; width: 5px; height: 5px; background-color: var(--blue-color); border-radius: 50%;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: -1px 0 32px 56px;}
 ol > li{counter-increment: li; position: relative; margin-bottom: 19px; line-height: 1.2rem;}
@@ -220,10 +220,9 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{max-width: 1200px; margin: 0 auto;}
+    .container.lg{max-width: 100%;}
     .container.x-lg{max-width: 1234px;}
-    .container.md{max-width: 1040px;}
-    .container.x-md{max-width: 888px;}
-    .container.sm{max-width: 884px;}
+    .container.sm{max-width: 803px;}
     .hide-desktop{display: none;}
 }
 @media only screen and (max-width: 1339px) and (min-width: 1024px){
