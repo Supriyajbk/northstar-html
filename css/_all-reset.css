@@ -209,9 +209,8 @@ ul.slick-dots li.slick-active button{background-color: var(--blue-color); border
 @media only screen and (min-width: 1024px){
     .container{max-width: 1200px; margin: 0 auto;}
     .container.x-lg{max-width: 1234px;}
-    .container.md{max-width: 1040px;}
-    .container.x-md{max-width: 888px;}
-    .container.sm{max-width: 884px;}
+
+    .container.sm{max-width: 803px;}
     .hide-desktop{display: none;}
 }
 @media only screen and (max-width: 1339px) and (min-width: 1024px){
