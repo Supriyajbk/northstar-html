@@ -1,0 +1,32 @@
+.faqs-section{z-index: 1;}
+.faqs-wrap{padding: 150px 0 124px;}
+.faqs-head{margin-bottom: 25px;}
+.faqs-head h2{font-size: 26px; line-height: 30px; margin-bottom: 19px;}
+.accordion-list{margin-bottom: 15px; background-color: var(--white); border: 1px solid var(--black-20);}
+.accordion-list:last-child{margin-bottom: 0;}
+.accordion-list.active{background-color: var(--white); }
+.accordion-header{padding: 20px 53px 23px 20px; font-size: 1rem; line-height: 1.25rem; cursor: pointer; position: relative; }
+.accordion-header::after{right: 20px; top: 50%; transform: translateY(-50%); position: absolute; transition: all 0.5s ease; content: "\f107"; font-family: "Font Awesome 6 Pro"; font-weight: 400; color: var(--electric-color); font-size: 24px; line-height: 24px;}
+.accordion-header.open::after{content: "\f106"; color: var(--slate-color);}
+.accordion-content{display: none; padding: 4px 20px 20px; font-size: 0.875rem; line-height: 1.75rem;}
+.accordion-content ul li::before{top: 13px;}
+.accordion-content ol{margin-left: 30px;}
+.accordion-content ol li::before{left: -21px; font-family: 'Gotham-Medium', sans-serif;}
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .faqs-bg{margin-top: 66px;}
+    .faqs-main{gap: 51px 102px; align-items: flex-start;}
+    .faqs-text{flex: 0 0 calc(100% - 592px);}
+    .faqs-image{flex: 0 0 490px; padding-top: 48px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .accordion-main {margin-bottom: 40px;}
+    .faqs-main{padding: 0 32px; display: block;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .faqs-wrap{padding: 40px 0;}
+    .faqs-main {padding: 0 0; border: none; display: block;}
+    .accordion-main{margin-bottom: 24px;}
+    .accordion-header{padding: 16px; padding-right: 52px;}
+}
