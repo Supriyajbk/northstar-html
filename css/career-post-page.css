@@ -1,0 +1,10 @@
+
+.sub-heading-main{padding: 50px 0;}
+.sub-heading-image-main{padding: 53px 0 87px;}
+
+/* Media Query */
+@media screen and (min-width: 1024px) {
+    .sub-heading-main{max-width: 1040px; margin: 0 auto;}
+    .sub-heading-content{flex: 0 0 510px; margin-right: 102px;}
+    .sub-heading-image{flex: 0 0 calc(100% - 612px);}
+}

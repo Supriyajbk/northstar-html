@@ -14,7 +14,7 @@
 .our-team-section::before{content: ""; position: absolute; width: 100%; height: 218px; background-image: url("/images/white-pattern-big.svg"); background-size: cover; bottom: 0; z-index: -1;}
 .our-team-main{padding: 90px 0;}
 .our-team-main h2{font-size: 2.125rem; font-weight: 500; text-align: center; margin-bottom: 63px;}
-.our-team-lists{justify-content: space-between;}
+.our-team-lists{gap: 66px;}
 .our-team-item span{font-size: 2rem; margin-bottom: 16px;}
 
 .career-feature-section{background-color: #091735;}
@@ -28,7 +28,7 @@
 .career-feature-text p{color: var(--white-80);}
 
 .testimonial-module{background-color: #f6f6f6; padding: 139px 0 129px;}
-.testimonial-module ul.slick-dots li button{border: solid 1px #1f1f1f;}
+.testimonial-module ul.slick-dots li button{border: solid 1px var(--text-color);}
 .testimonial-module ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
 .testimonial-thumb img{border-radius: 50%;}
 .testimonial-text p{margin-bottom: 30px;}
@@ -38,7 +38,7 @@
 
 .perks-main{padding: 90px 0;}
 .perks-main h2{font-size: 2.125rem; font-weight: 500; text-align: center; margin-bottom: 63px;}
-.perks-lists{justify-content: space-between;}
+.perks-lists{gap: 66px;}
 .perks-item span{font-size: 2rem; margin-bottom: 16px;}
 
 
@@ -47,7 +47,8 @@
     .career-banner-text{flex: 0 0 580px; margin-right: 42px;}
     .career-banner-image{flex: 0 0 calc(100% - 622px);}
 
-    .our-team-item{flex: 0 0 17.1%;}
+    .our-team-main{max-width: 1013px; margin: 0 auto;}
+    .our-team-item{flex: 0 0 calc(25% - 50px)}
 
     .career-feature-main{max-width: 1110px; margin: 0 auto;}
     .career-feature-text{flex: 0 0 428px; margin-right: 94px;}
@@ -62,7 +63,9 @@
     .testimonial-text{padding: 27px 0 0 28px;}
     .testimonial-icon{top: 0; left: 0; position: absolute;}
 
-    .perks-item{flex: 0 0 17.1%;}
+
+    .perks-main{max-width: 1013px; margin: 0 auto;}
+    .perks-item{flex: 0 0 calc(25% - 50px)}
     
     
 }
@@ -95,6 +98,20 @@
     .perks-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
     .perks-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
 
+    .testimonial-module{padding: 86px 0 51px;}
+    .testimonial-slider-nav{width: 100%; margin-bottom: 23px;}
+    .testimonial-slider-nav .slick-list{overflow: visible;}
+    .testimonial-image-slide{opacity: 0.5;}
+    .testimonial-image-slide.slick-current{opacity: 1;}
+    .testimonial-thumb{max-width: 132px; margin: 0 29px;}
+    .testimonial-slider-for{width: 100%;}
+    .testimonial-slider-for .slick-list{overflow: visible;}
+    .testimonial-slider-for .slick-arrow{width: 40px; height: 49px; font-size: 1.5rem; right: -20px;}
+    .testimonial-slider-for .slick-arrow.slick-prev{left: -20px;}
+    .testimonial-slider-for .slick-arrow.slick-next{right: -20px;}
+    .testimonial-text{font-size: 1rem; line-height: 24px; text-align: center; padding: 0 50px;}
+    .testimonial-icon{margin: 0 auto 11px;}
+
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
@@ -126,16 +143,19 @@
     .career-feature-image{margin-bottom: 20px;}
     .career-feature-text h3{font-size: 1.625rem; margin-bottom: 13px;}
 
-    .testimonial-slider-nav{width: 100%;}
+    .testimonial-module{padding: 86px 0 51px;}
+    .testimonial-slider-nav{width: 100%; margin-bottom: 23px;}
     .testimonial-slider-nav .slick-list{overflow: visible;}
     .testimonial-image-slide{opacity: 0.5;}
     .testimonial-image-slide.slick-current{opacity: 1;}
     .testimonial-thumb{max-width: 132px; margin: 0 29px;}
     .testimonial-slider-for{width: 100%;}
     .testimonial-slider-for .slick-list{overflow: visible;}
-    .testimonial-slider-for .slick-arrow{width: 40px; height: 49px; font-size: 1.5rem;}
-    .testimonial-text{font-size: 1rem; line-height: 24px; text-align: center;}
-    .testimonial-icon{margin: 0 auto;}
+    .testimonial-slider-for .slick-arrow{width: 40px; height: 49px; font-size: 1.5rem; right: -20px;}
+    .testimonial-slider-for .slick-arrow.slick-prev{left: -20px;}
+    .testimonial-slider-for .slick-arrow.slick-next{right: -20px;}
+    .testimonial-text{font-size: 1rem; line-height: 24px; text-align: center; padding: 0 50px;}
+    .testimonial-icon{margin: 0 auto 11px;}
 
     .perks-main{padding: 43px 0 45px;}
     .perks-main h2{font-size: 1.875rem; margin-bottom: 27px;}
