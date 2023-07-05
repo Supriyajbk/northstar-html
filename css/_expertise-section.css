@@ -22,7 +22,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .expertise-main{padding: 40px 0 50px;}
-    .expertise-row{gap: 30px;}
+    .expertise-row{gap: 30px; padding: 20px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .expertise-wrap{padding: 238px 0 22px;}
