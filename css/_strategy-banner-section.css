@@ -12,6 +12,10 @@
     .strategy-banner-thumb img{max-height: 644px; overflow: hidden;}
     .strategy-banner-main{width: 590px;}
 }
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .strategy-banner-main{width: 490px;}
+
+}
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .strategy-banner-bg{clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);}
     .strategy-banner-thumb img{max-height: 531px; overflow: hidden;}
