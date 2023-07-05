@@ -3,13 +3,31 @@
 .approach-list{color: var(--white);}
 .approach-bg{background-color: var(--black); opacity: 0.5; z-index: 0;}
 .approach-icon{max-width: 51px; margin-bottom: 22px;}
-.approach-icon img{width: 100%; object-fit: contain;}
+.approach-icon img{width: 100%; max-height: 51px; object-fit: contain;}
 .approach-text{max-width: 410px;}
 .approach-text h3{color: var(--white); margin-bottom: 14px; font-size: 30px; line-height: 34px;}
 .approach-text p{margin-bottom: 34px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .approach-image{height: 100%;}
-    .approach-list{flex: 0 0 50%;}
+    .approach-main{min-height: 700px; align-content: center;}
+    .approach-list{flex: 0 0 50%; min-height: 700px;}
+    .approach-image{max-width: 50%; transition: all 0.75s ease-in-out;}
+    .approach-image-1{left: 0; right: auto;}
+    .approach-image-1 img{object-position: top left;}
+    .approach-image-2{right: 0; left: auto;}
+    .approach-image-2 img{object-position: top right;}
+    .approach-image.full-image{max-width: 100%; z-index: 0;}
+    .approach-pos{width: 100%; height: 100%; position: relative; z-index: 1; transition: all 0.75s ease-in-out;}
+    .approach-pos.active{opacity: 0.45;}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .approach-main{display: block;}
+    .approach-list{padding: 64px 32px; position: relative;}
+    .approach-text h3{font-size: 26px; line-height: 30px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .approach-main{display: block;}
+    .approach-list{padding: 64px 32px; position: relative;}
+    .approach-text h3{font-size: 26px; line-height: 30px;}
 }

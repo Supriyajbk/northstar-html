@@ -38,4 +38,5 @@ let header = jQuery(".main-header");
     jQuery(this).siblings('.accordion-content').slideToggle(500);
     jQuery(this).parent().siblings().find('.accordion-content').slideUp(500);
   });
+  
 });
