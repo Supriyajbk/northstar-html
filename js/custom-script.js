@@ -29,5 +29,13 @@ let header = jQuery(".main-header");
       jQuery(this).text(jQuery(this).text() == 'load more' ? 'no posts' : 'load more');
     }
   });
-
+  jQuery('.accordion-header').on('click', function(e){
+    e.preventDefault();
+    jQuery(this).parent().toggleClass('active');
+    jQuery(this).parent().siblings().removeClass('active');
+    jQuery(this).parent().siblings().find('.accordion-header').removeClass('open');
+    jQuery(this).toggleClass("open");
+    jQuery(this).siblings('.accordion-content').slideToggle(500);
+    jQuery(this).parent().siblings().find('.accordion-content').slideUp(500);
+  });
 });
