@@ -241,7 +241,7 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .hide-mobile{display: none;}
-    ol{margin: 28px 0 32px 38px; }
+    ol{margin: 28px 0 45px 38px; }
     .button.blue-mbtn{background-color: var(--blue-color); border-color: transparent; min-width: 170px;}
     .button.blue-mbtn::before, .button.blue-mbtn::after{background-color: var(--blue-color);}
     .button.blue-mbtn:hover::before, .button.blue-mbtn:hover::after{background-color: var(--purple-color);}
