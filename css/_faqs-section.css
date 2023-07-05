@@ -1,5 +1,5 @@
 .faqs-section{z-index: 1;}
-.faqs-wrap{padding: 150px 0 124px;}
+.faqs-bg{opacity: 0.3; background-repeat: no-repeat; background-size: cover; background-position: center top;}
 .faqs-head{margin-bottom: 25px;}
 .faqs-head h2{font-size: 26px; line-height: 30px; margin-bottom: 19px;}
 .accordion-list{margin-bottom: 15px; background-color: var(--white); border: 1px solid var(--black-20);}
@@ -14,19 +14,27 @@
 .accordion-content ol li::before{left: -21px; font-family: 'Gotham-Medium', sans-serif;}
 
 /* media css starts here */
+@media only screen and (min-width: 768px){
+    .faqs-bg{top: 64px; left: -86px; width: 1736px; height: 1066px; background-image: url("./images/white-pattern-md.svg"); }
+}
 @media only screen and (min-width: 1024px){
-    .faqs-bg{margin-top: 66px;}
-    .faqs-main{gap: 51px 102px; align-items: flex-start;}
+    .faqs-wrap{padding: 150px 0 124px;}
+    .faqs-main{gap: 51px 102px; align-items: flex-start; flex-direction: row-reverse;}
     .faqs-text{flex: 0 0 calc(100% - 592px);}
     .faqs-image{flex: 0 0 490px; padding-top: 48px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .accordion-main {margin-bottom: 40px;}
-    .faqs-main{padding: 0 32px; display: block;}
+    .faqs-wrap { padding: 120px 0 119px; }
+    .faqs-main{display: block;}
+    .faqs-image{margin-bottom: 49px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .faqs-wrap{padding: 40px 0;}
-    .faqs-main {padding: 0 0; border: none; display: block;}
-    .accordion-main{margin-bottom: 24px;}
+    .faqs-bg{top: 286px; width: 390px; height: 450px; background-image: url("./images/white-pattern-md-mobile.svg"); }
+    .faqs-wrap{padding: 39px 0 39px;}
+    .faqs-main {display: block;}
+    .faqs-image{margin-bottom: 26px;}
+    .faqs-head{margin-bottom: 32px;}
+    .faqs-head h2{margin-bottom: 17px;}
+    .accordion-list{margin-bottom: 24px;}
     .accordion-header{padding: 16px; padding-right: 52px;}
 }
