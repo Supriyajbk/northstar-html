@@ -122,6 +122,7 @@ jQuery(document).ready(function(){
         arrows: false,
         autoplay: false,
         focusOnSelect: false,
+        speed: 1000,
         fade: true,
         css: true,
         asNavFor: $expertiseSliderNav
@@ -132,8 +133,8 @@ jQuery(document).ready(function(){
         asNavFor: $expertiseSliderFor,
         dots: false,
         arrows: false,
-        centerMode: true,
-        centerPadding: '0',
+        // centerMode: true,
+        // centerPadding: '0',
         focusOnSelect: true,
         responsive: [
           {

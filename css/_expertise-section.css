@@ -6,7 +6,7 @@
 .expertise-nav-pos{bottom: 0; left: 0; right: 0; width: 100%; position: absolute;}
 .expertise-nav-pos::before{width: 100%; height: 1px; top: 0; left: 0%; opacity: 0.21; background-color: var(--white); content: ""; display: block; position: absolute;}
 .expertise-row{color: var(--white);}
-.expertise-list{opacity: 0.5; transition: all 0.45s ease-in-out; font-size: 14px; text-align: center;} 
+.expertise-list{opacity: 0.5; transition: all 0.45s ease-in-out; font-size: 14px; text-align: center; cursor: pointer;} 
 .expertise-list.slick-current{opacity: 1;}
 .expertise-icon{display: block; text-align: center; font-size: 27px; margin-bottom: 10px;}
 .expertise-text{font-size: 14px; line-height: 18px;}
