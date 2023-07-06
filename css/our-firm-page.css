@@ -76,6 +76,37 @@
     
 }
 
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .revolution-main{padding: 48px 0 39px;}
+    .revolution-text{margin-bottom: 40px;}
+    .revolution-text h2{font-size: 1.875rem; margin-bottom: 16px;}
+    .revolution-cta-image{margin-bottom: 32px;}
+    span.optional-text{margin-bottom: 7px; font-size: 1.125rem; line-height: normal;}
+    .revolution-cta-inner h3{font-size: 1.625rem; font-weight: 500; margin-bottom: 0;}
+
+    .market-insight-main{flex-direction: column-reverse; padding-bottom: 59px;}
+    .market-insight-image{width: calc(100% + 40px); margin-left: -20px; margin-bottom: 38px;}
+    .market-insight-content{margin-left: -10px;}
+    .market-insight-content h3{font-size: 1.625rem; font-weight: 500; margin-bottom: 16px;}
+
+    .core-values-main{padding: 49px 0 74px;}
+    .core-values-main h4{font-size: 1.5rem; line-height: normal;}
+    .core-values-main .button{margin-top: 6px;}
+
+    .leadership-pattern-one, .leadership-pattern-two{display: none;}
+    .leadership-team-main{padding: 63px 0 32px; gap: 25px;}
+    .leadership-team-list{flex: 0 0 calc(50% - 13px);}
+    .leadership-team-content{position: absolute; bottom: 0; background-color: var(--dark-blue);}
+    .leadership-team-inner{padding: 10px 25px 11px;}
+    .leadership-team-inner h5{font-size: 1.063rem; margin-bottom: -4px;}
+    .leadership-team-inner h5::before{display: none;}
+    .leadership-team-inner span{font-size: 0.75rem; line-height: 0.096rem;}
+    .leadership-team-list:nth-child(6){position: relative;}
+    .leadership-team-list:nth-child(6) .leadership-team-content{position: absolute; top: 0; background: var(--white);}
+    .leadership-team-list:nth-child(6) .leadership-team-inner{margin-top: 0; text-align: left; width: 100%; padding: 30px 30px 20px 0;}
+    .leadership-team-main .button{width: 100%;}
+}
+
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .banner-num{max-width: 305px; margin: 0 auto; gap: 7px 0;}
     .banner-num-list{width: 50%;}
@@ -100,5 +131,18 @@
     .core-values-main .button{margin-top: 6px;}
 
     .firm-slider-nav{display: none !important;}
+
+    .leadership-pattern-one, .leadership-pattern-two{display: none;}
+    .leadership-team-main{padding: 63px 0 32px;}
+    .leadership-team-list{width: 100%; margin-bottom: 24px;}
+    .leadership-team-content{position: absolute; bottom: 0; background-color: var(--dark-blue);}
+    .leadership-team-inner{padding: 10px 25px 11px;}
+    .leadership-team-inner h5{font-size: 1.063rem; margin-bottom: -4px;}
+    .leadership-team-inner h5::before{display: none;}
+    .leadership-team-inner span{font-size: 0.75rem; line-height: 0.096rem;}
+    .leadership-team-list:first-child .leadership-team-content{position: relative; background: var(--white);}
+    .leadership-team-list:first-child .leadership-team-inner{text-align: left; width: 100%; padding: 0 24px 7px 24px;}
+    .leadership-team-list:first-child .leadership-team-inner h3{font-size: 1.625rem; line-height: normal; margin-bottom: 17px;}
+    .leadership-team-main .button{width: 100%;}
 }
 
