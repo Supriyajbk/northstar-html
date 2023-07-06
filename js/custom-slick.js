@@ -1,5 +1,6 @@
 
 jQuery(document).ready(function(){
+  let $window = jQuery(window);
     jQuery('.full-slider-main').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -112,31 +113,39 @@ jQuery(document).ready(function(){
         });
       }
 
-
-      let $window = jQuery(window);
-      let $expertiseSlider = jQuery(".expertise-slider");
-      expertiseSettings = {
-        slidesToShow: 3,
+      let $expertiseSliderFor = jQuery(".expertise-slider-for");
+      let $expertiseSliderNav = jQuery(".expertise-slider-nav");
+      $expertiseSliderFor.slick({
+        slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
+        dots: false,
         arrows: false,
         autoplay: false,
-        autoplaySpeed: 3000,
+        focusOnSelect: false,
+        fade: true,
+        css: true,
+        asNavFor: $expertiseSliderNav
+      });
+      $expertiseSliderNav.slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        asNavFor: $expertiseSliderFor,
+        dots: false,
+        arrows: false,
         centerMode: true,
         centerPadding: '0',
         focusOnSelect: true,
-      };
-      $window.on('load resize', function(){
-        if ($window.width() >= 768) {
-            if ($expertiseSlider.hasClass('slick-initialized')){
-                $expertiseSlider.slick('unslick');
-                return false;
-            }
-        }
-        if (!$expertiseSlider.hasClass('slick-initialized')){
-            return $expertiseSlider.slick(expertiseSettings);
-        }
-    });
-
+        responsive: [
+          {
+          breakpoint: 767,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: true,
+              }
+          }
+        ]
+      });
+      
 });
 
