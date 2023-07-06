@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="style.css" media="all">
 <link rel="stylesheet" href="./core.bundle.css" media="all">
 </head>
-<body>
+<body class="our-firm-page">
 <header class="main-header">
 <div class="container">
     <div class="header flex flex-vcenter">
@@ -106,9 +106,10 @@
                 <div class="revolution-cta-main flex flex-vcenter">
                     <div class="revolution-cta-image">
                         <div class="revolution-cta-thumb pos-relative">
-                            <figure class="object-fit">
-                                <img src="images/revolution-cta-thumb@2x.jpg" alt="revolution-cta-thumb">
-                            </figure>
+                            <picture class="object-fit">
+                                <source srcset="images/revolution-cta-thumb@2x.jpg" media="(min-width:768px)">
+                                <img src="images/revolution-cta-thumb-mobile@2x.jpg" alt="revolution-cta-thumb-mobile">
+                            </picture>
                             <div class="play-btn-main flex flex-center"> 
                                 <a class="play-btn flex flex-center popup-youtube" href="#"> <img src="images/play-circle.svg" alt="play-icon"> </a> 
                             </div>
@@ -134,18 +135,95 @@
                 </div>
                 <div class="market-insight-image">
                     <div class="market-insight-thumb">
-                        <figure class="object-fit">
-                            <img src="images/market-insights-thumb@2x.jpg" alt="market-insights-thumb">
-                        </figure>
+                        <picture class="object-fit">
+                            <source srcset="images/market-insights-thumb@2x.jpg" media="(min-width:768px)">
+                            <img src="images/market-insights-thumb-mobile@2x.jpg" alt="market-insights-thumb-mobile">
+                        </picture>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="core-values">
+        <div class="core-values-bg">
+            <div class="container">
+                <div class="core-values-main aligncenter">
+                    <h4>Our Core Values</h4>
+                    <p>We transact on a daily basis to identify attractive trading opportunities in North American regional transmission organizations or independent system operators.</p>
+                    <a href="#" class="button">Our Culture</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="firm-slider pos-relative">
+        <div class="form-slider-bg">
+            <picture class="object-fit">
+                <source srcset="images/firm-slider-bg@2x.jpg" media="(min-width: 768px)">
+                <img src="images/firm-slider-bg-mobile@2x.jpg" alt="firm-slider-bg-mobile">
+            </picture>
+        </div>
+        <div class="container">
+            <div class="firm-slider-main flex">
+                <div class="firm-slider-for">
+                    <div class="firm-slider-content aligncenter">
+                        <div class="firm-slider-text">
+                            <h3>Integrity</h3>
+                            <p>We transact on a daily basis to identify attractive trading opportunities in North American regional transmission organizations or independent system operators.</p>
+                        </div>
+                    </div>
+                    <div class="firm-slider-content aligncenter">
+                        <div class="firm-slider-text">
+                            <h3>Flexibility</h3>
+                            <p>We transact on a daily basis to identify attractive trading opportunities in North American regional transmission organizations or independent system operators.</p>
+                        </div>
+                    </div>
+                    <div class="firm-slider-content aligncenter">
+                        <div class="firm-slider-text">
+                            <h3>Innovation</h3>
+                            <p>We transact on a daily basis to identify attractive trading opportunities in North American regional transmission organizations or independent system operators.</p>
+                        </div>
+                    </div>
+                    <div class="firm-slider-content aligncenter">
+                        <div class="firm-slider-text">
+                            <h3>Diligence</h3>
+                            <p>We transact on a daily basis to identify attractive trading opportunities in North American regional transmission organizations or independent system operators.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="firm-slider-nav">
+                    <div class="firm-slider-subheading">
+                        <h4>Integrity</h4>
+                    </div>
+                    <div class="firm-slider-subheading">
+                        <h4>Flexibility</h4>
+                    </div>
+                    <div class="firm-slider-subheading">
+                        <h4>Innovation</h4>
+                    </div>
+                    <div class="firm-slider-subheading">
+                        <h4>Diligence</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="leadership-team pos-relative">
+        <div class="leadership-pattern-one"></div>
+        <div class="leadership-pattern-two"></div>
         <div class="container">
             <div class="leadership-team-main flex">
+                <div class="leadership-team-list hide-desktop hide-tablet">
+                    <div class="leadership-team-content flex">
+                        <div class="leadership-team-inner">
+                            <h3>Our Leadership Team</h3>
+                            <p>We transact on a daily basis to identify attractive trading opportunities in North American regional transmission organizations or independent system operators.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="leadership-team-list pos-relative">
                     <div class="leadership-team-thumb">
                         <figure class="object-fit">
@@ -154,7 +232,7 @@
                     </div>
                     <div class="leadership-team-content flex">
                         <div class="leadership-team-inner">
-                            <h5>Alyssa Newton</h5>
+                            <h5>Ron Allen</h5>
                             <span>Chief Financial Office</span>
                         </div>
                     </div>
@@ -167,7 +245,7 @@
                     </div>
                     <div class="leadership-team-content flex">
                         <div class="leadership-team-inner">
-                            <h5>Alyssa Newton</h5>
+                            <h5>Mike Constanza</h5>
                             <span>Chief Financial Office</span>
                         </div>
                     </div>
@@ -193,12 +271,12 @@
                     </div>
                     <div class="leadership-team-content flex">
                         <div class="leadership-team-inner">
-                            <h5>Alyssa Newton</h5>
+                            <h5>Antoni Brais</h5>
                             <span>Chief Financial Office</span>
                         </div>
                     </div>
                 </div>
-                <div class="leadership-team-list">
+                <div class="leadership-team-list hide-mobile">
                     <div class="leadership-team-content flex">
                         <div class="leadership-team-inner">
                             <h3>Our Leadership Team</h3>
@@ -283,6 +361,27 @@
                             <span>Chief Financial Office</span>
                         </div>
                     </div>
+                </div>
+                <a href="#" class="button hide-desktop">Load More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-panel-section pos-relative">
+        <div class="cta-panel-bg background-bg">
+            <picture class="object-fit">
+                <source srcset="images/firm-cta-bg@2x.jpg" media="(min-width:768px)">
+                <img src="images/firm-cta-bg-mobile@2x.jpg" alt="cta-panel-bg-mobile">
+            </picture>
+            <div class="cta-panel-overlay background-text"></div>
+        </div>
+        <div class="container">
+            <div class="cta-panel-main flex">
+                <div class="cta-panel-text">
+                    <span class="optional-text">Customizable CTA Panel</span>
+                    <h2>Careers at Northstar</h2>
+                    <p>At Northstar Trading, we are always on the lookout for exceptional talent to join our team. We offer a dynamic and challenging work environment.</p>
+                    <a href="#" class="button btn-transparent white blue-mbtn">Who We Are</a>
                 </div>
             </div>
         </div>
