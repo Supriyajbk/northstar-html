@@ -10,7 +10,7 @@
 .post-banner-thumb img{max-width: 882px;}
 
 .post-content-section{overflow: hidden;}
-.post-content-section::before{content: ""; position: absolute; width: 739px; height: 606px; background-image: url("images/subheading-pattern.svg"); top: -150px; left: -129px; background-size: 100% 100%;}
+.post-pattern-bg{top: -150px; left: -255px; width: 739px; height: 606px; opacity: .03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
 .post-content-main{padding: 128px 0 125px;}
 .post-flex-main{padding: 53px 0 87px;}
 
@@ -57,8 +57,7 @@
     .post-banner-thumb{position: relative; clip-path: polygon(0 23%,100% 0%,100% 100%, 0 100%);}
     .post-banner-thumb img{max-width: 100%; max-height: 392px;}
 
-    
-    .post-content-section::before{width: 503px; height: 412px; top: -10px; left: -144px;}
+    .post-pattern-bg{width: 503px; height: 412px; top: -10px; left: -231px;}
     .post-content-main{padding: 64px 0 26px;}
     .post-content-main h2{font-size: 1.875rem; line-height: normal; margin-bottom: 16px;}
     .post-flex-main{padding: 4px 0 42px;}
