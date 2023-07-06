@@ -77,6 +77,9 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
+    .our-firm-page  .default-banner-text{margin-bottom: 20px;}
+    .banner-num-list{flex: 0 0 85px; padding: 0 20px;}
+
     .revolution-main{padding: 48px 0 39px;}
     .revolution-text{margin-bottom: 40px;}
     .revolution-text h2{font-size: 1.875rem; margin-bottom: 16px;}
@@ -108,6 +111,11 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
+    .our-firm-page .default-banner-section{max-height: 611px;}
+    .our-firm-page .default-banner-bg{max-height: 611px;}
+    .our-firm-page .default-banner-main{padding-top: 111px;}
+    .our-firm-page .default-banner-text{margin-bottom: 25px;}
+
     .banner-num{max-width: 305px; margin: 0 auto; gap: 7px 0;}
     .banner-num-list{width: 50%;}
     .banner-num-list:nth-child(2n + 2):before{height: 50px; background-color: rgba(255,255,255,.5);}
