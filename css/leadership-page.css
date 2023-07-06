@@ -1,0 +1,10 @@
+
+
+.leadership-content-main{padding: 105px 0 150px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    .leadership-content-main{gap: 137px;}
+    .leadership-content-left{flex: 0 0 351px;}
+    .leadership-content-right{flex: 0 0 calc(100% - 488px);}
+}

@@ -90,7 +90,6 @@ jQuery(document).ready(function(){
     });
     }
 
-    
     if(jQuery(window).width() <= 1023){
         jQuery('.perks-slider').slick({
           slidesToShow: 2,
@@ -120,6 +119,7 @@ jQuery(document).ready(function(){
         slidesToScroll: 1,
         dots: false,
         arrows: false,
+        infinite: false,
         autoplay: false,
         focusOnSelect: false,
         speed: 1000,
@@ -129,10 +129,11 @@ jQuery(document).ready(function(){
       });
       $expertiseSliderNav.slick({
         slidesToShow: 6,
-        slidesToScroll: 1,
+        slidesToScroll: 6,
         asNavFor: $expertiseSliderFor,
         dots: false,
         arrows: false,
+        infinite: false,
         // centerMode: true,
         // centerPadding: '0',
         focusOnSelect: true,
@@ -141,7 +142,7 @@ jQuery(document).ready(function(){
           breakpoint: 767,
               settings: {
                 slidesToShow: 3,
-                slidesToScroll: 1,
+                slidesToScroll: 3,
                 dots: true,
               }
           }
@@ -149,4 +150,3 @@ jQuery(document).ready(function(){
       });
       
 });
-
