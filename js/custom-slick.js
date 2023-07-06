@@ -68,6 +68,56 @@ jQuery(document).ready(function(){
         ]
     });
 
+    jQuery('.firm-slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false,
+        vertical: true,
+        autoplaySpeed: 3000,
+        adaptiveHeight: true,
+        asNavFor: '.firm-slider-nav',
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              vertical: false,
+              adaptiveHeight: false,
+              dots: true,
+              arrows: false,
+              // centerMode: true,
+              // variableWidth: true,
+            }
+          },
+        ]
+    });
+
+    jQuery('.firm-slider-nav').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.firm-slider-for',
+        vertical: true,
+        arrows: false,
+        dots: false,
+        // useCss:true, 
+        focusOnSelect: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              dots: false,
+              vertical: false,
+              verticalSwiping: false,
+              centerMode: true,
+              variableWidth: true,
+            }
+          },
+        
+        ]
+    });
+
     if(jQuery(window).width() <= 1023){
       jQuery('.team-slider').slick({
       slidesToShow: 2,
