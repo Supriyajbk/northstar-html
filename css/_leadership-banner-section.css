@@ -1,5 +1,21 @@
 .leadership-banner-bg{clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);}
 .leadership-overlay{z-index: 0; object-fit:contain; background-image: linear-gradient(rgba(9, 23, 53, 0.83), rgba(9, 23, 53, 0.83)), linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);}
+.leadership-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute;}
+.leadership-main{padding-top: 215px;}
+.leadership-text{color: var(--white); padding: 52px 0 235px 82px;}
+.leadership-text h1{color: var(--white); margin-bottom: 18px;}
+.leadership-text p{font-size: 20px; margin-bottom: 4px;}
+.leadership-address{color: var(--blue-color); font-size: 18px; line-height: 27.5px;}
+.leadership-thumb img{clip-path: polygon(0 13%, 100% 0, 100% 86%, 0% 100%);}
 
 
+.leadership-content-main{padding: 105px 0 150px;}
+/*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    .leadership-main{gap: 232px;}
+    .leadership-thumb img{max-width: 346.5px; max-height: 415px;}
 
+    .leadership-content-main{gap: 137px;}
+    .leadership-content-left{flex: 0 0 351px;}
+    .leadership-content-right{flex: 0 0 calc(100% - 488px);}
+}
