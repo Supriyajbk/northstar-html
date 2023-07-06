@@ -1,12 +1,14 @@
-/* .default-content-bg {top: 64px; left: -86px; width: 1736px; height: 1066px; background-image: url("./images/white-pattern-md.svg");} */
+
+.default-content-bg { top: -193px; left: -254px; width: 739px; height: 606px; opacity: 0.03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute; }
 .default-content-main{padding: 85px 0 30px;}
 .default-content-text h2{line-height: normal; margin-bottom: 22px;}
 .default-content-text h3{padding-top: 22px;}
 .default-content-text h4{padding-top: 22px;}
-.default-feature-bg-overlay{z-index: 0; object-fit: contain; background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.39) 66.41%, rgba(0, 0, 0, 0.00) 100%);}
-.default-feature-pos{left: 0; top: 50%; right: 0; transform: translatey(-50%); width: 100%; position: absolute;}
-.default-feature-text{margin-top: 30px;}
-.default-feature-text h2{font-size: 40px; line-height: normal; color: var(--white); margin-bottom: 40px;}
+
+.default-feature-section{z-index: 1;}
+.default-feature-main{height: 100%;}
+.default-feature-overlay{z-index: 0; object-fit: contain; background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.39) 66.41%, rgba(0, 0, 0, 0.00) 100%);}
+.default-feature-text h2{color: var(--white);}
 
 .default-desc-section{background-color: var(--dark-blue);}
 .default-desc-main{padding: 88px 0 118px;}
@@ -15,8 +17,24 @@
 
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    .default-feature-thumb img{max-height: 580px; min-height: 580px; overflow: hidden;}
+}
 @media only screen and (min-width: 1024px){
-    .default-feature-thumb img{max-height: 580.4px; overflow: hidden;}
-    .default-feature-text{max-width: 742px;}
-
+    .default-feature-text{max-width: 742px; margin-top: 30px;}
+    .default-feature-text h2{font-size: 40px; line-height: 50px;margin-bottom: 40px;} 
+    .default-feature-text .button{min-width: 232px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .default-feature-text{max-width: 600px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .default-content-bg{left: -231px; top: -108px; width: 503px; height: 412px; background-image: url("./images/pattern-block-black-mobile.svg");}
+    .default-content-main{padding: 56px 0 15px;}
+    .default-content-text h2{font-size: 30px;}
+    .default-feature-main{padding: 40px 0 36px; align-items: flex-end;}
+    .default-feature-text h2{font-size: 30px; margin-bottom: 22px;}
+    .default-desc-main{padding: 40px 0 45px;}
+    .default-desc-text h3{font-size: 26px; text-align: left; margin-bottom: 16px;}
+    .default-content-text ul{margin: 0 0 32px 32px;}
 }

@@ -102,7 +102,7 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .button.blue::before, .button.blue::after{background-color: var(--blue-color);}
 .button.blue:hover{background-color: transparent; border-color: var(--blue-color); color: var(--blue-color);}
 
-.btn-transparent.white{padding: 13px 33px 13px; border-left: 1px solid var(--white); border-right: 1px solid var(--white); background-color: transparent; color: var(--white); z-index: 1;}
+.btn-transparent.white{padding: 14px 33px 14px; border-left: 1px solid var(--white); border-right: 1px solid var(--white); background-color: transparent; color: var(--white); z-index: 1;}
 .btn-transparent.white::before { width: 100%; background-color: var(--white); }
 .btn-transparent.white::after { width: 100%; background-color: var(--white); }
 .btn-transparent.white:hover::before{width: 0%;}
@@ -241,7 +241,7 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .hide-mobile{display: none;}
-    ol{margin: 28px 0 32px 38px; }
+    ol{margin: 28px 0 45px 38px; }
     .button.blue-mbtn{background-color: var(--blue-color); border-color: transparent; min-width: 170px;}
     .button.blue-mbtn::before, .button.blue-mbtn::after{background-color: var(--blue-color);}
     .button.blue-mbtn:hover::before, .button.blue-mbtn:hover::after{background-color: var(--purple-color);}

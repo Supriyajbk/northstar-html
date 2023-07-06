@@ -1,76 +1,71 @@
 
-.careerpost-banner-section{background: var(--dark-blue); min-height: 556px;}
-.careerpost-banner-location{color: var(--white); margin-bottom: 12px;}
-.careerpost-banner-location span{padding: 0 8px; border-left: 1px solid var(--white); font-size: 1.25rem; line-height: 1.25rem;}
-.careerpost-banner-location span:first-child{padding-left: 0; border-left: none;}
-.careerpost-banner-text h1{color: var(--white); margin-bottom: 17.9px;}
-.careerpost-banner-text > span{color: var(--white); line-height: 1.531rem;}
-.careerpost-banner-thumb{position: absolute; clip-path: polygon(0 0, 100% 0%, 100% 100%, 11.5% 100%);}
-.careerpost-banner-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 5%, rgba(0, 0, 0, 0.32) 28%); z-index: 1;}
-.careerpost-banner-thumb img{max-width: 882px;}
+.post-banner-section{background: var(--dark-blue); min-height: 556px;}
+.post-banner-location{color: var(--white); margin-bottom: 12px;}
+.post-banner-location span{padding: 0 8px; border-left: 1px solid var(--white); font-size: 1.25rem; line-height: 1.25rem;}
+.post-banner-location span:first-child{padding-left: 0; border-left: none;}
+.post-banner-desc h1{color: var(--white); margin-bottom: 17.9px;}
+.post-banner-desc > span{color: var(--white); line-height: 1.531rem;}
+.post-banner-thumb{position: absolute; clip-path: polygon(0 0, 100% 0%, 100% 100%, 11.5% 100%);}
+.post-banner-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 5%, rgba(0, 0, 0, 0.32) 28%); z-index: 1;}
+.post-banner-thumb img{max-width: 882px;}
 
-.sub-heading-section{overflow: hidden;}
-.sub-heading-section::before{content: ""; position: absolute; width: 739px; height: 606px; background-image: url("images/subheading-pattern.svg"); top: -150px; left: -129px; background-size: 100% 100%;}
-.sub-heading-main{padding: 128px 0 125px;}
-.sub-heading-image-main{padding: 53px 0 87px;}
+.post-content-section{overflow: hidden;}
+.post-content-section::before{content: ""; position: absolute; width: 739px; height: 606px; background-image: url("images/subheading-pattern.svg"); top: -150px; left: -129px; background-size: 100% 100%;}
+.post-content-main{padding: 128px 0 125px;}
+.post-flex-main{padding: 53px 0 87px;}
 
-.video-section{background-color: var(--dark-blue);}
-.video-thumb figure::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4);}
-.video-thumb{margin-bottom: 71px;}
-.video-section .video-main p{color: var(--white-90);}
+.post-video-section{background-color: var(--dark-blue);}
+.post-video-thumb figure::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4);}
+.post-video-thumb{margin-bottom: 71px;}
+.post-video-section .post-video-main p{color: var(--white-90);}
 
 /* Media Query */
 @media screen and (min-width: 1024px) {
-    .careerpost-banner-content{flex: 0 0 43%; padding: 183px 0 80px;}
-    .careerpost-banner-text{max-width: 460px;}
-    .careerpost-banner-image{flex: 0 0 calc(100% - 43%);}
+    .post-banner-text{flex: 0 0 43%; padding: 183px 0 80px;}
+    .post-banner-desc{max-width: 460px;}
+    .post-banner-image{flex: 0 0 calc(100% - 43%);}
 
-    .sub-heading-main{max-width: 1040px; margin: 0 auto;}
-    .sub-heading-content{flex: 0 0 510px; margin-right: 102px;}
-    .sub-heading-image{flex: 0 0 calc(100% - 612px);}
+    .post-flex-text{flex: 0 0 510px; margin-right: 102px;}
+    .post-flex-image{flex: 0 0 calc(100% - 612px);}
 
-    .video-main{padding: 131px 0 112px; max-width: 1040px; margin: 0 auto;}
-
-    .career-opportunities-wrap{padding: 105px 0;}
+    .post-video-main{padding: 131px 0 112px; max-width: 1040px; margin: 0 auto;}
+    .post-career-wrap{padding: 105px 0;}
 }
-
-
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    .careerpost-banner-section{min-height: 727px;}
-    .careerpost-banner-content{padding-top: 123px;}
-    .careerpost-banner-location{justify-content: center;}
-    .careerpost-banner-text{text-align: center; width: 100%;}
-    .careerpost-banner-text h1{font-size: 2.25rem; line-height: normal; margin-bottom: 14px;}
-    .careerpost-banner-image{width: 100%; position: absolute; left: 0; bottom: 0;}
-    .careerpost-banner-thumb{position: relative; clip-path: polygon(0 23%,100% 0%,100% 100%, 0 100%);}
-    .careerpost-banner-thumb img{max-width: 100%; max-height: 392px;}
+    .post-banner-section{min-height: 727px;}
+    .post-banner-text{padding-top: 123px;}
+    .post-banner-location{justify-content: center;}
+    .post-banner-desc{text-align: center; width: 100%;}
+    .post-banner-desc h1{font-size: 2.25rem; line-height: normal; margin-bottom: 14px;}
+    .post-banner-image{width: 100%; position: absolute; left: 0; bottom: 0;}
+    .post-banner-thumb{position: relative; clip-path: polygon(0 23%,100% 0%,100% 100%, 0 100%);}
+    .post-banner-thumb img{max-width: 100%; max-height: 392px;}
 
-    .sub-heading-main{padding: 64px 0 26px;}
-    .sub-heading-image-main{padding: 4px 0 42px;}
+    .post-content-main{padding: 64px 0 26px;}
+    .post-flex-main{padding: 4px 0 42px;}
 
-    .video-main{padding: 63px 0;}
-    .video-thumb{margin-bottom: 24px;}
+    .post-video-main{padding: 63px 0;}
+    .post-video-thumb{margin-bottom: 24px;}
 }
-
-@media screen and (max-width: 767px) and (min-width: 200px) {
-    .careerpost-banner-section{min-height: 727px;}
-    .careerpost-banner-content{padding-top: 123px;}
-    .careerpost-banner-location{justify-content: center;}
-    .careerpost-banner-text{text-align: center; width: 100%;}
-    .careerpost-banner-text h1{font-size: 2.25rem; line-height: normal; margin-bottom: 14px;}
-    .careerpost-banner-image{width: 100%; position: absolute; left: 0; bottom: 0;}
-    .careerpost-banner-thumb{position: relative; clip-path: polygon(0 23%,100% 0%,100% 100%, 0 100%);}
-    .careerpost-banner-thumb img{max-width: 100%; max-height: 392px;}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .post-banner-section{min-height: 727px;}
+    .post-banner-text{padding-top: 123px;}
+    .post-banner-location{justify-content: center;}
+    .post-banner-desc{text-align: center; width: 100%;}
+    .post-banner-desc h1{font-size: 2.25rem; line-height: normal; margin-bottom: 14px;}
+    .post-banner-image{width: 100%; position: absolute; left: 0; bottom: 0;}
+    .post-banner-thumb{position: relative; clip-path: polygon(0 23%,100% 0%,100% 100%, 0 100%);}
+    .post-banner-thumb img{max-width: 100%; max-height: 392px;}
 
     
-    .sub-heading-section::before{width: 503px; height: 412px; top: -10px; left: -144px;}
-    .sub-heading-main{padding: 64px 0 26px;}
-    .sub-heading-main h2{font-size: 1.875rem; line-height: normal; margin-bottom: 16px;}
-    .sub-heading-image-main{padding: 4px 0 42px;}
-    .sub-heading-content h3{font-size: 1.625rem; line-height: normal; margin-bottom: 24px;}
+    .post-content-section::before{width: 503px; height: 412px; top: -10px; left: -144px;}
+    .post-content-main{padding: 64px 0 26px;}
+    .post-content-main h2{font-size: 1.875rem; line-height: normal; margin-bottom: 16px;}
+    .post-flex-main{padding: 4px 0 42px;}
+    .post-flex-text h3{font-size: 1.625rem; line-height: normal; margin-bottom: 24px;}
 
-    .video-main{padding: 63px 0;}
-    .video-thumb{margin-bottom: 24px;}
+    .post-video-main{padding: 63px 0;}
+    .post-video-thumb{margin-bottom: 24px;}
     .play-btn-main .play-btn{width: 50px; height: 50px;}
-    .video-main .button{margin-top: 8px;}
+    .post-video-main .button{margin-top: 8px;}
 }
