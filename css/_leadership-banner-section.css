@@ -1,0 +1,5 @@
+.leadership-banner-bg{clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);}
+.leadership-overlay{z-index: 0; object-fit:contain; background-image: linear-gradient(rgba(9, 23, 53, 0.83), rgba(9, 23, 53, 0.83)), linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);}
+
+
+
