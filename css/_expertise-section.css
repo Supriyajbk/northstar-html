@@ -23,9 +23,9 @@
     .expertise-list.slick-slide{margin: 0 10px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .expertise-head{max-width: 507px; padding: 257px 20px 297px;}
-    .expertise-head h2{font-size: 30px; line-height: 34px;}
+    .expertise-head{max-width: 507px; padding: 245px 20px 247px;}
+    .expertise-head h2{font-size: 30px; line-height: 34px; margin-bottom: 20px;}
     .expertise-row{gap: 56px; padding: 20px 0 15px;}
-    .expertise-list.slick-slide{margin: 0 10px;}
-    .expertise-slider-nav ul.slick-dots{position: static;}
+    .expertise-list.slick-slide{margin: 0 5px;}
+    .expertise-slider-nav ul.slick-dots{padding-top: 17px; position: static;}
 }
