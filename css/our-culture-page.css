@@ -8,7 +8,7 @@
 .single-testimonial{background-color: var(--dark-blue); margin-top: -125px;}
 .quote-thumb{margin-bottom: 28px;}
 .single-testimonial-content p{font-size: 1.25rem; color: var(--white-90); line-height: 1.913rem;}
-.single-testimonial-name{color: var(--blue-color); line-height: 1.531rem; margin: 35px 0; padding-top: 16px; display: block;}
+.single-testimonial-name{color: var(--blue-color); line-height: 1.531rem; margin: 35px 0; padding-top: 16px; display: block; font-size: 16px;}
 .single-testimonial-name::before{content: ""; position: absolute; width: 21px; height: 1px; background-color: var(--blue-color); left: 50%; transform: translateX(-50%); top: 0;}
 .single-testimonial-thumb{max-width: 98px; margin: 0 auto;}
 

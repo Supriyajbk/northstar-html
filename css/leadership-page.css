@@ -1,6 +1,6 @@
 
 
-.leadership-content-main{padding: 105px 0 126px;}
+.leadership-content-main{padding: 105px 0 126px;} 
 .leadership-content-bg {
     top: 435px;
     left: 0;
@@ -33,4 +33,7 @@
 @media only screen and (max-width: 1299px) and (min-width: 1023px){
     .leadership-content-main{gap: 90px;}
     
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .leadership-content-main{display: block;}
 }
