@@ -79,7 +79,7 @@ jQuery(document).ready(function(){
         asNavFor: '.firm-slider-nav',
         responsive: [
           {
-            breakpoint: 767,
+            breakpoint: 1023,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
