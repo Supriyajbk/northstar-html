@@ -1,10 +1,14 @@
 
 
 .leadership-content-main{padding: 105px 0 150px;}
-
+.our-team-main h2{font-size: 26px;}
+.our-team-text span{display: block;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .leadership-content-main{gap: 137px;}
     .leadership-content-left{flex: 0 0 351px;}
     .leadership-content-right{flex: 0 0 calc(100% - 488px);}
+    .our-team-list{gap: 22px;}
+    .our-team-image{flex: 0 0 70px;}
+    .our-team-text{flex: 0 0 calc(100% - 92px);}
 }
