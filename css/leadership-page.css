@@ -1,33 +1,26 @@
 
 
 .leadership-content-main{padding: 105px 0 126px;} 
-.leadership-content-bg {
-    top: 435px;
-    left: 0;
-    width: 488px;
-    height: 606px;
-    opacity: .03;
-    background-image: url("./images/leadership-pattern-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    position: absolute;
-  }
-.team-main{background-color: var(--mid-gray-color); padding: 92px 45px 106px 36px; clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);}
+.leadership-content-bg { top: 435px; left: 0; width: 488px; height: 606px; opacity: 0.03; background-image: url("./images/leadership-pattern-bg.svg"); background-repeat: no-repeat; background-size: cover; position: absolute; z-index: -1; }
+.leadership-aside{background-color: var(--mid-gray-color); padding: 92px 45px 106px 36px; clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);}
 .team-main h2{font-size: 26px; text-align: center;}
 .team-list{margin-bottom: 10px;}
-.team-text span{display: block;}
+.team-text{color: var(--gray-color); font-size: 1rem; line-height: 20px; font-family: "lexend", sans-serif;}
+.team-text span{display: block; color: var(--text-color);}
 .our-team-block{background-color: var(--dark-blue); color: var(--white); max-width: 713px; max-height: 426px; text-align: center; margin-bottom: 35px;}
-.leadership-content-right ol{margin: 50px 0 0 48px;}
+.leadership-article ol{margin: 50px 0 0 48px;}
+.team-view-more{padding-top: 15px;}
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
-    .leadership-content-main{gap: 137px;}
-    .leadership-content-left{flex: 0 0 351px;}
-    .leadership-content-right{flex: 0 0 calc(100% - 488px);}
-    .team-main{max-width: 451px; max-height: 707px;}
+    .leadership-content-main{gap: 68px 137px; align-items: flex-start;}
+    .leadership-aside{flex: 0 0 351px;}
+    .leadership-article{flex: 0 0 calc(100% - 488px);}
+    .leadership-article h3{padding-top: 15px;}
     .team-list{gap: 22px;}
     .team-image{flex: 0 0 70px;}
-    .team-text{flex: 0 0 calc(100% - 92px);}
+    .team-text{flex: 0 0 calc(100% - 92px); padding-top: 16px;}
 
 }
 @media only screen and (max-width: 1299px) and (min-width: 1023px){
