@@ -10,7 +10,7 @@
 .accordion-header.open::after{content: "\f106"; color: var(--slate-color);}
 .accordion-content{display: none; padding: 4px 20px 20px; font-size: 0.875rem; line-height: 1.75rem;}
 .accordion-content ul li::before{top: 13px;}
-.accordion-content ol{margin-left: 30px;}
+.accordion-content margin-left: 30px;}
 .accordion-content ol li::before{left: -21px; font-family: "Gotham-Medium", sans-serif;}
 
 /* media css starts here */

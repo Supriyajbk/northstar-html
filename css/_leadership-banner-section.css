@@ -5,12 +5,27 @@
 .leadership-banner-text h1{color: var(--white); margin-bottom: 18px;}
 .leadership-banner-text p:not(:last-child){margin-bottom: 4px;}
 .leadership-banner-text span:not(p span){color: var(--blue-color); font-size: 18px; line-height: 27.5px;}
-
+.leadership-thumb img{clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);}
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .leadership-banner-main{gap: 0 232px;}
     .leadership-banner-thumb img{max-height: 470px;}
-
+    .leadership-thumb img{max-height: 415px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .leadership-banner-main{gap: 0 100px; padding-top: 75px;}
+    
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .leadership-banner-image {
+        max-width: 234px;
+        margin: 0 auto;
+      }
+    .leadership-banner-text{padding: 0; text-align: center; margin-bottom: 50px;}
+    .leadership-banner-text h1{font-size: 36px; margin-bottom: 9px;}
+    .leadership-banner-text p{margin-bottom: 8px;}
 }
