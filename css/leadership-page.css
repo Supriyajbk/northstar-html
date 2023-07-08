@@ -9,7 +9,6 @@
 .team-list{margin-bottom: 10px;}
 .team-text{color: var(--gray-color); font-size: 1rem; line-height: 20px; font-family: "lexend", sans-serif;}
 .team-text span{display: block; color: var(--text-color);}
-.our-team-block{background-color: var(--dark-blue); color: var(--white); max-width: 713px; max-height: 426px; text-align: center; margin-bottom: 35px;}
 .leadership-article ol{margin: 50px 0 0 48px;}
 .team-view-more{padding-top: 15px;}
 
