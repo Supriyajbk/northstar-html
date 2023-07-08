@@ -1,0 +1,10 @@
+.partnership-page-image{width: 100%; height: 100%; top: 0; left: 0; right: 0; content: ""; display: block; position: absolute;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .partnership-main{gap: 102px;}
+    .partnership-page-list{flex: 0 0 408px;}
+    .partnership-page-text{flex: 0 0 calc(100% - 510px);}
+
+}
