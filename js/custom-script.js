@@ -39,9 +39,21 @@ let header = jQuery(".main-header");
     jQuery(this).parent().siblings().find('.accordion-content').slideUp(500);
   });
 
-  jQuery(".leadership-team-btn").on("click", function(e){
-    e.preventDefault();
-    
-  });
+    let teamlist = jQuery(".our-team-lists");
+    teamlist.each(function(){
+      let teamitem = jQuery(this);
+      let teamCount = teamitem.children(".our-team-list");
+      if(teamCount.length > 5){
+        teamCount.slice(5).hide();
+        jQuery(".team-view-link").on("click", function(e){
+          e.preventDefault();
+          jQuery(this).toggleClass("open");
+          teamCount.slice(5).fadeToggle("slow");
+          let text = jQuery(this).text().trim();
+          jQuery(this).text(text === "View More" ? "View Less" : "View More");
+        });
+      }
+    })
+
   
 });

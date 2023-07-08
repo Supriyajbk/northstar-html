@@ -7,9 +7,9 @@
 .our-team-list{margin-bottom: 10px;}
 .our-team-text{color: var(--gray-color); font-size: 1rem; line-height: 20px; font-family: "lexend", sans-serif;}
 .our-team-text span{display: block; color: var(--text-color);}
-
 .team-view-more{padding-top: 15px;}
-
+.team-view-link::after{ content: "\f107"; font-family: "Font Awesome 6 Sharp";}
+.team-view-link.open::after{content: "\f106";}
 .leadership-pattern-full{width: 1770px; height: 1091px; bottom: -850px; left: -65px; right: 0; margin: 0 auto; position: absolute; z-index: -1; background-image: url("./images/full-bg-pattern.svg"); background-position: center bottom; background-repeat: no-repeat; background-size: cover;}
 
 /*-- media css starts here --*/
