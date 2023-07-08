@@ -9,9 +9,9 @@
 figure.quote-thumb{margin-bottom: 28px;}
 figure.quote-thumb img{width: 24px;}
 .single-testimonial-content p{font-size: 1.25rem; color: var(--white-90); line-height: 1.913rem;}
-.single-testimonial-name{color: var(--blue-color); line-height: 1.531rem; margin: 35px 0; padding-top: 16px; display: block; font-size: 16px;}
-.single-testimonial-name::before{content: ""; position: absolute; width: 21px; height: 1px; background-color: var(--blue-color); left: 50%; transform: translateX(-50%); top: 0;}
-.single-testimonial-thumb{max-width: 98px; margin: 0 auto;}
+.single-quote-name{color: var(--blue-color); line-height: 1.531rem; margin-top: 35px; padding-top: 16px; display: block; font-size: 16px;}
+.single-quote-name::before{content: ""; position: absolute; width: 21px; height: 1px; background-color: var(--blue-color); left: 50%; transform: translateX(-50%); top: 0;}
+.single-quote-thumb{max-width: 98px; margin: 0 auto;}
 
 .our-culture-page .cta-panel-overlay{background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 73%);}
 .our-culture-page .cta-panel-text h2{font-size: 1.875rem; line-height: normal;}
@@ -86,6 +86,7 @@ figure.quote-thumb img{width: 24px;}
     .single-testimonial-name{margin: 32px 0;}
 
     .our-culture-page .cta-panel-text h2{font-size: 1.625rem; margin-bottom: 16px;}
+<<<<<<< HEAD
     .our-culture-page .cta-panel-text .button{margin-top: 9px;}
 
     .our-culture-page .optional-repeater-main{padding: 24px 0 40px; gap: 30px;}
@@ -98,4 +99,7 @@ figure.quote-thumb img{width: 24px;}
     .feature-grid-main{gap: 24px; padding: 35px 0 64px;}
     .feature-grid-list{width: 100%; min-height: 503px;}
     
+=======
+    figure.quote-thumb{margin-bottom: 13px;}
+>>>>>>> 443684d1f93f92b3baa64f03113cffa9d9c1ac3a
 }
