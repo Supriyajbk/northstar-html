@@ -26,7 +26,7 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 15px; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 66px 153px 70px; margin: 0 0 35px; font-size: 20px; line-height: 30.6px; font-style: normal; position: relative; letter-spacing: normal; border-radius: 0; background-color: var(--dark-blue); color: var(--white); text-align: center;}
+blockquote{padding: 66px 153px 70px; margin: 0 0 35px; font-size: 20px; line-height: 30.6px; font-style: normal; position: relative; letter-spacing: normal; border-radius: 0; background-color: var(--dark-blue); color: var(--white-80); text-align: center;}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
 small {font-size: 14px; line-height: 20px;}
@@ -242,6 +242,10 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .hide-mobile{display: none;}
     ol{margin: 28px 0 45px 38px; }
+    h2{font-size: 30px; line-height: 38px; margin-bottom: 16px;}
+    h3{font-size: 26px; line-height: 32px; margin-bottom: 17px;} 
+    ul{margin: 0 0 32px 32px;}
+    blockquote{padding: 62px 24px 65px;}
     .button.blue-mbtn{background-color: var(--blue-color); border-color: transparent; min-width: 170px;}
     .button.blue-mbtn::before, .button.blue-mbtn::after{background-color: var(--blue-color);}
     .button.blue-mbtn:hover::before, .button.blue-mbtn:hover::after{background-color: var(--purple-color);}
