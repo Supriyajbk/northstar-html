@@ -62,7 +62,12 @@
 </header>
 <main class="main-content"><!-- main tag starts here -->
 <section class="partnership-banner-section">
+<picture class="partnership-banner-bg object-fit background-bg">
+    <source srcset="images/partnership-bg@2x.png" media="(min-width: 768px)">
+    <img src="images/partnership-mobile-thumb@2x.jpg" alt="partnership-mobile-thumb">
+</picture>
 <div class="container">
+<div class="partnership-banner-wrap">
     <div class="partnership-banner-main pos-relative">
             <div class="partnership-banner-image pos-relative">
                 <div class="partnership-banner-overlay background-bg"></div>
@@ -81,21 +86,26 @@
         </div>
     </div>
 </div>
+</div>
 </section>
 <section class="partnership-page-section">
     <div class="container">
         <div class="partnership-page-main pos-relative flex">
             <div class="partnership-page-list">
-                <div class="sparta-bg pos-relative">
-                    <picture class="sparta-thumb">
-                        <source srcset="images/sparta-thumb@2x.jpg" media="(min-width: 768px)">
-                        <img src="images/sparta-mobile-thumb@2x.jpg" alt="sparta-mobile-thumb">
-                    </picture>
+                <div class="sparta-main pos-relative">
+                    <div class="sparta-bg">
+                        <picture class="sparta-thumb">
+                            <source srcset="images/sparta-thumb@2x.jpg" media="(min-width: 768px)">
+                            <img src="images/sparta-mobile-thumb@2x.jpg" alt="sparta-mobile-thumb">
+                        </picture>
+                    </div>
+                    <div class="partnership-page-image background-text flex flex-center">
+                        <figure class="partnership-logo">
+                            <img src="images/Sparta-energy-logo.svg" alt="partnership-mobile-thumb">
+                        </figure>
+                    </div>
                 </div>
-                <div class="partnership-page-image">
-                    <figure class="partnership-logo">
-                        <img src="images/Sparta-energy-logo.svg" alt="partnership-mobile-thumb">
-                    </figure>
+                <div class="partnership-desc">
                     <p>Captivating heading for the social proof section longer and more descriptive than usual.</p>
                 </div>
             </div>
@@ -110,6 +120,25 @@
             </div>
         </div>
     </div>
+</section>
+<section class="cta-panel-section pos-relative">
+<div class="cta-panel-bg background-bg">
+    <picture class="object-fit">
+        <source srcset="images/leadership-cta-bg@2x.jpg" media="(min-width:768px)">
+        <img src="images/default-cta-bg-mobile@2x.jpg" alt="cta-panel-bg-mobile">
+    </picture>
+    <div class="cta-panel-overlay background-text"></div>
+</div>
+<div class="container">
+    <div class="cta-panel-main flex">
+        <div class="cta-panel-text">
+            <span class="optional-text">Customizable CTA Panel</span>
+            <h2>Our Culture</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <a href="#" class="button btn-transparent white blue-mbtn">Who We Are</a>
+        </div>
+    </div>
+</div>
 </section>
 </main><!-- main tag ends here -->
 <footer class="main-footer">
