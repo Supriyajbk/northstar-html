@@ -9,11 +9,11 @@
 .career-banner-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: #57c6e2; left: 28px; top: 24px; clip-path: polygon(0 13%,100% 0%,100% 87%,0% 100%);}
 .career-banner-thumb img{clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%); min-height: 415px; max-height: 415px;}
 
-.our-team-section::before{content: ""; position: absolute; width: 100%; height: 218px; background-image: url("/images/white-pattern-big.svg"); background-size: cover; bottom: 0; z-index: -1;}
-.our-team-main{padding: 90px 0;}
-.our-team-main h2{font-size: 2.125rem; font-weight: 500; text-align: center; margin-bottom: 63px;}
-.our-team-lists{gap: 66px;}
-.our-team-item span{font-size: 2rem; margin-bottom: 16px;}
+.join-team-section::before{content: ""; position: absolute; width: 100%; height: 218px; background-image: url("/images/white-pattern-big.svg"); background-size: cover; bottom: 0; z-index: -1;}
+.join-team-main{padding: 90px 0;}
+.join-team-main h2{font-size: 2.125rem; font-weight: 500; text-align: center; margin-bottom: 63px;}
+.join-team-lists{gap: 66px;}
+.join-team-item span{font-size: 2rem; margin-bottom: 16px;}
 
 .career-feature-section{background-color: #091735;}
 .career-feature-main{padding: 176px 0 157px; z-index: 1;}
@@ -45,8 +45,8 @@
     .career-banner-text{flex: 0 0 580px; margin-right: 42px;}
     .career-banner-image{flex: 0 0 calc(100% - 622px);}
 
-    .our-team-main{max-width: 1013px; margin: 0 auto;}
-    .our-team-item{flex: 0 0 calc(25% - 50px)}
+    .join-team-main{max-width: 1013px; margin: 0 auto;}
+    .join-team-item{flex: 0 0 calc(25% - 50px)}
 
     .career-feature-main{max-width: 1110px; margin: 0 auto;}
     .career-feature-text{flex: 0 0 428px; margin-right: 94px;}
@@ -72,7 +72,7 @@
 
     .career-banner-text{margin-bottom: 37px;}
 
-    .our-team-item{text-align: center; width: 250px; margin: 0 30px;}
+    .join-team-item{text-align: center; width: 250px; margin: 0 30px;}
     .team-slider .slick-list{overflow: visible;}
     .team-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
     .team-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
@@ -123,11 +123,11 @@
     .career-banner-thumb::before{left: 26px; top: 22px;}
     .career-banner-thumb img{min-height: 388px; max-width: 325px;}
 
-    .our-team-main{padding: 193px 0 45px;}
-    .our-team-main h2{font-size: 1.875rem; margin-bottom: 27px;}
-    .our-team-item span{margin-bottom: 20px;}
-    .our-team-item h5{margin-bottom: 10px;}
-    .our-team-item{text-align: center; width: 250px; margin: 0 30px;}
+    .join-team-main{padding: 193px 0 45px;}
+    .join-team-main h2{font-size: 1.875rem; margin-bottom: 27px;}
+    .join-team-item span{margin-bottom: 20px;}
+    .join-team-item h5{margin-bottom: 10px;}
+    .join-team-item{text-align: center; width: 250px; margin: 0 30px;}
     .team-slider .slick-list{overflow: visible;}
     .team-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
     .team-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}

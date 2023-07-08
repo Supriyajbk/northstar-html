@@ -157,6 +157,7 @@
     .leadership-pattern-one, .leadership-pattern-two{display: none;}
     .leadership-team-main{padding: 63px 0 32px;}
     .leadership-team-list{width: 100%; margin-bottom: 24px;}
+    .leadership-team-list:nth-child(n+4){display: none;}
     .leadership-team-content{position: absolute; bottom: 0; background-color: var(--dark-blue);}
     .leadership-team-inner{padding: 10px 25px 11px;}
     .leadership-team-inner h5{font-size: 1.063rem; margin-bottom: -4px;}
