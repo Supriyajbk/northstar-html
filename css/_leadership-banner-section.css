@@ -15,9 +15,14 @@
     .leadership-banner-thumb img{max-height: 415px; min-height: 415px; overflow: hidden;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .leadership-banner-main{gap: 0 100px; padding-top: 75px;}
+    .leadership-banner-main{gap: 0 116px;}
+    .leadership-banner-text{flex: 0 0 calc(100% - 466px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .leadership-banner-main{gap: 0 20px;}
+    .leadership-banner-text{flex: 0 0 calc(100% - 320px); padding-top: 52px;}
+    .leadership-banner-image{flex: 0 0 300px;}
+    .leadership-banner-text h1{font-size: 40px; line-height: 48px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .leadership-banner-main{display: block;}
