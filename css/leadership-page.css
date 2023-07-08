@@ -1,13 +1,18 @@
 
 
-.leadership-content-main{padding: 105px 0 126px;} 
-.leadership-content-bg {top: 435px; left: 0; width: 488px; height: 606px; opacity: .03; background-image: url("./images/leadership-pattern-bg.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
-.team-main{background-color: var(--mid-gray-color); padding: 92px 45px 106px 36px; clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);}
+.leadership-pattern-bg{top: -85px; left: -255px; width: 739px; height: 606px; opacity: .03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
+.leadership-aside{filter: drop-shadow(1px 3px 16px rgba(0, 0, 0, 0.10));}
+.leadership-aside-white{ width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1; background-color: var(--white); clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);}
+.leadership-aside-bg { width: 100%; height: 100%; background-color: var(--mid-gray-color); position: absolute; left: 0; top: 25px; clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%); z-index: -1; }
 .team-main h2{font-size: 26px; text-align: center;}
 .team-list{margin-bottom: 10px;}
-.team-text span{display: block;}
-.our-team-block{background-color: var(--dark-blue); color: var(--white); max-width: 713px; max-height: 426px; text-align: center; margin-bottom: 35px;}
-.leadership-content-right ol{margin: 50px 0 0 48px;}
+.team-text{color: var(--gray-color); font-size: 1rem; line-height: 20px; font-family: "lexend", sans-serif;}
+.team-text span{display: block; color: var(--text-color);}
+.leadership-article ol{margin: 50px 0 0 48px;}
+.team-view-more{padding-top: 15px;}
+
+.leadership-pattern-full{width: 1770px; height: 1091px; bottom: -850px; left: -65px; right: 0; margin: 0 auto; position: absolute; z-index: -1; background-image: url("./images/full-bg-pattern.svg"); background-position: center bottom; background-repeat: no-repeat; background-size: cover;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .leadership-content-main{gap: 137px;}
