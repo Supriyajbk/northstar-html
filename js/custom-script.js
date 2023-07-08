@@ -41,6 +41,7 @@ let header = jQuery(".main-header");
 
   jQuery(".leadership-team-btn").on("click", function(e){
     e.preventDefault();
+    
   });
   
 });
