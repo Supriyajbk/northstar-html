@@ -56,7 +56,8 @@
     .firm-slider-for{width:calc(100% - 336px);}
     .firm-slider-content{max-width: 532px; margin-top: 70px; float: right !important;}
     
-    .leadership-team-main{padding: 198px 0 161px; gap: 20px;}
+    .leadership-team-wrap{padding: 198px 0 161px;}
+    .leadership-team-main{gap: 20px;}
     .leadership-team-list{flex: 0 0 calc(25% - 15px); overflow: hidden;}
     .leadership-team-content{position: absolute; width: 100%; height: 100%; top: 100%; background: linear-gradient(180deg, rgba(6, 20, 50, 0.00) 0%, rgba(6, 20, 50, 0.87) 100%); transition: all .5s ease;}
     .leadership-team-list:hover .leadership-team-content{top: 0; transition: all .5s ease;}
@@ -105,7 +106,8 @@
     .firm-slider-for ul.slick-dots{position: relative; bottom: 0; margin-top: 101px;}
 
     .leadership-pattern-one, .leadership-pattern-two{display: none;}
-    .leadership-team-main{padding: 63px 0 32px; gap: 25px;}
+    .leadership-team-wrap{padding: 63px 0 32px;}
+    .leadership-team-main{gap: 25px;}
     .leadership-team-list{flex: 0 0 calc(50% - 13px);}
     .leadership-team-content{position: absolute; bottom: 0; background-color: var(--dark-blue);}
     .leadership-team-inner{padding: 10px 25px 11px;}
@@ -115,9 +117,7 @@
     .leadership-team-list:nth-child(6){position: relative;}
     .leadership-team-list:nth-child(6) .leadership-team-content{position: absolute; top: 0; background: var(--white);}
     .leadership-team-list:nth-child(6) .leadership-team-inner{margin-top: 0; text-align: left; width: 100%; padding: 30px 30px 20px 0;}
-    .leadership-team-main .button{width: 100%;}
 }
-
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .our-firm-page .default-banner-section{max-height: 611px;}
     .our-firm-page .default-banner-bg{max-height: 611px;}
@@ -155,9 +155,8 @@
     .firm-slider-for ul.slick-dots{position: relative; bottom: 0; margin-top: 101px;}
 
     .leadership-pattern-one, .leadership-pattern-two{display: none;}
-    .leadership-team-main{padding: 63px 0 32px;}
+    .leadership-team-wrap{padding: 63px 0 32px;}
     .leadership-team-list{width: 100%; margin-bottom: 24px;}
-    .leadership-team-list:nth-child(n+4){display: none;}
     .leadership-team-content{position: absolute; bottom: 0; background-color: var(--dark-blue);}
     .leadership-team-inner{padding: 10px 25px 11px;}
     .leadership-team-inner h5{font-size: 1.063rem; margin-bottom: -4px;}
@@ -166,6 +165,6 @@
     .leadership-team-list:first-child .leadership-team-content{position: relative; background: var(--white);}
     .leadership-team-list:first-child .leadership-team-inner{text-align: left; width: 100%; padding: 0 24px 7px 24px;}
     .leadership-team-list:first-child .leadership-team-inner h3{font-size: 1.625rem; line-height: normal; margin-bottom: 17px;}
-    .leadership-team-main .button{width: 100%;}
+    .leadership-more-btn{width: 100%;}
 }
 
