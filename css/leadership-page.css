@@ -22,6 +22,7 @@
     .our-team-list{gap: 22px;}
     .our-team-image{flex: 0 0 70px;}
     .our-team-text{flex: 0 0 calc(100% - 92px); padding-top: 16px;}
+    .leadership-article h2{margin-bottom: 19px;}
     .leadership-article ol{margin: 50px 0 0 48px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1023px){
