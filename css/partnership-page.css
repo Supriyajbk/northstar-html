@@ -1,0 +1,14 @@
+
+
+.partnership-page-list{background-color: var(--dark-blue); color: var(--white);}
+.partnership-logo img{max-width: 192px;}
+.partnership-desc{padding: 48px 40px 71px 63px; font-size: 28px; line-height: 36px;}
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .partnership-page-main{gap: 0 102px; padding: 117px 0 112px;}
+    .partnership-page-list{flex: 0 0 408px;}
+    .partnership-page-text{flex: 0 0 calc(100% - 510px); padding-top: 33px; padding-right: 95px;}
+}

@@ -1,0 +1,14 @@
+
+.partnership-banner-overlay{background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.67) 0%, rgba(0, 0, 0, 0.67) 100%); z-index: 0;}
+.partnership-banner-text{color: var(--white); font-size: 1rem; line-height: 1.5rem; text-align: center;}
+.partnership-banner-text h1{color: var(--white-90); margin-bottom: 21px;}
+.partnership-banner-text .button{margin-top: 11px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .partnership-banner-wrap{padding: 132px 0 0;}
+    .partnership-banner-bg{max-height: 605px; overflow: hidden;}
+    .partnership-banner-text{flex: 0 0 593px; padding-top: 34px;}
+
+}
