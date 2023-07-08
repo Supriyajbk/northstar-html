@@ -51,7 +51,7 @@
     .firm-slider{margin-top: -90px;}
     .firm-slider-main{padding: 228px 0 171px;}
     .firm-slider-nav{width: 232px; margin-left: 104px;}
-    .firm-slider-subheading h4{font-size: 1.625rem; color: rgba(255, 255, 255, 0.3); font-weight: normal; line-height: normal; margin-bottom: 0; padding: 19px 32px 18px 0; border-right: 1px solid rgba(255, 255, 255, 0.2); text-align: right;}
+    .firm-slider-subheading h4{font-size: 1.625rem; color: rgba(255, 255, 255, 0.3); font-weight: normal; line-height: normal; margin-bottom: 0; padding: 19px 32px 18px 0; border-right: 1px solid rgba(255, 255, 255, 0.2); text-align: right; cursor: pointer;}
     .firm-slider-subheading.slick-current h4{color: var(--white); border-color: var(--blue-color); padding: 28px 32px 20px 0;}
     .firm-slider-for{width:calc(100% - 336px);}
     .firm-slider-content{max-width: 532px; margin-top: 70px; float: right !important;}
