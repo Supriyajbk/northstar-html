@@ -27,6 +27,8 @@ figure.quote-thumb img{width: 24px;}
 .feature-grid-inner h3{color: var(--white); line-height: normal; font-weight: normal; margin-bottom: 17px;}
 .feature-grid-inner p{color: var(--white-90); line-height: 1.7rem;}
 
+.single-testimonial-thumb{max-width: 98px; margin: 0 auto;}
+
 @media screen and (min-width: 1400px) {
     .our-culture-page .optional-repeater-main.reverse{flex-direction: row-reverse; gap: 0 126px;}
     .our-culture-page .optional-repeater-main.reverse .optional-repeater-image{flex: 0 0 calc(100% - 534px); margin:0 -200px 0 0;}
@@ -86,7 +88,6 @@ figure.quote-thumb img{width: 24px;}
     .single-testimonial-name{margin: 32px 0;}
 
     .our-culture-page .cta-panel-text h2{font-size: 1.625rem; margin-bottom: 16px;}
-<<<<<<< HEAD
     .our-culture-page .cta-panel-text .button{margin-top: 9px;}
 
     .our-culture-page .optional-repeater-main{padding: 24px 0 40px; gap: 30px;}
@@ -99,7 +100,5 @@ figure.quote-thumb img{width: 24px;}
     .feature-grid-main{gap: 24px; padding: 35px 0 64px;}
     .feature-grid-list{width: 100%; min-height: 503px;}
     
-=======
     figure.quote-thumb{margin-bottom: 13px;}
->>>>>>> 443684d1f93f92b3baa64f03113cffa9d9c1ac3a
 }
