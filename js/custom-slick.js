@@ -46,11 +46,15 @@ jQuery(document).ready(function(){
         ]
     });
 
+    
+
     jQuery('.testimonial-slider-nav').slick({
         vertical: true,
         arrows: false,
         dots: true,
         useCss:true, 
+        // autoplay: true,
+        // autoplaySpeed: 3000,
         asNavFor: '.testimonial-slider-for',
         focusOnSelect: true,
         responsive: [
@@ -67,6 +71,7 @@ jQuery(document).ready(function(){
         
         ]
     });
+
 
     jQuery('.firm-slider-for').slick({
         slidesToShow: 1,
