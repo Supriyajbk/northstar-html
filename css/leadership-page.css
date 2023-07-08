@@ -1,6 +1,5 @@
 
 
-
 .leadership-pattern-bg{top: -85px; left: -255px; width: 739px; height: 606px; opacity: .03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
 .leadership-aside{filter: drop-shadow(1px 3px 16px rgba(0, 0, 0, 0.10));}
 .leadership-aside-white{ width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1; background-color: var(--white); clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);}
