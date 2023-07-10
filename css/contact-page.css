@@ -1,4 +1,5 @@
 
+.contact-banner-section{background-color: var(--dark-blue);}
 .contact-banner-overlay{width: 100%; height: 100%; background-color: rgba(9, 23, 53, 0.9); z-index: 0;}
 .contact-logo-symbol{position: absolute; width: 1026px; height: 662px; background-image: url("images/logo-symbol.svg"); top: 34px; right: -331px;}
 .contact-banner-bg{clip-path: polygon(100% 0,100% 84%,50% 100%,0 84%,0 0);}
@@ -16,7 +17,7 @@ ul.inquiries-phno li span:first-child{color: rgba(0, 173, 216, 0.9); margin-righ
 .contact-sparta-main{padding-top: 30px; border-top: 1px solid #91a3ca;}
 .contact-sparta-content span{font-size: 1.25rem; line-height: normal; font-weight: 400; font-family: "lexend", sans-serif; color: var(--blue-color); display: block; margin-bottom: 9px;}
 
-.contact-location-shape{position: absolute; top: -135px; left: 0; width: 100%; height: 320px; background-color: var(--dark-blue); clip-path: polygon(100% 0,100% 57%,50% 100%,0 57%,0 0); z-index: -1;}
+.contact-location-shape{position: absolute; top: -165px; left: 0; width: 100%; height: 350px; background-color: var(--dark-blue); clip-path: polygon(100% 0,100% 57%,50% 100%,0 57%,0 0); z-index: -1;}
 .contact-location-pattern{position: absolute; bottom: -589px; left: -85px; width: 1770px; height: 1091px; background-image: url("images/white-pattern-large.svg"); background-repeat: no-repeat; background-size: cover; opacity: .3; z-index: -1;}
 .contact-loaction-heading{margin-bottom: 134px;}
 .contact-loaction-heading h2{color: var(--white); margin-bottom: 0; line-height: normal;}
@@ -51,9 +52,37 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
     .contact-banner-thumb img{min-height: 853px;}
 }
 
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .contact-banner-bg{clip-path: polygon(100% 0,100% 97%,50% 100%,0 97%,0 0);}
+    .contact-banner-main{padding-top: 30px;}
+    .contact-banner-bg{min-height: 853px;}
+    .contact-banner-form{width: 100%;}
+    .contact-banner-thumb img{min-height: 853px;}
+
+    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 253px;}
+    .contact-location-pattern{bottom: -589px; left: -85px;; width: 1198px; height: 739px;}
+    .contact-location-main{padding: 31px 0 61px;}
+    .contact-loaction-heading{margin-bottom: 80px;}
+    .contact-location-items{gap: 20px;}
+    .contact-location-list{flex:0 0 calc(50% - 10px);}
+    .contact-location-content{padding: 21px 28px 24px 23px;}
+    .contact-location-content h3{font-size: 1.5rem; margin-bottom: 13px;}
+
+}
+
 @media screen and (max-width: 767px) and (min-width: 200px) {
-    .contact-banner-bg{clip-path: polygon(100% 0,100% 95%,50% 100%,0 95%,0 0);}
+    .contact-banner-bg{clip-path: polygon(100% 0,100% 97%,50% 100%,0 97%,0 0);}
+    .contact-banner-main{padding-top: 58px;}
     .contact-banner-text h1{margin-bottom: 16px; font-size: 2.25rem; line-height: normal;}
     .inquiries-main{margin: 30px 0 28px;}
     .inquiries-main h2{margin-bottom: 14px;}
+
+    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 253px;}
+    .contact-location-pattern{bottom: -83px; left: -108px; width: 1198px; height: 739px;}
+    .contact-location-main{padding: 31px 0 61px;}
+    .contact-loaction-heading{margin-bottom: 80px;}
+    .contact-location-items{gap: 21px;}
+    .contact-location-list{width: 100%;}
+    .contact-location-content{padding: 21px 28px 24px 23px;}
+    .contact-location-content h3{font-size: 1.5rem; margin-bottom: 13px;}
 }
