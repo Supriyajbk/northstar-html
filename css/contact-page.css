@@ -54,17 +54,20 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .contact-banner-bg{clip-path: polygon(100% 0,100% 97%,50% 100%,0 97%,0 0);}
-    .contact-banner-main{padding-top: 30px;}
-    .contact-banner-bg{min-height: 853px;}
+    .contact-banner-main{padding-top: 90px;}
     .contact-form{width: 100%;}
-    .contact-banner-thumb img{min-height: 853px;}
+    .contact-banner-thumb img{min-height: 1030px;}
+    .contact-sparta-main{padding: 30px 0;}
+    .contact-sparta-logo{flex: 0 0 135px; margin-right: 38px; padding-top: 12px;}
+    .contact-sparta-content{flex: 0 0 calc(100% - 173px);}
+    .contact-location-content p{font-size: 0.938rem;}
 
-    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 253px;}
+    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 283px;}
     .contact-location-pattern{bottom: -589px; left: -85px;; width: 1198px; height: 739px;}
     .contact-location-main{padding: 31px 0 61px;}
     .contact-loaction-heading{margin-bottom: 80px;}
     .contact-location-items{gap: 20px;}
-    .contact-location-list{flex:0 0 calc(50% - 10px);}
+    .contact-location-list{flex:0 0 calc(33.33% - 14px);}
     .contact-location-content{padding: 21px 28px 24px 23px;}
     .contact-location-content h3{font-size: 1.5rem; margin-bottom: 13px;}
 
@@ -72,12 +75,16 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .contact-banner-bg{clip-path: polygon(100% 0,100% 97%,50% 100%,0 97%,0 0);}
-    .contact-banner-main{padding-top: 58px;}
+    .contact-banner-thumb img{min-height: 1235px;}
+    .contact-banner-main{padding-top: 90px;}
     .contact-banner-text h1{margin-bottom: 16px; font-size: 2.25rem; line-height: normal;}
     .inquiries-main{margin: 30px 0 28px;}
     .inquiries-main h2{margin-bottom: 14px;}
+    .contact-sparta-main{padding: 30px 0; gap: 20px;}
+    .contact-sparta-logo{width: 100%;}
+    .sparta-logo-thumb{max-width: 135px;}
 
-    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 253px;}
+    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 283px;}
     .contact-location-pattern{bottom: -83px; left: -108px; width: 1198px; height: 739px;}
     .contact-location-main{padding: 31px 0 61px;}
     .contact-loaction-heading{margin-bottom: 80px;}
