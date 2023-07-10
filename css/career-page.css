@@ -24,10 +24,10 @@
 .testimonial-module ul.slick-dots li button{border: solid 1px var(--text-color);}
 .testimonial-module ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
 .testimonial-thumb img{border-radius: 50%;}
-.testimonial-text p{margin-bottom: 30px;}
-.testimonial-icon{width: 23px;}
-.testimonial-icon img{width: 100%;}
-.author-info p{font-size: 1.125rem; font-weight: 600; margin-bottom: 0; line-height: 1.531rem;}
+.testimonial-text{font-size: 20px; line-height: 30px;}
+.testimonial-text::before{width: 23px; height: 27px; left: 0; top: 0; content: ""; display: block; background-image: url("./images/testimonial-quote.svg"); background-repeat: no-repeat; background-size: contain; position: absolute;}
+.author-info{margin-top: 27px;}
+.author-name{font-size: 1.125rem; font-weight: 600; margin-bottom: 0; line-height: 1.531rem;}
 
 .perks-main{padding: 90px 0;}
 .perks-main h2{font-size: 2.125rem; font-weight: 500; text-align: center; margin-bottom: 63px;}
@@ -51,7 +51,6 @@
     .testimonial-image-slide{width: 172px;}
     .testimonial-slider-for{width: calc( 100% - 386px);}
     .testimonial-text{padding: 27px 0 0 28px;}
-    .testimonial-icon{top: 0; left: 0; position: absolute;}
 
     .perks-main{max-width: 1013px; margin: 0 auto;}
     .perks-item{flex: 0 0 calc(25% - 50px)}
@@ -89,10 +88,7 @@
     .testimonial-slider-for .slick-arrow.slick-prev{left: -20px;}
     .testimonial-slider-for .slick-arrow.slick-next{right: -20px;}
     .testimonial-text{font-size: 1rem; line-height: 24px; text-align: center; padding: 0 50px;}
-    .testimonial-icon{margin: 0 auto 11px;}
-
 }
-
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .career-banner-section{overflow: inherit;}
     .career-banner-main{padding: 125px 0 266px;}
@@ -124,7 +120,6 @@
     .testimonial-slider-for .slick-arrow.slick-prev{left: -20px;}
     .testimonial-slider-for .slick-arrow.slick-next{right: -20px;}
     .testimonial-text{font-size: 1rem; line-height: 24px; text-align: center; padding: 0 50px;}
-    .testimonial-icon{margin: 0 auto 11px;}
 
     .perks-main{padding: 43px 0 45px;}
     .perks-main h2{font-size: 1.875rem; margin-bottom: 27px;}
