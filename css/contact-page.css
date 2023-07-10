@@ -1,0 +1,17 @@
+
+.contact-banner-overlay{width: 100%; height: 100%; background-color: rgba(9, 23, 53, 0.9); z-index: 0;}
+.contact-banner-text h1{color: var(--white); margin-bottom: 21px;}
+.contact-banner-text p{color: var(--white-90);}
+.inquiries-main h2{font-size: 1.25rem; color: var(--white); line-height: normal; font-weight: normal;}
+ul.inquiries-phno{margin: 0;}
+ul.inquiries-phno li{margin-left: 10px;}
+ul.inquiries-phno li:first-child{margin-left: 0;}
+ul.inquiries-phno li::before{display: none;}
+ul.inquiries-phno li span{color: var(--white-90);}
+ul.inquiries-phno li span:hover{color: var(--blue-color);}
+ul.inquiries-phno li span:first-child{color: rgba(0, 173, 216, 0.9); margin-right: 10px;}
+
+@media screen and (min-width: 1024px) {
+    .contact-banner-text{flex: 0 0 528px; margin-right: 186px;}
+    .contact-banner-form{flex: 0 0 calc(100% - 714px);}
+}
