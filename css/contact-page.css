@@ -59,7 +59,7 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
     .contact-banner-form{width: 100%;}
     .contact-banner-thumb img{min-height: 853px;}
 
-    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 253px;}
+    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 283px;}
     .contact-location-pattern{bottom: -589px; left: -85px;; width: 1198px; height: 739px;}
     .contact-location-main{padding: 31px 0 61px;}
     .contact-loaction-heading{margin-bottom: 80px;}
@@ -77,7 +77,7 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
     .inquiries-main{margin: 30px 0 28px;}
     .inquiries-main h2{margin-bottom: 14px;}
 
-    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 253px;}
+    .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 283px;}
     .contact-location-pattern{bottom: -83px; left: -108px; width: 1198px; height: 739px;}
     .contact-location-main{padding: 31px 0 61px;}
     .contact-loaction-heading{margin-bottom: 80px;}
