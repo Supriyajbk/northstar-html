@@ -75,11 +75,13 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .contact-banner-bg{clip-path: polygon(100% 0,100% 97%,50% 100%,0 97%,0 0);}
-    .contact-banner-thumb img{min-height: 1235px;}
+    .contact-banner-thumb img{min-height: 1235px; max-height: 1235px;}
     .contact-banner-main{padding-top: 90px;}
     .contact-banner-text h1{margin-bottom: 16px; font-size: 2.25rem; line-height: normal;}
     .inquiries-main{margin: 30px 0 28px;}
     .inquiries-main h2{margin-bottom: 14px;}
+    ul.inquiries-phno{gap: 10px 30px;}
+    ul.inquiries-phno li{margin: 0;}
     .contact-sparta-main{padding: 30px 0; gap: 20px;}
     .contact-sparta-logo{width: 100%;}
     .sparta-logo-thumb{max-width: 135px;}
