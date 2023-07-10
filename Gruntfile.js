@@ -18,13 +18,13 @@ module.exports = function(grunt) {
       uglify: {
         my_target: {
           files: {
-            'dist/core.bundle.js': ['js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/custom-script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/custom-tabs.js', 'js/animation-script.js', 'js/image-hover.js', 'js/slick.min.js', 'js/custom-slick.js', 'js/custom-counter.js', 'js/parallax.js', 'js/custom-parallax.js']
+            'dist/core.bundle.js': ['js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/custom-script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/custom-tabs.js', 'js/animation-script.js', 'js/image-hover.js', 'js/slick.min.js', 'js/custom-slick.js', 'js/custom-counter.js', 'js/custom-parallax.js']
           }
         }
       },
       concat: {
         dist: {
-          src: ['js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/custom-script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/custom-tabs.js', 'js/animation-script.js', 'js/image-hover.js', 'js/slick.min.js', 'js/custom-slick.js', 'js/custom-counter.js', 'js/parallax.js', 'js/custom-parallax.js'],
+          src: ['js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/custom-script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/custom-tabs.js', 'js/animation-script.js', 'js/image-hover.js', 'js/slick.min.js', 'js/custom-slick.js', 'js/custom-counter.js', 'js/custom-parallax.js'],
           dest: 'dist/core.bundle.js'
         }
       },
