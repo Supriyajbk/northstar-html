@@ -1,6 +1,6 @@
 
 jQuery(document).ready(function(){
-  let $window = jQuery(window);
+
     jQuery('.full-slider-main').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -123,27 +123,43 @@ jQuery(document).ready(function(){
         ]
     });
 
-    if(jQuery(window).width() <= 1023){
-      jQuery('.team-slider').slick({
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      dots: true,
-      arrows: false,
-      autoplay: false,
-      autoplaySpeed: 3000,
-        responsive: [
-          {
-          breakpoint: 768,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerMode: true,
-                variableWidth: true,
+    
+
+    let $window = jQuery(window);
+      let teamSlider = jQuery(".optional-team-slider");
+      teamSettings = {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        autoplay: false,
+        autoplaySpeed: 3000,
+          responsive: [
+            {
+            breakpoint: 767,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  centerMode: true,
+                  centerPadding: "0",
+                  variableWidth: true,
+                }
+            }
+          ]
+      };
+      teamSlider.slick(teamSettings);
+      $window.on('resize load', function(){
+        if ($window.width() >= 1024) {
+              if (teamSlider.hasClass('slick-initialized')){
+                  teamSlider.slick('unslick');
+                  return false;
               }
-          }
-        ]
-    });
-    }
+        }
+        if (!teamSlider.hasClass('slick-initialized')){
+            return teamSlider.slick(teamSettings);
+        }
+      });  
+    
 
     if(jQuery(window).width() <= 1023){
         jQuery('.perks-slider').slick({
