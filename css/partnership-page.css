@@ -12,3 +12,18 @@
     .partnership-page-list{flex: 0 0 408px;}
     .partnership-page-text{flex: 0 0 calc(100% - 510px); padding-top: 33px; padding-right: 95px;}
 }
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .partnership-page-main{gap: 0 50px;}
+    .partnership-page-text{padding-right: 0; padding-top: 0;}
+
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .partnership-page-main{padding: 50px 0;}
+    .partnership-page-list{margin-bottom: 50px;}
+
+
+
+}
+
+
+

@@ -12,3 +12,15 @@
     .partnership-banner-text{flex: 0 0 593px; padding-top: 34px;}
 
 }
+
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .partnership-banner-wrap{padding: 132px 0 0;}
+    .partnership-banner-bg{max-height: 500px;}
+
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+
+    .partnership-banner-wrap{padding: 132px 0 0;}
+    .partnership-banner-bg{max-height: 400px;}
+    .partnership-banner-text{flex: 0 0 593px; padding-top: 34px;}
+}
