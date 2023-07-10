@@ -1,7 +1,7 @@
 
 .partnership-banner-overlay{background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.67) 0%, rgba(0, 0, 0, 0.67) 100%); z-index: 0;}
-.partnership-banner-text{color: var(--white); font-size: 1rem; line-height: 1.13rem; text-align: center;}
-.partnership-banner-text h1{color: var(--white-90); margin-bottom: 21px; line-height: 1.16;}
+.partnership-banner-text{color: var(--white-90); font-size: 1rem; line-height: 24px; text-align: center;}
+.partnership-banner-text h1{color: var(--white); margin-bottom: 21px; line-height: 1.16;}
 .partnership-banner-text .button{margin-top: 11px;}
 
 
@@ -10,21 +10,19 @@
     .partnership-banner-wrap{padding: 132px 0 0;}
     .partnership-banner-bg{max-height: 605px; overflow: hidden;}
     .partnership-banner-text{flex: 0 0 593px; padding-top: 34px;}
-
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .partnership-banner-wrap{padding: 132px 0 0;}
     .partnership-banner-bg{max-height: 500px;}
-
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-
     .partnership-banner-wrap{padding: 132px 0 0;}
     .partnership-banner-bg{max-height: 400px;}
     .partnership-banner-text{flex: 0 0 593px; padding-top: 34px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
+    .partnership-banner-wrap{padding: 74px 0 0;}
+    .partnership-banner-thumb{max-height: 457px; overflow: hidden;}
     .partnership-banner-bg{overflow: hidden; max-height: 481px;}
     .partnership-banner-text{max-width: 305px; line-height: 1.53rem;}
     .partnership-banner-text h1{font-size: 36px; line-height: normal;}
