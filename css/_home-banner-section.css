@@ -4,12 +4,19 @@
 .home-banner-main{padding-bottom: 30px;}
 .home-banner-text{color: var(--white); text-align: center;}
 .home-banner-text h1{color: var(--white);}
-.home-banner-text span{font-size: 20px; line-height:24px; font-family: 'lexend',sansserif; font-weight: 400; margin-bottom: 18px; display: block;}
+.home-banner-text span{font-family: 'lexend', sansserif; font-weight: 400;  display: block;}
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    .home-banner-text span{font-size: 20px; line-height:24px; margin-bottom: 18px; }
+}
 @media only screen and (min-width: 1024px){
     .home-banner-thumb img{max-height: 763px; overflow: hidden;}
     .home-banner-bg iframe{min-height: 763px; width: 100%; object-fit: cover;} 
     .home-banner-main{width: 732px;}
     .home-banner-text h1{font-size: 46px; line-height: 58px; margin-bottom: 31px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .home-banner-text span{font-size: 18px; line-height:24px; margin-bottom: 18px; }
+
 }

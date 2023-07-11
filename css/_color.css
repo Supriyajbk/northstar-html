@@ -4,6 +4,7 @@
     --black-20: rgb(0 0 0 / 20%);
     --black-50: rgb(0 0 0 / 50%);
     --black-75: rgb(0 0 0 / 75%);
+    --black-90: rgb(0 0 0 / 90%);
     --white: #ffffff;
     --white-40: rgb(255 255 255 / 40%);
     --white-50: rgb(255 255 255 / 50%);
@@ -17,6 +18,7 @@
     --dark-purple: #002677;
     --blue-color: #00ADD8;
     --dark-blue:#091735;
+    --dark-blue-80:rgb(9 23 53 / 80%);
     --light-gray-color: #EBEBEB;
     --mid-gray-color: #f8f8f8;
     --gray-color: #909090;

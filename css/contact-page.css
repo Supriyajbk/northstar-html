@@ -7,13 +7,12 @@
 .contact-banner-text p{color: var(--white-90);}
 .inquiries-main{margin: 32px 0 30px;}
 .inquiries-main h2{font-size: 1.25rem; color: var(--white); line-height: normal; font-weight: normal; margin-bottom: 17px;}
-ul.inquiries-phno{margin: 0;}
-ul.inquiries-phno li{margin:0 0 0 29px; line-height: 1.7rem;}
-ul.inquiries-phno li:first-child{margin-left: 0;}
+ul.inquiries-phno{margin: 0; gap: 29px;}
+ul.inquiries-phno li{margin: 0;}
 ul.inquiries-phno li::before{display: none;}
-ul.inquiries-phno li span{color: var(--white-90);}
-ul.inquiries-phno li span:hover{color: var(--blue-color);}
-ul.inquiries-phno li span:first-child{color: rgba(0, 173, 216, 0.9); margin-right: 7px;}
+ul.inquiries-phno li a{color: var(--white-90); display: flex; align-items: center;}
+ul.inquiries-phno li a:hover{color: var(--blue-color);}
+ul.inquiries-phno li a span{color: var(--blue-color); margin-right: 7px;}
 .contact-sparta-main{padding-top: 30px; border-top: 1px solid #91a3ca;}
 .contact-sparta-content span{font-size: 1.25rem; line-height: normal; font-weight: 400; font-family: "lexend", sans-serif; color: var(--blue-color); display: block; margin-bottom: 9px;}
 
@@ -22,14 +21,14 @@ ul.inquiries-phno li span:first-child{color: rgba(0, 173, 216, 0.9); margin-righ
 .contact-loaction-heading{margin-bottom: 134px;}
 .contact-loaction-heading h2{color: var(--white); margin-bottom: 0; line-height: normal;}
 .contact-location-list{background-color: var(--white); box-shadow: 1px 3px 16px 0 rgba(0, 0, 0, 0.1);}
-.contact-location-content{padding: 21px 28px 31px 22px;}
-.contact-location-content h3{font-size: 1.625rem; line-height: normal; margin-bottom: 11px;}
-ul.contact-location-phno{margin: -8px 0 0;}
-ul.contact-location-phno li::before{display: none;}
-ul.contact-location-phno li{margin-bottom:6px; line-height: 1.7rem;}
-ul.contact-location-phno li span{color: rgba(31, 31, 31, .9);}
-ul.contact-location-phno li span:hover{color: var(--blue-color);}
-ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); margin-right: 7px;}
+.contact-location-desc{padding: 21px 28px 31px 22px;}
+.contact-location-desc h3{font-size: 1.625rem; line-height: normal; margin-bottom: 11px;}
+ul.contact-links{margin: 0;}
+ul.contact-links li::before{display: none;}
+ul.contact-links li{margin-bottom: 6px;}
+ul.contact-links li a{color: var(--black-90); display: flex; align-items: center;}
+ul.contact-links li a:hover{color: var(--blue-color);}
+ul.contact-links li a span{color: var(--blue-color); margin-right: 7px;}
 
 
 
@@ -60,7 +59,7 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
     .contact-sparta-main{padding: 30px 0;}
     .contact-sparta-logo{flex: 0 0 135px; margin-right: 38px; padding-top: 12px;}
     .contact-sparta-content{flex: 0 0 calc(100% - 173px);}
-    .contact-location-content p{font-size: 0.938rem;}
+    .contact-location-desc p{font-size: 0.938rem;}
 
     .contact-location-shape{clip-path: polygon(100% 0,100% 87%,50% 100%,0 87%,0 0); height: 283px;}
     .contact-location-pattern{bottom: -589px; left: -85px;; width: 1198px; height: 739px;}
@@ -68,8 +67,8 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
     .contact-loaction-heading{margin-bottom: 80px;}
     .contact-location-items{gap: 20px;}
     .contact-location-list{flex:0 0 calc(33.33% - 14px);}
-    .contact-location-content{padding: 21px 28px 24px 23px;}
-    .contact-location-content h3{font-size: 1.5rem; margin-bottom: 13px;}
+    .contact-location-desc{padding: 21px 28px 24px 23px;}
+    .contact-location-desc h3{font-size: 1.5rem; margin-bottom: 13px;}
 
 }
 
@@ -92,6 +91,6 @@ ul.contact-location-phno li span:first-child{color: rgba(0, 173, 216, 0.9); marg
     .contact-loaction-heading{margin-bottom: 80px;}
     .contact-location-items{gap: 21px;}
     .contact-location-list{width: 100%;}
-    .contact-location-content{padding: 21px 28px 24px 23px;}
-    .contact-location-content h3{font-size: 1.5rem; margin-bottom: 13px;}
+    .contact-location-desc{padding: 21px 28px 24px 23px;}
+    .contact-location-desc h3{font-size: 1.5rem; margin-bottom: 13px;}
 }
