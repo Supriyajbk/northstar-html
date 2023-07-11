@@ -1,7 +1,7 @@
 .strategy-banner-bg{clip-path: polygon(100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);}
 .strategy-banner-overlay{width: 100%; height: 100%; background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%); z-index: 0;}
 .strategy-banner-pos{left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute;}
-.strategy-banner-main{padding-bottom: 30px;}
+.strategy-banner-main{padding-bottom: 15px;}
 .strategy-banner-text{color: var(--white); text-align: center;}
 .strategy-banner-text h1{line-height: normal; letter-spacing: normal; margin-bottom: 20px; font-weight: 500; color: var(--white);}
 .strategy-banner-text p:not(:last-child){margin-bottom: 33px;}
