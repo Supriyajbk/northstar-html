@@ -14,9 +14,12 @@
 .post-career-position span{color: var(--gray-color); font-family: "lexend", sans-serif;}
 
 
+
 @media screen and (min-width: 1024px) {
     .post-career-title{flex: 0 0 408px; margin-right: 102px;}
     .post-career-text{flex: 0 0 calc(100% - 510px); }
+
+    .post-career-section .post-career-dropdown{max-width: 228px;}
 }
 
 @media screen and (max-width: 1299px) and (min-width:1024px) {
@@ -26,7 +29,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .post-career-wrap{padding: 50px 0 64px;}
-    .post-career-title{margin-bottom: 32px;}
+    .post-career-title{margin-bottom: 32px; width: 100%;}
     .post-career-text{width: 100%;}
 }
 
