@@ -36,6 +36,8 @@
     .optional-team-item h5{margin-bottom: 10px;}
     .optional-team-item{text-align: center; width: 250px; margin: 0 30px;}
 
+    .optional-team-icon img{margin: 0 auto 16px;}
+
     .optional-team-slider .slick-list{overflow: visible;}
     .optional-team-slider .slick-slide{width: 260px; margin: 0 auto; text-align: center; opacity: 0;}
     .optional-team-slider .slick-slide.slick-current{opacity: 1;}
