@@ -91,7 +91,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 
 /* Buttons */
 button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--purple-color); border-radius: 0; color: var(--white); display: inline-block; font-size: 14px; line-height: 18px; letter-spacing: 0; padding: 14px 31px 15px 30px; vertical-align: middle; cursor: pointer; border: none; border-left: 1px solid transparent; border-right: 1px solid transparent; outline: none; position: relative; text-align: center;  font-family: "lexend", sans-serif; font-weight: 500; text-transform: none; transition: all 0.45s ease-in-out; text-transform: capitalize; z-index: 0; box-shadow: none;}
-.button::before, .button::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ width: 0%; height: 1px; background-color: var(--purple-color); transition: all 0.45s cubic-bezier(.75, .24, 0, 1); content: ''; display: block; position: absolute; z-index: -1; }
+.button::before, .button::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{width: 0%; height: 1px; background-color: var(--purple-color); transition: all 0.45s cubic-bezier(.75, .24, 0, 1); content: ''; display: block; position: absolute; z-index: -1; }
 .button::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before{ left: 0px; bottom: 0px; }
 .button::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ right: 0px; top: 0px; }
 .button:hover::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{width: 100%;}
@@ -205,7 +205,8 @@ ul.slick-dots li.slick-active button{background-color: var(--blue-color); border
 .page-not-number{margin-bottom: 21px; font-size: 124px; line-height: 128px; filter: drop-shadow(2px 2px 0 #00f0ff); color: transparent; -webkit-text-stroke-color: var(--text-color); -webkit-text-stroke-width: 1px; display: block; }
 
 /* Cookie bar */
-body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: #008000;}
+body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: var(--blue-color);}
+.cky-accordion-header .cky-always-active{color: var(--blue-color) !important;}
 body .cky-box-bottom-left{right: 40px; left: auto;}
 body .cky-revisit-bottom-left{right: 15px; left: auto;}
 body .cky-revisit-bottom-left:hover::before{background: var(--heading-color); right: calc(100% + 7px); left: auto;}
