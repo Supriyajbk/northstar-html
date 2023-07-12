@@ -36,9 +36,9 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 0 0 32px 42px;}
+ul {list-style: none; margin: 0 0 32px 49px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before {content: ""; position: absolute; top: 12px; left: -15px; width: 5px; height: 5px; background-color: var(--blue-color); border-radius: 50%;} 
+ul > li:before {content: ""; position: absolute; top: 12px; left: -20px; width: 5px; height: 5px; background-color: var(--blue-color); border-radius: 50%;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: -1px 0 32px 56px;}
 ol > li{counter-increment: li; position: relative; margin-bottom: 19px; line-height: 1.2rem;}
@@ -102,7 +102,7 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .button.blue::before, .button.blue::after{background-color: var(--blue-color);}
 .button.blue:hover{background-color: transparent; border-color: var(--blue-color); color: var(--blue-color);}
 
-.btn-transparent.white{padding: 14px 33px 14px; border-left: 1px solid var(--white); border-right: 1px solid var(--white); background-color: transparent; color: var(--white); z-index: 1;}
+.btn-transparent.white{padding: 14px 28px 14px; border-left: 1px solid var(--white); border-right: 1px solid var(--white); background-color: transparent; color: var(--white); z-index: 1;}
 .btn-transparent.white::before { width: 100%; background-color: var(--white); }
 .btn-transparent.white::after { width: 100%; background-color: var(--white); }
 .btn-transparent.white:hover::before{width: 0%;}

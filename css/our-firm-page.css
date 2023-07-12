@@ -33,7 +33,7 @@
 
 
 @media screen and (min-width: 1024px) {
-    .default-banner-text{margin-bottom: 58px;}
+    .our-firm-page .default-banner-text{margin-bottom: 58px;}
     .banner-num-list{flex: 0 0 85px; padding: 0 36px;}
     
     .revolution-main{max-width: 1000px; margin: 0 auto; padding: 81px 0 125px;}
