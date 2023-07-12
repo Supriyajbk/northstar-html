@@ -38,7 +38,7 @@ dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 32px 49px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before {content: ""; position: absolute; top: 12px; left: -20px; width: 5px; height: 5px; background-color: var(--blue-color); border-radius: 50%;} 
+ul > li:before {content: ""; position: absolute; top: 12px; left: -15px; width: 5px; height: 5px; background-color: var(--blue-color); border-radius: 50%;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: -1px 0 32px 56px;}
 ol > li{counter-increment: li; position: relative; margin-bottom: 19px; line-height: 1.2rem;}
@@ -238,6 +238,9 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
     .hide-tablet{display: none;}
     .play-btn-main .play-btn{width: 64px; height: 64px;}
     .play-btn-bg > span.square::after{font-size: 32px; line-height: 28px;}
+    .button.blue-mbtn{background-color: var(--blue-color); border-color: transparent; min-width: 158px;}
+    .button.blue-mbtn::before, .button.blue-mbtn::after{background-color: var(--blue-color);}
+    .button.blue-mbtn:hover::before, .button.blue-mbtn:hover::after{background-color: var(--purple-color);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .container{max-width: 100%; padding: 0 20px;}
@@ -252,7 +255,7 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
     h3{font-size: 26px; line-height: 32px; margin-bottom: 17px;} 
     ul{margin: 0 0 32px 32px;}
     blockquote{padding: 62px 24px 65px;}
-    .button.blue-mbtn{background-color: var(--blue-color); border-color: transparent; min-width: 170px;}
+    .button.blue-mbtn{background-color: var(--blue-color); border-color: transparent; min-width: 158px;}
     .button.blue-mbtn::before, .button.blue-mbtn::after{background-color: var(--blue-color);}
     .button.blue-mbtn:hover::before, .button.blue-mbtn:hover::after{background-color: var(--purple-color);}
 }
