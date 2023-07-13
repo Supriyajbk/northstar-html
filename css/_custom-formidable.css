@@ -76,4 +76,6 @@ body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm
     .frm_form_field.form-field.frm_top_container.vertical_radio{margin: -7px 0 0;}
 
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before, body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{top: -3px !important; left: 0px !important; font-size: 16px !important;}
+    .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{background-color: var(--blue-color); border-color: transparent;}
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{color: var(--white); background-color: var(--purple-color); border-color: transparent;}
 }
