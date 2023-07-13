@@ -1,13 +1,7 @@
 
-<<<<<<< HEAD
-let $counter_elements = jQuery(".statistic-main");
+let $counter_elements = jQuery(".counter-main");
 let $cwindow = jQuery(window);
 let animation_started = false;
-=======
-var $animation_elements = jQuery(".counter-main");
-var $window = jQuery(window);
-var animation_started = false;
->>>>>>> 6de0f540c274a9a803897eff90d7a4dcb65d569e
 
 function check_if_view() {
   let window_height = $window.height()
@@ -51,6 +45,5 @@ function check_if_view() {
     }
   });
 }
-
 $cwindow.on("scroll load", check_if_view);
 $cwindow.trigger("scroll load");
