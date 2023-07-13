@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 let $counter_elements = jQuery(".counter-main");
 let $cwindow = jQuery(window);
@@ -49,4 +47,3 @@ function check_if_view() {
 }
 $cwindow.on("scroll load", check_if_view);
 $cwindow.trigger("scroll load");
->>>>>>> 8e58a7ccac8cfa4535eaf3734440742b705c7903
