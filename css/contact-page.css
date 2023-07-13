@@ -34,8 +34,8 @@ ul.contact-links li a span{color: var(--blue-color); margin-right: 7px;}
 
 @media screen and (min-width: 1024px) {
     .contact-banner-main{padding-top: 197px;}
-    .contact-banner-text{flex: 0 0 520px; margin: 28px 194px 0 0;}
-    .contact-form{flex: 0 0 calc(100% - 714px);}
+    .contact-banner-text{flex: 0 0 520px; margin: 28px 190px 0 0;}
+    .contact-form{flex: 0 0 calc(100% - 710px);}
     .contact-sparta-logo{flex: 0 0 135px; margin-right: 38px; padding-top: 12px;}
     .contact-sparta-content{flex: 0 0 calc(100% - 173px);}
 
