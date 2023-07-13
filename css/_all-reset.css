@@ -102,7 +102,7 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .button.blue::before, .button.blue::after{background-color: var(--blue-color);}
 .button.blue:hover{background-color: transparent; border-color: var(--blue-color); color: var(--blue-color);}
 
-.btn-transparent.white{padding: 14px 32px 14px; border-left: 1px solid var(--white); border-right: 1px solid var(--white); background-color: transparent; color: var(--white); z-index: 1;}
+.btn-transparent.white{padding: 14px 32px 14px 30px; border-left: 1px solid var(--white); border-right: 1px solid var(--white); background-color: transparent; color: var(--white); z-index: 1;}
 .btn-transparent.white::before { width: 100%; background-color: var(--white); }
 .btn-transparent.white::after { width: 100%; background-color: var(--white); }
 .btn-transparent.white:hover::before{width: 0%;}
