@@ -1,5 +1,5 @@
 
-var $animation_elements = jQuery(".statistic-main");
+var $animation_elements = jQuery(".counter-main");
 var $window = jQuery(window);
 var animation_started = false;
 
