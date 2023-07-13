@@ -1,4 +1,4 @@
-.financial-section{background-color: var(--dark-blue); z-index: 1;}
+.financial-section{background-color: var(--dark-blue); z-index: 1; overflow: hidden;}
 .financial-pattern-bg{background-repeat: no-repeat; background-size: contain; background-position: center bottom;}
 .financial-wrap{padding: 117px 0 137px;}
 .financial-row{z-index: 1;}
