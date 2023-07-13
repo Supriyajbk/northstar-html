@@ -73,5 +73,5 @@ body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm
     .frm_form_field.vertical_radio { margin: 32px 0 10px; }
 
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 19px; height: 19px;} 
-    .frm_form_field.form-field.frm_none_container.vertical_radio{margin: -8px 0 0;}
+    .frm_form_field.form-field.frm_top_container.vertical_radio{margin: -7px 0 0;}
 }

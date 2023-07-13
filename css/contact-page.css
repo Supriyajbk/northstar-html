@@ -74,7 +74,7 @@ ul.contact-links li a span{color: var(--blue-color); margin-right: 7px;}
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .contact-banner-bg{clip-path: polygon(100% 0,100% 97%,50% 100%,0 97%,0 0);}
     .contact-banner-thumb img{min-height: 1235px; max-height: 1235px;}
-    .contact-banner-main{padding-top: 90px;}
+    .contact-banner-main{padding-top: 112px;}
     .contact-banner-text h1{margin-bottom: 16px; font-size: 2.25rem; line-height: normal;}
     .inquiries-main{margin: 30px 0 28px;}
     .inquiries-main h2{margin-bottom: 14px;}
