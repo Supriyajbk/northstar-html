@@ -36,8 +36,8 @@ body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm
 .frm_form_field.form-field.frm_none_container.vertical_radio{margin: 28.5px 0 0;}
 .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
 .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before,
-.contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{background-color: var(--white); transform: none !important;}
-.contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before{top: auto !important; left:auto !important; right: 0 !important; bottom: 0px !important; border-radius: 0 !important;}
+.contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{background-color: var(--white); }
+.contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before{-webkit-animation: none; -moz-animation:none; -o-animation: none; animation: none;}
 .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{color: var(--white); border-left-color: var(--white); border-right-color: var(--white);}
 
 .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):focus{border: solid 1px rgba(31, 31, 31, 0.5);}
@@ -63,6 +63,14 @@ body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm
     body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
+    
+    body .frm_forms .frm_form_fields .frm_submit{margin-top: 19px;}
+    .frm_form_field.form-field.frm_top_container.vertical_radio{margin: -7px 0 0;}
+
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--blue-color); border-color: transparent;}
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{color: var(--white); background-color: var(--purple-color); border-color: var(--purple-color);}
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after, .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before{background-color: var(--blue-color);}
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::after, .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{background-color: var(--purple-color);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     body .frm_forms .frm_form_fields .frm_submit{margin-top: 19px;}
@@ -76,6 +84,9 @@ body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm
     .frm_form_field.form-field.frm_top_container.vertical_radio{margin: -7px 0 0;}
 
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before, body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{top: -3px !important; left: 0px !important; font-size: 16px !important;}
-    .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{background-color: var(--blue-color); border-color: transparent;}
-    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{color: var(--white); background-color: var(--purple-color); border-color: transparent;}
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--blue-color); border-color: transparent;}
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{color: var(--white); background-color: var(--purple-color); border-color: var(--purple-color);}
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after, .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before{background-color: var(--blue-color);}
+    .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::after, .contact-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{background-color: var(--purple-color);}
+    
 }
