@@ -20,7 +20,7 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radi
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 15px; height: 15px; margin: 2px 0 0 2px; box-shadow: none;} /*box-shadow: inset 12px 8px #12b60e;*/
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=checkbox]:checked::before, body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=radio]::before{content: "\f00c" !important; position: absolute !important; top: -4px !important; left: -1px !important; font-family: "Font Awesome 6 Pro" !important; font-size: 19px !important; font-weight: bold !important; color: #12b60e !important; clip-path: none !important; box-shadow: none !important;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--white); border: solid 1px rgba(31, 31, 31, 0.5)}
-body .frm_forms .frm_form_fields .frm_submit{text-align: center; position: relative; margin-top: 23px; z-index: 1;}
+body .frm_forms .frm_form_fields .frm_submit{text-align: center; position: relative; margin-top: 13px; z-index: 1;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 
@@ -42,7 +42,7 @@ body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm
 
 .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):focus{border: solid 1px rgba(31, 31, 31, 0.5);}
 .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="text"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="password"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="url"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="tel"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="number"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="email"], .frm_style_formidable-style.with_frm_style .frm_blank_field textarea, .frm_style_formidable-style.with_frm_style .frm_blank_field .mce-edit-area iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field select:not(.ui-datepicker-month):not(.ui-datepicker-year), .frm_form_fields_error_style, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-card-element.StripeElement, .frm_style_formidable-style.with_frm_style .frm_blank_field .chosen-container-multi .chosen-choices, .frm_style_formidable-style.with_frm_style .frm_blank_field .chosen-container-single .chosen-single, .frm_style_formidable-style.with_frm_style .frm_form_field :invalid{border-color: #e41414 !important; border-width: 2px !important;}
-
+.frm_form_field.form-field.frm_top_container.vertical_radio{margin: 29px 0 10px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
