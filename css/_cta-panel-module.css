@@ -7,7 +7,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
-    .cta-panel-main{padding: 53px 0 48px; max-width: 482px; min-height: 547px; align-items: center;}
+    .cta-panel-main{padding: 53px 0 30px; max-width: 482px; min-height: 547px; align-items: center;}
     body.page-template-leadership .cta-panel-main{max-width: 407px;}
     body.page-template-partnerships .cta-panel-text h2{font-weight: 400;}
     body.page-template-partnerships .cta-panel-text p{max-width: 420px;}
@@ -15,8 +15,9 @@
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .cta-panel-main{min-height: 547px; align-items: flex-end;}
     .cta-panel-overlay{background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.30) 100%);}
-    .cta-panel-text{padding: 20px 0 34px; margin-top: auto;}
+    .cta-panel-text{padding: 20px 0 30px; margin-top: auto;}
     .cta-panel-text span.optional-text{margin-bottom: 2px; font-size: 1.125rem;}
     .cta-panel-text h2{font-size: 2.125rem; margin-bottom: 12px; line-height: normal;}
     .cta-panel-text p{margin-bottom: 21px;}
+    .page-template-partnerships .cta-panel-text h2{font-size: 1.625rem;}
 }

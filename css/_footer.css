@@ -19,7 +19,7 @@ ul.privacy-links li:first-child::before{display: none;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .main-footer{padding: 21px 0 26px;}
-    .footer-copyright{width: 100%; margin-bottom: 23px;}
+    .footer-copyright{width: 100%; margin-bottom: 23px; padding: 0 30px;}
     .footer-copyright p{font-size: 14px; line-height: 1.5; text-align: center;}
     .footer-privacy{width: 100%; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255 , 0.15);}
     ul.privacy-links{justify-content: center;}

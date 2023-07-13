@@ -1,4 +1,4 @@
-
+.partnership-page-bg { bottom: -650px; right: 0; left: -56px; width: 1600px; height: 904px; opacity: 0.2; background-image: url("./images/white-pattern-large.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute; }
 .partnership-page-list{background-color: var(--dark-blue); color: var(--white);}
 .partnership-logo img{max-width: 192px;}
 .partnership-sparta-main{z-index: 1;}
@@ -25,6 +25,7 @@
     .partnership-page-list{margin-bottom: 50px; width: 100%; display: flex; flex-wrap: wrap;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
+    .partnership-page-bg { top: 1075px; left: 0; opacity: 0.04; width: 295px; height: 412px; background-image: url("./images/pattern-block-mobile.svg");}
     .partnership-page-main{padding: 19px 0 64px; display: block;}
     .partnership-page-list{margin-bottom: 32px;}
     .partnership-desc{padding: 32px 46px 32px 35px; font-size: 22px; line-height: 27px; font-family: "lexend", sans-serif;}
