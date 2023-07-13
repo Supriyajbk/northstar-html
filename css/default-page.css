@@ -23,7 +23,7 @@
 @media only screen and (min-width: 1024px){
     .default-feature-text{max-width: 742px; margin-top: 44px;}
     .default-feature-text h2{font-size: 40px; line-height: 50px;margin-bottom: 40px;} 
-    .default-feature-text .button{min-width: 232px;}
+    /* .default-feature-text .button{min-width: 232px;} */
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .default-feature-text{max-width: 600px;}
@@ -34,6 +34,7 @@
     .default-content-text h2{font-size: 30px; margin-bottom: 15px;}
     .default-content-text h3{padding-top: 12px;}
     .default-feature-main{padding: 40px 0 36px; align-items: flex-end;}
+    /* .default-feature-text .button{min-width: 180px;} */
     .default-feature-text h2{font-size: 30px; margin-bottom: 22px;}
     .default-desc-main{padding: 40px 0 45px;}
     .default-desc-text h3{font-size: 26px; text-align: left; margin-bottom: 16px;}
