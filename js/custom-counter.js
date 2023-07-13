@@ -1,18 +1,18 @@
 
-var $animation_elements = jQuery(".statistic-main");
-var $window = jQuery(window);
-var animation_started = false;
+let $counter_elements = jQuery(".statistic-main");
+let $cwindow = jQuery(window);
+let animation_started = false;
 
-function check_if_in_view() {
-  var window_height = $window.height();
-  var window_top_position = $window.scrollTop();
-  var window_bottom_position = window_top_position + window_height;
+function check_if_view() {
+  let window_height = $window.height()
+  let window_top_position = $window.scrollTop();
+  let window_bottom_position = window_top_position + window_height;
 
-  $animation_elements.each(function() {
-    var $element = jQuery(this);
-    var element_height = $element.outerHeight();
-    var element_top_position = $element.offset().top;
-    var element_bottom_position = element_top_position + element_height;
+  $counter_elements.each(function() {
+    let $element = jQuery(this);
+    let element_height = $element.outerHeight();
+    let element_top_position = $element.offset().top;
+    let element_bottom_position = element_top_position + element_height;
 
     if (
       (element_bottom_position >= window_top_position) &&
@@ -22,9 +22,9 @@ function check_if_in_view() {
       animation_started = true;
 
       $element.find(".counter").each(function() {
-        var $this = jQuery(this);
-        var countTo = parseInt($this.attr("data-countto"));
-        var countDuration = parseInt($this.attr("data-duration"));
+        let $this = jQuery(this);
+        let countTo = parseInt($this.attr("data-countto"));
+        let countDuration = parseInt($this.attr("data-duration"));
 
         jQuery({ counter: 0 }).animate(
           {
@@ -46,5 +46,5 @@ function check_if_in_view() {
   });
 }
 
-$window.on("scroll load", check_if_in_view);
-$window.trigger("scroll");
+$cwindow.on("scroll load", check_if_view);
+$cwindow.trigger("scroll load");
