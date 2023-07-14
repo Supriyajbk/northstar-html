@@ -9,5 +9,5 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .short-intro-main{padding: 50px 0;}
-
+    .short-intro-text h2{margin-bottom: 18px;}
 }

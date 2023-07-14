@@ -14,7 +14,7 @@ jQuery(document).ready(function(){
                 {
                 breakpoint: 1023,
                     settings: {
-                     
+                    
                     }
                 }
             ]
@@ -203,16 +203,17 @@ jQuery(document).ready(function(){
         dots: false,
         arrows: false,
         infinite: false,
-        // centerMode: true,
-        // centerPadding: '0',
         focusOnSelect: true,
         responsive: [
           {
           breakpoint: 767,
               settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToScroll: 1,
                 dots: true,
+                infinite: true,
+                centerMode: true,
+                centerPadding: "0px",
               }
           }
         ]
