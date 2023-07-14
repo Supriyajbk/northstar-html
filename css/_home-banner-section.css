@@ -17,6 +17,9 @@
     .home-banner-text h1{font-size: 46px; line-height: 58px; margin-bottom: 31px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .home-banner-text span{font-size: 18px; line-height:24px; margin-bottom: 18px; }
+    .home-banner-bg{clip-path: polygon(100% 0,100% 94%,50% 100%,0 94%,0 0);}
+    .home-banner-main{padding: 48px 0 0;}
+    .home-banner-text span{font-size: 1.125rem; line-height: normal; margin-bottom: 15.5px;}
+    .home-banner-overlay{background: linear-gradient(180deg, rgba(12, 36, 57, 0.00) 0%, rgba(7, 24, 40, 0.75) 100%);}
 
 }

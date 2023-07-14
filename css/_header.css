@@ -11,7 +11,7 @@
 @media only screen and (min-width: 1024px){
     .header{transition: padding 0.45s ease-in-out; padding: 11px 0 0; gap: 21px; }
     .fixed-header .header{padding: 0;}
-    .logo{flex: 0 0 189px; min-height: 42px;  left: -2px; position: relative;}
+    .logo{flex: 0 0 189px; min-height: 42px; position: relative;}
     .logo img{width: 100%; object-fit: contain;}
     .navigation{flex: 0 0 calc(100% - 210px); padding-right: 4px;}
     ul.main-menu{margin: 0; padding-top: 23px; gap: 42px; flex: 1; justify-content: flex-end;}
