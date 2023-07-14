@@ -26,6 +26,7 @@ jQuery(document).ready(function(){
         dots: false,
         arrows: false,
         fade: true,
+        autoplay: true,
         autoplaySpeed: 3000,
         adaptiveHeight: true,
         asNavFor: '.testimonial-slider-nav',
@@ -72,19 +73,24 @@ jQuery(document).ready(function(){
         ]
     });
 
-
-    jQuery('.firm-slider-for').slick({
+    let firmSlider = jQuery('.firm-slider-for');
+    firmSlider.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: false,
+        dots: true,
+        customPaging: function(slider, i) { 
+          return '<button class="tab">' + $(slider.$slides[i]).attr('data-name') + '</button>';
+      },
         arrows: false,
         vertical: true,
+        verticalSwiping: true,
+        autoplay: true,
         autoplaySpeed: 3000,
         adaptiveHeight: true,
-        asNavFor: '.firm-slider-nav',
+        focusOnSelect:true,
         responsive: [
           {
-            breakpoint: 1023,
+            breakpoint: 1024,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -92,38 +98,30 @@ jQuery(document).ready(function(){
               adaptiveHeight: false,
               dots: true,
               arrows: false,
-              // centerMode: true,
-              // variableWidth: true,
             }
           },
         ]
     });
-
     jQuery('.firm-slider-nav').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        asNavFor: '.firm-slider-for',
-        vertical: true,
-        arrows: false,
-        dots: false,
-        // useCss:true, 
-        focusOnSelect: true,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              dots: false,
-              vertical: false,
-              verticalSwiping: false,
-              centerMode: true,
-              variableWidth: true,
-            }
-          },
-        
-        ]
-    });
+      arrows: false,
+      dots: false,
+      useCss:true, 
+      fade: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      asNavFor: firmSlider,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
 
-    
+          }
+        },
+      
+      ]
+  });
+
 
     let $window = jQuery(window);
       let teamSlider = jQuery(".optional-team-slider");
