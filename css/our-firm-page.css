@@ -61,11 +61,11 @@
     .leadership-team-list{flex: 0 0 calc(25% - 15px); overflow: hidden;}
     .leadership-team-content{position: absolute; width: 100%; height: 100%; top: 100%; background: linear-gradient(180deg, rgba(6, 20, 50, 0.00) 0%, rgba(6, 20, 50, 0.87) 100%); transition: all .5s ease;}
     .leadership-team-list:hover .leadership-team-content{top: 0; transition: all .5s ease;}
-    .leadership-team-list:nth-child(6){flex: 0 0 49%;}
-    .leadership-team-list:nth-child(6) .leadership-team-thumb{display: none;}
-    .leadership-team-list:nth-child(6) .leadership-team-content{position: relative; top: 0; background: var(--white);}
-    .leadership-team-list:nth-child(6) .leadership-team-inner{margin-top: 0; text-align: left; width: 100%; padding: 72px 70px 20px 0;}
-    .leadership-team-list:nth-child(6) .leadership-team-inner h3{margin-bottom: 16px; font-weight: normal; line-height: normal;}
+    .leadership-team-list:nth-child(5){flex: 0 0 calc(50% - 10px); }
+    .leadership-team-list:nth-child(5) .leadership-team-thumb{display: none;}
+    .leadership-team-list:nth-child(5) .leadership-team-content{position: relative; top: 0; background: var(--white);}
+    .leadership-team-list:nth-child(5) .leadership-team-inner{margin-top: 0; text-align: left; width: 100%; padding: 72px 70px 20px 0;}
+    .leadership-team-list:nth-child(5) .leadership-team-inner h3{margin-bottom: 16px; font-weight: normal; line-height: normal;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {

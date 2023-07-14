@@ -1,4 +1,5 @@
 jQuery(document).on("ready", function(){
+let $window = jQuery(window);
 let header = jQuery(".main-header");
   jQuery(window).on("scroll", function(){
     let scroll = jQuery(this).scrollTop();
@@ -56,20 +57,20 @@ let header = jQuery(".main-header");
     })
 
 
-    let lbtn = jQuery(".leadership-more-btn");
-    let lteams = jQuery(".leadership-team-main");
-    lteams.each(function(){
-      lteam = jQuery(this);
-      llist = lteams.children(".leadership-team-list");
-      if(llist.length > 4){
-        llist.slice(4).hide();
-        lbtn.on("click", function(e){
-          e.preventDefault();
-          llist.slice(4).fadeToggle("slow");
-        });
-      }
-    });  
-
-
+    if($window.width() <= 767){
+      let lbtn = jQuery(".leadership-more-btn");
+      let lteams = jQuery(".leadership-team-main");
+      lteams.each(function(){
+        lteam = jQuery(this);
+        llist = lteams.children(".leadership-team-list");
+        if(llist.length > 4){
+          llist.slice(4).hide();
+          lbtn.on("click", function(e){
+            e.preventDefault();
+            llist.slice(4).fadeToggle("slow");
+          });
+        }
+      });  
+    }
     
 });
