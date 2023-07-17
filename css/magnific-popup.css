@@ -233,7 +233,7 @@
       opacity: 1;
       font-family: Lora,sans-serif;
       font-weight: normal;}
-      .mfp-iframe-holder .mfp-close:hover{color: var(--btn-color);}
+      .mfp-iframe-holder .mfp-close:hover{color: var(--blue-color);}
   
   .mfp-iframe-scaler {
     width: 100%;
