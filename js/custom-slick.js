@@ -7,7 +7,8 @@ jQuery(document).ready(function(){
             dots: true,
             arrows: true,
             autoplay: false,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 5000,
+            speed: 4000,
             prevArrow: '<span class="slick-arrow slick-prev"></span>',
             nextArrow: '<span class="slick-arrow slick-next"></span>',
             responsive: [
@@ -27,7 +28,8 @@ jQuery(document).ready(function(){
         arrows: false,
         fade: true,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
+        speed: 4000,
         adaptiveHeight: true,
         asNavFor: '.testimonial-slider-nav',
         responsive: [
