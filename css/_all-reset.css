@@ -64,15 +64,15 @@ textarea {overflow: auto; vertical-align: top;}
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
 table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 0 0 30px; max-width: 100%; width: 100%;}
 table tr td:first-child {padding-left: 15px; text-align: left;}
-table:not(.annual-table) tr th:first-child {text-align: left; padding-left: 21px;}
+table:not(.annual-table) tr th:first-child {text-align: left; padding-left: 17px;}
 table tbody img {margin: 0 auto;}
-th {border-width: 0; padding: 14px 0 13px; background-color: var(--black); color: var(--white); border-radius: 0;}
+th {border-width: 0; padding: 14px 0 13px; background-color: var(--gray-color); color: var(--white); border-radius: 0;}
 th span.icon{font-size: 14px; margin-left: 4px; top: 0px; position: relative; }
 td {border-width: 0; padding: 13px 10px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1.05rem; line-height: 1.5rem;}
 table tr:nth-child(even) td{background-color: rgba(0,0,0, 0.02);}
 table tr:last-child td{border-bottom: none;}
 
-caption, th, td {text-align: left;}
+caption, th, td {text-align: left; padding-left: 18px;}
 del {color: var(--text-color);}
 hr{margin: 24px 0 24px; display: block; border: none; width: 100%; height: 2px; background-color: var(--blue-color);}
 
@@ -132,9 +132,9 @@ blockquote.alignleft{margin: 25px 25px 25px 0;}
 .hide {display: none;}
 
 img.alignnone{margin: 25px 0 25px;}
-img.alignleft{margin: 25px 25px 25px 0;}
-img.alignright{margin: 25px 0 25px 25px;}
-img.aligncenter{margin: 25px 0;}
+img.alignleft{margin: 18px 23px 16px 0;}
+img.alignright{margin: 15px 0 25px 20px;}
+img.aligncenter{margin: 25px auto;}
 
 /* Genericons */
 .bypostauthor > article .fn:before, .comment-edit-link:before, .comment-reply-link:before, .comment-reply-login:before, .comment-reply-title small a:before, .contributor-posts-link:before, .menu-toggle:before, .search-toggle:before, .slider-direction-nav a:before, .widget_twentyfourteen_ephemera .widget-title:before {-webkit-font-smoothing: antialiased; display: inline-block; font: normal 16px/1 Genericons; text-decoration: inherit; vertical-align: text-bottom;}
