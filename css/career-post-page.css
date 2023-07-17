@@ -15,7 +15,7 @@
 .post-flex-main{padding: 53px 0 87px;}
 
 .post-video-section{background-color: var(--dark-blue);}
-.post-video-thumb figure::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4);}
+.post-video-thumb figure::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); z-index: 1;}
 .post-video-thumb{margin-bottom: 71px;}
 .post-video-section .post-video-main p{color: var(--white-90);}
 
