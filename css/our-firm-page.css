@@ -7,7 +7,7 @@
 .banner-num-list span{font-family: 'lexend', sans-serif; font-size: 0.875rem; color: var(--white-80); text-transform: uppercase;}
 
 .revolution-text h2{max-width: 572px; margin: 0 auto 29px; line-height: normal;}
-.revolution-cta-thumb picture::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.49);}
+.revolution-cta-thumb picture::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.49); z-index: 1;}
 .revolution-cta-inner h3{font-size: 1.75rem; line-height: normal; font-weight: normal;}
 
 .market-insight{background: var(--dark-blue);}
