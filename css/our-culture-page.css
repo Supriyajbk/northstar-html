@@ -44,6 +44,8 @@ figure.quote-thumb img{width: 24px;}
 }
 
 @media screen and (min-width: 1024px) {
+    .our-culture-page .home-banner-main{margin: 0;}
+    
     .single-testimonial-main{max-width: 633px; margin: 0 auto; padding: 205px 0 121px;}
 
     .our-culture-page .cta-panel-main{max-width: 410px; min-height: 611px;}
