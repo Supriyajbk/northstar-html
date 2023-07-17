@@ -141,7 +141,6 @@ jQuery(document).ready(function(){
                   slidesToShow: 1,
                   slidesToScroll: 1,
                   centerMode: true,
-                  centerPadding: "0",
                   variableWidth: true,
                 }
             }
@@ -171,7 +170,7 @@ jQuery(document).ready(function(){
           autoplaySpeed: 3000,
             responsive: [
               {
-              breakpoint: 768,
+              breakpoint: 767,
                   settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
