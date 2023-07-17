@@ -1,5 +1,5 @@
 
-.post-career-section::before{content: ""; position: absolute; width: 100%; height: 285px; background-image: url("/images/white-pattern-big.svg"); background-size: cover; bottom: 0; z-index: -1;}
+.post-career-section::before{content: ""; position: absolute; width: 100%; height: 285px; background-image: url("./images/white-pattern-big.svg"); background-size: cover; bottom: 0; z-index: -1;}
 .post-career-wrap{padding: 75px 0 109px;}
 .post-career-heading{margin-bottom: 65px;}
 .post-career-heading h3{margin-bottom: 0;}

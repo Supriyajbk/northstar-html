@@ -6,7 +6,7 @@
 
 
 
-.optional-team-pattern{content: ""; position: absolute; bottom: -886px; left: -85px; width: 1770px; height: 1091px; background-image: url("/images/white-pattern-large.svg"); background-size: cover; background-repeat: no-repeat; z-index: -1; opacity: .3;}
+.optional-team-pattern{content: ""; position: absolute; bottom: -886px; left: -85px; width: 1770px; height: 1091px; background-image: url("./images/white-pattern-large.svg"); background-size: cover; background-repeat: no-repeat; z-index: -1; opacity: .3;}
 .optional-team-main{padding: 87px 0 92px;}
 .optional-team-main h2{margin-bottom: 63px;}
 .optional-team-icon img{max-width: 35px; max-height: 35px; object-fit: contain; margin-bottom: 16px;}
@@ -24,9 +24,11 @@
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .optional-team-slider .slick-list{overflow: visible;}
+    .optional-team-slider .slick-slide{width: 260px; margin: 0 auto; text-align: center;}
     .optional-team-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
     .optional-team-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
     .optional-team-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
+    .optional-team-icon img{margin: 0 auto 16px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .optional-team-pattern{bottom: -266px; left: -96px; width: 693px; height: 427px;}
@@ -39,8 +41,7 @@
     .optional-team-icon img{margin: 0 auto 16px;}
 
     .optional-team-slider .slick-list{overflow: visible;}
-    .optional-team-slider .slick-slide{width: 260px; margin: 0 auto; text-align: center; opacity: 0;}
-    .optional-team-slider .slick-slide.slick-current{opacity: 1;}
+    .optional-team-slider .slick-slide{width: 260px; margin: 0 auto; text-align: center;}
     .optional-team-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
     .optional-team-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
     .optional-team-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
