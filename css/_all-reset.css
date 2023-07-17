@@ -3,10 +3,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html {overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-a{color: var(--link-color); text-decoration: none; transition: all 0.45s ease-in-out;}
+a{color: var(--link-color); text-decoration: none; transition: all 0.45s ease-in-out; font-weight: 500;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--black);}
+.white-text a{color: var(--blue-color); font-weight: 500;}
+.white-text a:hover{color: var(--white); font-weight: 500;}
 h1, h2, h3, h4, h5, h6 {clear: both; margin: 0; color: var(--text-color); letter-spacing: normal; text-transform: none; font-family: 'lexend', sans-serif; font-weight: 500;}
 h1 {font-size: 46px; line-height: 56px; margin-bottom: 24px;}
 h2 {font-size: 34px; line-height: 48px; margin-bottom: 24px;}
@@ -29,6 +31,7 @@ blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyp
 blockquote{padding: 66px 153px 70px; margin: 0 0 35px; font-size: 20px; line-height: 30.6px; font-style: normal; position: relative; letter-spacing: normal; border-radius: 0; background-color: var(--dark-blue); color: var(--white-80); text-align: center;}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
+blockquote p::before{ content: ""; display: block; background-image: url("./images/quote.svg"); width: 24px; height: 17px; margin: 0 auto 20px; background-repeat: no-repeat; background-position: center; }
 small {font-size: 14px; line-height: 20px;}
 big {font-size: 125%;}
 sup, sub {font-size: 10px; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
@@ -62,7 +65,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
 textarea {overflow: auto; vertical-align: top;}
 
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
-table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 0 0 30px; max-width: 100%; width: 100%;}
+table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 0 0 40px; max-width: 100%; width: 100%;}
 table tr td:first-child {padding-left: 15px; text-align: left;}
 table:not(.annual-table) tr th:first-child {text-align: left; padding-left: 17px;}
 table tbody img {margin: 0 auto;}
