@@ -8,7 +8,7 @@
 .accordion-header{padding: 15px 53px 18px 20px; font-size: 1rem; line-height: 1.25rem; cursor: pointer; position: relative; }
 .accordion-header::after{right: 20px; top: 50%; transform: translateY(-50%); position: absolute; transition: all 0.5s ease; content: "\f107"; font-family: "Font Awesome 6 Pro"; font-weight: 400; color: var(--electric-color); font-size: 22px; line-height: 24px;}
 .accordion-header.open::after{content: "\f106"; color: var(--slate-color);}
-.accordion-content{display: none; padding: 4px 20px 20px; font-size: 0.875rem; line-height: 1.75rem;}
+.accordion-content{display: none; padding: 4px 42px 40px 0px;; font-size: 16px; line-height: 1.75rem;}
 .accordion-content ul li::before{top: 13px;}
 .accordion-content {margin-left: 30px;}
 .accordion-content ol li::before{left: -21px; font-family: "Gotham-Medium", sans-serif;}
@@ -20,7 +20,7 @@
 @media only screen and (min-width: 1024px){
     .faqs-wrap{padding: 150px 0 124px;}
     .faqs-main{gap: 51px 102px; align-items: flex-start; flex-direction: row-reverse;}
-    .faqs-text{flex: 0 0 calc(100% - 592px);}
+    .faqs-text{flex: 1 0 calc(100% - 592px);}
     .faqs-image{flex: 0 0 490px; padding-top: 48px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
