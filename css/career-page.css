@@ -140,7 +140,7 @@
     .testimonial-text{font-size: 1rem; line-height: 24px; text-align: center; padding:28px 50px 0;}
     .testimonial-text::before{left: 50%;  transform: translateX(-50%);}
 
-    .perks-main{padding: 43px 0 45px;}
+    .perks-main{padding: 48px 0 38px;}
     .perks-main h2{font-size: 1.875rem; margin-bottom: 27px;}
     .perks-item span{margin-bottom: 12px;}
     .perks-item h5{margin-bottom: 20px;}
