@@ -20,5 +20,5 @@
     .cta-panel-text span.optional-text{margin-bottom: 2px; font-size: 1.125rem;}
     .cta-panel-text h2{font-size: 2.125rem; margin-bottom: 12px; line-height: normal;}
     .cta-panel-text p{margin-bottom: 21px;}
-    .page-template-partnerships .cta-panel-text h2{font-size: 1.625rem;}
-}
+    .page-template-partnerships .cta-panel-text h2{font-size: 1.625rem; padding: 20px 0 40px;}
+    .page-template-partnerships .cta-panel-text span .optional-text {margin-bottom: 12px;}
