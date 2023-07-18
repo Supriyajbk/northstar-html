@@ -358,4 +358,8 @@
     .mfp-container {
       padding-left: 6px;
       padding-right: 6px; } }
+
+  @media screen and (max-width: 767px) and (min-width: 200px) {
+    .mfp-iframe-holder .mfp-close, .mfp-image-holder .mfp-close{right: 3px;}
+  }
   
