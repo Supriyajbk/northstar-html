@@ -33,6 +33,8 @@
     .page-template-careers .post-career-wrap{padding: 99px 0;}
     .single-career img.alignright{margin: -50px 0 25px 90px;}
     .single-career .alignright{max-width: 428px;}
+    .post-content-main h2{margin-bottom: 20px;}
+    .single-career .post-video-text .button{margin-top: 2px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .post-banner-section{min-height: 727px;}
