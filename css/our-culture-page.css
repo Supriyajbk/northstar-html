@@ -16,7 +16,8 @@ figure.quote-thumb img{width: 24px;}
 .single-quote-thumb{max-width: 98px; margin: 0 auto;}
 
 .our-culture-page .cta-panel-overlay{background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 73%);}
-.our-culture-page .cta-panel-text h2{font-size: 1.875rem; line-height: normal;}
+.our-culture-page .cta-panel-text h2{font-size: 1.875rem; line-height: normal; margin-bottom: 23px;}
+.our-culture-page .cta-panel-text button{margin-top: 23px;}
 
 .our-culture-page .optional-repeater-main.reverse .optional-repeater-text{opacity: 1;}
 
@@ -46,10 +47,11 @@ figure.quote-thumb img{width: 24px;}
 }
 
 @media screen and (min-width: 1024px) {
-    .our-culture-page .home-banner-main{margin: 0;}
+    .our-culture-page .home-banner-main{margin: 0 0 0 82px;}
     
     .single-testimonial-main{max-width: 633px; margin: 0 auto; padding: 205px 0 121px;}
 
+    .our-culture-page .cta-panel-bg img{min-height: 611px;}
     .our-culture-page .cta-panel-main{max-width: 410px; min-height: 611px;}
 
     .our-culture-page .optional-repeater-main.reverse{padding: 136px 0;}
@@ -68,6 +70,8 @@ figure.quote-thumb img{width: 24px;}
     .single-testimonial-main{padding: 122px 0 58px;}
     .quote-thumb{margin-bottom: 14px;}
     .single-testimonial-name{margin: 32px 0;}
+
+    .our-culture-page .cta-panel-bg img{min-height: 611px;}
 
     .our-culture-page .optional-repeater-main{padding: 24px 0 40px; gap: 30px;}
     .our-culture-page .optional-repeater-image{width: 100%;}
