@@ -1,0 +1,14 @@
+
+.optional-feature-section{background-color: #091735;}
+.optional-feature-main{padding: 176px 0 63px; z-index: 1;}
+.optional-feature-main::before{content: ""; position: absolute; width: 1026px; height: 662px; background-image: url("./images/logo-symbol.svg"); right: -550px; top: 124px; z-index: -1; opacity: .1;}
+.optional-feature-list{margin-bottom: 127px;}
+.optional-feature-list:last-child{margin-bottom: 0;}
+.optional-feature-list.reverse{flex-direction: row-reverse;}
+.optional-feature-text h3{font-size: 1.875rem; color: var(--white); font-weight: 500;}
+.optional-feature-text p{color: var(--white-80);}
+
+@media screen and (min-width: 1024px) {
+    .optional-feature-text{flex: 0 0 428px; margin-right: 94px;}
+    .optional-feature-image{flex: 0 0 calc(100% - 522px);}
+}
