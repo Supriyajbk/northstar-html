@@ -25,5 +25,6 @@
     .partnership-banner-thumb{max-height: 457px; overflow: hidden;}
     .partnership-banner-bg{overflow: hidden; max-height: 481px;}
     .partnership-banner-text{max-width: 305px; line-height: 1.53rem;}
-    .partnership-banner-text h1{font-size: 36px; line-height: normal;}
+    .partnership-banner-text h1{font-size: 36px; line-height: normal; margin-bottom: 15px;}
+    .partnership-banner-text p{margin-bottom: 20px;}
 }
