@@ -37,7 +37,7 @@
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .post-career-wrap{padding: 50px 0 64px;}
     .post-career-heading{margin-bottom: 39px;}
-    .post-career-title{margin-bottom: 32px;}
+    .post-career-title{margin-bottom: 18px;}
     .post-career-text{width: 100%;}
     .post-career-list{padding: 23px 24px 19px 9px; margin-bottom: 24px;}
     .post-career-list:last-child{margin-bottom: 0;}
