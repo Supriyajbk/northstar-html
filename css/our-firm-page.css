@@ -47,6 +47,7 @@
     .market-insight-content{flex: 0 0 475px; margin-right: 137px;}
     .market-insight-image{flex: 0 0 calc(100% - 612px);}
     .market-insight-thumb{position: absolute; top: 0; max-width: 790px; height: 100%;}
+    .market-insight-thumb .simpleParallax{height: 100%;}
 
     .core-values-main{padding: 121px 0 20px; max-width: 651px; margin: 0 auto;}
 
@@ -69,6 +70,7 @@
     .leadership-team-list:nth-child(5) .leadership-team-content{position: relative; top: 0; background: var(--white);}
     .leadership-team-list:nth-child(5) .leadership-team-inner{margin-top: 0; text-align: left; width: 100%; padding: 72px 70px 20px 0;}
     .leadership-team-list:nth-child(5) .leadership-team-inner h3{margin-bottom: 16px; font-weight: normal; line-height: normal;}
+    .leadership-team-thumb{max-height: 256px;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
