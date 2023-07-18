@@ -13,7 +13,7 @@
 
 .career-feature-section{background-color: #091735;}
 .career-feature-main{padding: 176px 0 157px; z-index: 1;}
-.career-feature-main::before{content: ""; position: absolute; width: 1026px; height: 662px; background-image: url("/images/logo-symbol.svg"); right: -550px; top: 124px; z-index: -1; opacity: .1;}
+.career-feature-main::before{content: ""; position: absolute; width: 1026px; height: 662px; background-image: url("./images/logo-symbol.svg"); right: -550px; top: 124px; z-index: -1; opacity: .1;}
 .career-feature-list{margin-bottom: 127px;}
 .career-feature-list:last-child{margin-bottom: 0;}
 .career-feature-list.reverse{flex-direction: row-reverse;}
