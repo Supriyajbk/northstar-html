@@ -34,6 +34,7 @@
     .financial-head{max-width: 795px;}
     .financial-row{gap: 19px;}
     .financial-list{flex: 0 0 calc(33.33% - 13px);}
+    
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .financial-list{flex: 0 0 calc(33.33% - 13px);}
