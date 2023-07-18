@@ -17,7 +17,7 @@ figure.quote-thumb img{width: 24px;}
 
 .our-culture-page .cta-panel-overlay{background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 73%);}
 .our-culture-page .cta-panel-text h2{font-size: 1.875rem; line-height: normal; margin-bottom: 23px;}
-.our-culture-page .cta-panel-text button{margin-top: 23px;}
+.our-culture-page .cta-panel-text .button{margin-top: 9px;}
 
 .our-culture-page .optional-repeater-main.reverse .optional-repeater-text{opacity: 1;}
 
@@ -55,6 +55,8 @@ figure.quote-thumb img{width: 24px;}
     .our-culture-page .cta-panel-main{max-width: 410px; min-height: 611px;}
 
     .our-culture-page .optional-repeater-main.reverse{padding: 136px 0;}
+    .our-culture-page .optional-repeater-text h3{margin-bottom: 23.5px;}
+    .our-culture-page .optional-repeater-text .button{margin-top: 11px;}
 
     .feature-grid-main{padding: 129px 0; gap: 20px;}
     .feature-grid-list{flex: 0 0 calc(50% - 10px); min-height: 645px;}
@@ -98,6 +100,7 @@ figure.quote-thumb img{width: 24px;}
     .quote-thumb{margin-bottom: 14px;}
     .single-testimonial-name{margin: 32px 0;}
 
+    .our-culture-page .cta-panel-text{padding: 20px 0 33px;}
     .our-culture-page .cta-panel-text h2{font-size: 1.625rem; margin-bottom: 16px;}
     .our-culture-page .cta-panel-text .button{margin-top: 9px;}
 
