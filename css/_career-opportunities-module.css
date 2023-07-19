@@ -11,8 +11,8 @@
 .post-career-position{width: calc(100% - 89px);}
 .post-career-date span{font-size: 2.125rem; font-weight: 500; font-family: "lexend", sans-serif; color: var(--blue-color);}
 .post-career-date span:last-child{font-size: 1rem; font-family: "lexend", sans-serif; color: var(--text-color); margin-top: -3px; display: block;}
-.post-career-position h6{margin: 4px 0 -8px;}
-.post-career-position span{color: var(--gray-color); font-family: "lexend", sans-serif;}
+.post-career-position h6{margin: 4px 0 -3px; line-height: normal;}
+.post-career-position span{color: var(--gray-color); font-family: "lexend", sans-serif; line-height: normal;}
 
 
 
