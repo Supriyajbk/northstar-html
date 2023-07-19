@@ -27,3 +27,4 @@ new simpleParallax(images, {
     orientation: 'up',
     scale: 1.3,
 });
+
