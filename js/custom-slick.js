@@ -80,54 +80,54 @@ jQuery(document).ready(function(){
       ]
   });
 
-    let firmSlider = jQuery('.firm-slider-for');
-    firmSlider.slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        customPaging: function(slider, i) { 
-          return '<button class="tab">' + $(slider.$slides[i]).attr('data-name') + '</button>';
+  jQuery('.firm-slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    customPaging: function(slider, i) { return '<button class="tab">' + $(slider.$slides[i]).attr('data-name') + '</button>'; },
+    arrows: false,
+    vertical: true,
+    verticalSwiping: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 1500,
+    adaptiveHeight: true,
+    focusOnSelect:true,
+    asNavFor: jQuery('.firm-slider-nav'),
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          vertical: false,
+          adaptiveHeight: false,
+          dots: true,
+          arrows: false,
+        }
       },
-        arrows: false,
-        vertical: true,
-        verticalSwiping: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        adaptiveHeight: true,
-        focusOnSelect:true,
-        responsive: [
-          {
-            breakpoint: 1023,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              vertical: false,
-              adaptiveHeight: false,
-              dots: true,
-              arrows: false,
-            }
-          },
-        ]
-    });
-    jQuery('.firm-slider-nav').slick({
-      arrows: false,
-      dots: false,
-      useCss:true, 
-      fade: true,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      asNavFor: firmSlider,
-      focusOnSelect: true,
-      responsive: [
-        {
-          breakpoint: 1023,
-          settings: {
+    ]
+});
+jQuery('.firm-slider-nav').slick({
+  arrows: false,
+  dots: false,
+  useCss:true, 
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  speed: 1500,
+  asNavFor: jQuery('.firm-slider-for'),
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 1023,
+      settings: {
 
-          }
-        },
-      
-      ]
-  });
+      }
+    },
+  
+  ]
+});
 
 
       

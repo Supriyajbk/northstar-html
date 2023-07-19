@@ -19,10 +19,10 @@
 .core-values-main .button{margin-top: -6px;}
 
 .firm-slider-main{overflow: hidden;}
-.form-slider-image picture::before{content: ""; position: absolute; width: 100%; height: 100%; background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.44) 38.02%, rgba(0, 0, 0, 0.60) 100%);}
 .firm-slider-text h3{color: var(--white);}
 .firm-slider-text p{color: var(--white-90);}
 .firm-slider-bg{clip-path: polygon(50% 17.5%, 100% 0, 100% 100%, 0 100%, 0 0);}
+.firm-slider-bg::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.44) 38%, rgba(0, 0, 0, 0.6) 100%); z-index: 1;}
 
 .leadership-team{overflow: hidden;}
 .leadership-pattern-one{top: -90px; right: -275px; width: 739px; height: 606px; opacity: .03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
