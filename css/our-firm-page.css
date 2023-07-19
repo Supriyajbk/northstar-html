@@ -96,7 +96,7 @@
 
     .market-insight-main{flex-direction: column-reverse; padding-bottom: 59px;}
     .market-insight-image{width: calc(100% + 40px); margin-left: -20px; margin-bottom: 38px;}
-    .market-insight-content{margin-left: -10px;}
+    .market-insight-content{width: 100%;}
     .market-insight-content h3{font-size: 1.625rem; font-weight: 500; margin-bottom: 16px;}
 
     .core-values-main{padding: 49px 0 74px;}
@@ -149,7 +149,7 @@
 
     .market-insight-main{flex-direction: column-reverse; padding-bottom: 59px;}
     .market-insight-image{width: calc(100% + 40px); margin-left: -20px; margin-bottom: 38px;}
-    .market-insight-content{margin-left: -10px;}
+    .market-insight-content{width: 100%;}
     .market-insight-content h3{font-size: 1.625rem; font-weight: 500; margin-bottom: 16px;}
 
     .core-values-main{padding: 49px 0 43px;}
