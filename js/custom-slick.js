@@ -21,33 +21,7 @@ jQuery(document).ready(function(){
             ]
     });
 
-    jQuery('.testimonial-slider-for').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        arrows: false,
-        fade: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        adaptiveHeight: true,
-        asNavFor: '.testimonial-slider-nav',
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              dots: false,
-              arrows: true,
-              prevArrow: '<span class="slick-arrow slick-prev"></span>',
-              nextArrow: '<span class="slick-arrow slick-next"></span>',
-            }
-          },
-        ]
-    });
-
     
-
     jQuery('.testimonial-slider-nav').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -59,18 +33,50 @@ jQuery(document).ready(function(){
         focusOnSelect: true,
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 1023,
             settings: {
               dots: false,
               vertical: false,
-              verticalSwiping: false,
               centerMode: true,
+              centerPadding: "180px",
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              dots: false,
+              vertical: false,
+              centerMode: true,
+              centerPadding: "0",
               variableWidth: true,
             }
           },
-        
         ]
     });
+    jQuery('.testimonial-slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: false,
+      fade: true,
+      autoplay: true,
+      autoplaySpeed: 13000,
+      adaptiveHeight: true,
+      asNavFor: '.testimonial-slider-nav',
+      responsive: [
+        {
+          breakpoint: 1023,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false,
+            arrows: true,
+            prevArrow: '<span class="slick-arrow slick-prev"></span>',
+            nextArrow: '<span class="slick-arrow slick-next"></span>',
+          }
+        },
+      ]
+  });
 
     let firmSlider = jQuery('.firm-slider-for');
     firmSlider.slick({
@@ -89,7 +95,7 @@ jQuery(document).ready(function(){
         focusOnSelect:true,
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 1023,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -112,7 +118,7 @@ jQuery(document).ready(function(){
       focusOnSelect: true,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1023,
           settings: {
 
           }
