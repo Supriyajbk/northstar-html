@@ -92,7 +92,7 @@ jQuery(document).ready(function(){
         vertical: true,
         verticalSwiping: true,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         adaptiveHeight: true,
         focusOnSelect:true,
         responsive: [
