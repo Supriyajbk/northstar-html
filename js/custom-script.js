@@ -1,5 +1,5 @@
 jQuery(document).on("ready", function(){
-let $window = jQuery(window);
+
 let header = jQuery(".main-header");
   jQuery(window).on("scroll", function(){
     let scroll = jQuery(this).scrollTop();
@@ -57,7 +57,7 @@ let header = jQuery(".main-header");
     })
 
 
-    if($window.width() <= 767){
+    if(jQuery(window).width() <= 767){
       let lbtn = jQuery(".leadership-more-btn");
       let lteams = jQuery(".leadership-team-main");
       lteams.each(function(){
