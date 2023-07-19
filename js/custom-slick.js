@@ -28,8 +28,7 @@ jQuery(document).ready(function(){
         arrows: false,
         fade: true,
         autoplay: true,
-        autoplaySpeed: 5000,
-        speed: 4000,
+        autoplaySpeed: 3000,
         adaptiveHeight: true,
         asNavFor: '.testimonial-slider-nav',
         responsive: [
@@ -42,8 +41,6 @@ jQuery(document).ready(function(){
               arrows: true,
               prevArrow: '<span class="slick-arrow slick-prev"></span>',
               nextArrow: '<span class="slick-arrow slick-next"></span>',
-              // centerMode: true,
-              // variableWidth: true,
             }
           },
         ]
@@ -52,12 +49,12 @@ jQuery(document).ready(function(){
     
 
     jQuery('.testimonial-slider-nav').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
         vertical: true,
         arrows: false,
         dots: true,
         useCss:true, 
-        // autoplay: true,
-        // autoplaySpeed: 3000,
         asNavFor: '.testimonial-slider-for',
         focusOnSelect: true,
         responsive: [
@@ -125,7 +122,11 @@ jQuery(document).ready(function(){
   });
 
 
-    let $window = jQuery(window);
+      
+
+    
+
+    if(jQuery(window).width() <= 1023){
       let teamSlider = jQuery(".optional-team-slider");
       teamSettings = {
         slidesToShow: 2,
@@ -147,20 +148,7 @@ jQuery(document).ready(function(){
           ]
       };
       teamSlider.slick(teamSettings);
-      $window.on('resize load', function(){
-        if ($window.width() >= 1024) {
-              if (teamSlider.hasClass('slick-initialized')){
-                  teamSlider.slick('unslick');
-                  return false;
-              }
-        }
-        if (!teamSlider.hasClass('slick-initialized')){
-            return teamSlider.slick(teamSettings);
-        }
-      });  
-    
 
-    if(jQuery(window).width() <= 1023){
         jQuery('.perks-slider').slick({
           slidesToShow: 2,
           slidesToScroll: 1,
