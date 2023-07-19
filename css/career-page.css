@@ -1,14 +1,14 @@
 
 /* Careers banner section */
-.career-banner-section{background-color: var(--blue-color); overflow: hidden;}
-.career-banner-main{padding: 116px 0 116px; max-width: 968px; margin: 0 auto; z-index: 1;}
+.career-banner-section{background-color: var(--blue-color);}
+.career-banner-main{ z-index: 1;}
 .career-banner-pattern-one{content: ""; position: absolute; background-image: url("./images/pattern-block-white.svg"); background-size: cover; background-repeat: no-repeat; width: 726px; height: 597.5px; left: -224px; top: 109px; z-index: 0; opacity: .1;}
 .career-banner-pattern-two{content: ""; position: absolute; background-image: url("./images/pattern-block-white.svg"); background-size: cover; background-repeat: no-repeat; width: 726px; height: 597.5px; right: -316px; top: 110px; z-index: 0; opacity: .1;}
 .career-banner-text{color: var(--white);}
 .career-banner-text h1{color: var(--white); margin-bottom: 21px;}
 .career-banner-text p{margin-bottom: 27px;}
-.career-banner-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: #57c6e2; left: 28px; top: 24px; clip-path: polygon(0 13%,100% 0%,100% 87%,0% 100%);}
 .career-banner-thumb img{clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%); min-height: 415px; max-height: 415px;}
+.career-thumb-bg{content: ""; position: absolute; width: 100%; height: 100%; background-color: #57c6e2; left: 28px; top: 24px; clip-path: polygon(0 13%,100% 0%,100% 87%,0% 100%); z-index: -1;}
 
 
 .career-feature-section{background-color: #091735;}
@@ -37,6 +37,8 @@
 
 /* Media query */
 @media screen and (min-width: 1024px) {
+    .career-banner-section{overflow: hidden;}
+    .career-banner-main{padding: 116px 0 116px; max-width: 968px; margin: 0 auto;}
     .career-banner-text{flex: 0 0 580px; margin-right: 42px;}
     .career-banner-image{flex: 0 0 calc(100% - 622px);}
 
@@ -65,7 +67,10 @@
 
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
+    .career-banner-main{padding: 116px 0 266px; display: block;}
     .career-banner-text{margin-bottom: 37px;}
+    .career-banner-image { bottom: -123px; left: 0; max-width: 325px; position: absolute; }
+    .career-banner-thumb img{min-height: 388px; max-width: 325px;}
     .career-banner-pattern-one{left: 0; top: 30px; width: 155px; height: 468px; background-position: right;}
     .career-banner-pattern-two{right: 0; top: 349px;width: 182px; height: 468px;}
 
@@ -109,15 +114,14 @@
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .career-banner-pattern-one{left: 0; top: 30px; width: 155px; height: 468px; background-position: right;}
     .career-banner-pattern-two{right: 0; top: 349px;width: 182px; height: 468px;}
-    .career-banner-section{overflow: inherit;}
     .career-banner-main{padding: 166px 0 266px;}
-    .career-banner-main{max-width: 100%; flex-direction: column;}
-    .career-banner-text{text-align: center; margin-bottom: 37px;}
+    .career-banner-main{display: block; text-align: center;}
+    .career-banner-text{margin-bottom: 37px;}
     .career-banner-text h1{margin-bottom: 14px; font-size: 2.25rem; line-height: normal;}
     .career-banner-text p{line-height: 1.531rem; max-width: 344px; margin: 0 auto 23px;}
-    .career-banner-image{position: absolute; bottom: -123px; left: 0;}
-    .career-banner-thumb::before{left: 26px; top: 22px;}
+    .career-banner-image { bottom: -123px; left: -23px; right: 0; max-width: 325px; margin: 0 auto; position: absolute; }
     .career-banner-thumb img{min-height: 388px; max-width: 325px;}
+    .career-thumb-bg{left: 26px; top: 22px;}
 
     .career-feature-main{padding: 64px 0 66px; gap: 63px;}
     .career-feature-main::before{display: none;}
