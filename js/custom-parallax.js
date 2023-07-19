@@ -35,3 +35,9 @@ new simpleParallax(images, {
     scale: 1.3,
 });
 
+var images = document.querySelectorAll('.parallax_zoom_left');
+new simpleParallax(images, {
+    delay: 0.75,
+    orientation: 'left',
+    scale: 1.5,
+});
