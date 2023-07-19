@@ -5,7 +5,7 @@
 .logo-dark{top: 0; left: 0; opacity: 0; position: absolute;}
 .fixed-header::after{transform: translateY(0);}
 .fixed-header .logo-dark{opacity: 1;}
-
+.sticky-header .logo-dark{opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -36,6 +36,12 @@
     .fixed-header ul.main-menu > li > a:hover, .fixed-header ul.main-menu > li.current_page_parent > a, .fixed-header ul.main-menu > li.current_page_item > a{color: var(--blue-color);}
     .fixed-header ul.main-menu > li.current_page_item > a::after, .fixed-header ul.main-menu > li.current_page_item > a::before, .fixed-header ul.main-menu > li.current_page_parent > a::after, .fixed-header ul.main-menu > li.current_page_parent > a::before{background-color: var(--blue-color);}
     .toggle_icon{display: none;}
+
+      
+    .sticky-header ul.main-menu > li > a{color: var(--dark-blue);}
+    .sticky-header ul.main-menu > li > a:hover, .sticky-header ul.main-menu > li.current_page_parent > a, .sticky-header ul.main-menu > li.current_page_item > a{color: var(--blue-color);}
+    .sticky-header ul.main-menu > li.current_page_item > a::after, .sticky-header ul.main-menu > li.current_page_item > a::before, .sticky-header ul.main-menu > li.current_page_parent > a::after, .fixed-header ul.main-menu > li.current_page_parent > a::before{background-color: var(--blue-color);}
+    .sticky-header ul.main-menu > li > a::before, .sticky-header ul.main-menu > li > a::after, .sticky-header ul.main-menu > li.current_page_parent > a::before,  .sticky-header ul.main-menu > li.current_page_parent > a::after{background-color: var(--blue-color);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     header.nav-open{background-color: var(--white);}
