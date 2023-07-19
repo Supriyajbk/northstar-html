@@ -7,8 +7,6 @@ a{color: var(--link-color); text-decoration: none; transition: all 0.45s ease-in
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--black);}
-.white-text a{color: var(--blue-color); font-weight: 500;}
-.white-text a:hover{color: var(--white); font-weight: 500;}
 h1, h2, h3, h4, h5, h6 {clear: both; margin: 0; color: var(--text-color); letter-spacing: normal; text-transform: none; font-family: 'lexend', sans-serif; font-weight: 500;}
 h1 {font-size: 46px; line-height: 56px; margin-bottom: 24px;}
 h2 {font-size: 34px; line-height: 48px; margin-bottom: 24px;}
@@ -166,6 +164,8 @@ span.optional-text.black{color: var(--text-color);}
 .sub-heading a:hover{color: var(--blue-color);}
 span.optional-text.electric{color: var(--blue-color); letter-spacing: 0.2em;}
 .white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text h6{color: var(--white);}
+.white-text ul li a, .white-text ol li a{color: var(--blue-color);}
+.white-text ul li a:hover, .white-text ol li a:hover{color: var(--white);}
 
 .pos-relative{position: relative;}
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
