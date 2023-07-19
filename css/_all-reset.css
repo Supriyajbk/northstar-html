@@ -226,7 +226,7 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
 
 .parallax-simple{overflow: hidden; position: relative;}
 .page-not-number{margin-bottom: 21px; font-size: 124px; line-height: 128px; filter: drop-shadow(2px 2px 0 #00f0ff); color: transparent; -webkit-text-stroke-color: var(--dark-blue); -webkit-text-stroke-width: 1px; display: block; }
-.page-not-main{max-width: 668px; padding: 128px 0 110px;}
+.page-not-main{max-width: 668px; padding: 228px 0 110px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

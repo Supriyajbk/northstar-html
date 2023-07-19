@@ -3,7 +3,8 @@
 .join-team-wrap{padding: 138px 0;}
 .join-team-bg{z-index: 0;}
 .join-team-text{color: var(--white);}
-.join-team-text h3{color: var(--white);}
+.join-team-text span.optional-text{margin-bottom: 10px;}
+.join-team-text h3{color: var(--white); margin-bottom: 18px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
