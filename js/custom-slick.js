@@ -7,8 +7,8 @@ jQuery(document).ready(function(){
             dots: true,
             arrows: true,
             autoplay: false,
-            autoplaySpeed: 5000,
-            speed: 4000,
+            autoplaySpeed: 2000,
+            speed: 2000,
             prevArrow: '<span class="slick-arrow slick-prev"></span>',
             nextArrow: '<span class="slick-arrow slick-next"></span>',
             responsive: [
@@ -35,6 +35,8 @@ jQuery(document).ready(function(){
           {
             breakpoint: 1023,
             settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
               dots: false,
               vertical: false,
               centerMode: true,
