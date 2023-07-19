@@ -49,6 +49,7 @@
 
     .testimonial-slider{max-width: 1174px; margin: 0 auto;}
     .testimonial-slider-nav{width: 300px; margin-right: 86px; padding-left: 128px;}
+    .testimonial-slider-nav .slick-slide{min-height: 180px;}
     .testimonial-slider-nav ul.slick-dots{padding-top: 0; flex-direction: column; width: 20px; position: absolute; left: 0; top: 0; align-items: stretch; height: 100%; margin: 0; }
     .testimonial-slider-nav ul.slick-dots li{line-height: 0;}
     .testimonial-image-slide{width: 172px;}
