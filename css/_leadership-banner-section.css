@@ -9,7 +9,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .leadership-banner-main{gap: 0 232px;}
+    .leadership-banner-main{gap: 0 232px; min-height: 540px;}
     .leadership-banner-text{flex: 0 0 calc(100% - 582px); padding-top: 52px;}
     .leadership-banner-image{flex: 0 0 350px;}
     .leadership-banner-thumb img{max-height: 415px; min-height: 415px; overflow: hidden;}
