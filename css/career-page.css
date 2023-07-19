@@ -22,7 +22,7 @@
 .testimonial-module{background-color: #f6f6f6; padding: 139px 0 129px;}
 .testimonial-module ul.slick-dots li button{border: solid 1px var(--text-color);}
 .testimonial-module ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
-.testimonial-thumb img{width: 100%; object-fit: cover; border-radius: 50%;}
+.testimonial-thumb img{width: 140px; height: 140px; object-fit: cover; border-radius: 50%;}
 .testimonial-text{font-size: 20px; line-height: 30px;}
 .testimonial-text::before{width: 23px; height: 27px; left: 0; top: 0; content: ""; display: block; background-image: url("./images/testimonial-quote.svg"); background-repeat: no-repeat; background-size: contain; position: absolute;}
 .author-info{margin-top: 29px;}
@@ -130,6 +130,7 @@
     .testimonial-image-slide{opacity: 0.5;}
     .testimonial-image-slide.slick-current{opacity: 1;}
     .testimonial-thumb{max-width: 132px; margin: 0 34px;}
+    .testimonial-thumb img{width: 132px; height: 132px;}
     .testimonial-slider-for{width: 100%;}
     .testimonial-slider-for .slick-list{overflow: visible;}
     .testimonial-slider-for .slick-arrow{width: 40px; height: 49px; font-size: 1.5rem; right: -20px; background-color: var(--dark-blue);}
