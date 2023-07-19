@@ -225,6 +225,8 @@ body .cky-btn.cky-btn-accept{font-size: 14px; font-weight: 500; font-family: 'le
 body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color: var(--purple-color) !important; color: var(--purple-color) !important; background-color: transparent !important; opacity: 1;}
 
 .parallax-simple{overflow: hidden; position: relative;}
+.page-not-number{margin-bottom: 21px; font-size: 124px; line-height: 128px; filter: drop-shadow(2px 2px 0 #00f0ff); color: transparent; -webkit-text-stroke-color: var(--midnight-color); -webkit-text-stroke-width: 1px; display: block; }
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -235,6 +237,7 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
     .container.sm{max-width: 803px;}
     .container.no_padding{padding: 0;}
     .hide-desktop{display: none;}
+    .page-not-main{max-width: 668px; padding: 28px 0 110px;}
 }
 @media only screen and (max-width: 1339px) and (min-width: 1024px){
     .container.md{max-width: 100%;}
@@ -265,4 +268,5 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
     .button.blue-mbtn{background-color: var(--blue-color); border-color: transparent;}
     .button.blue-mbtn::before, .button.blue-mbtn::after{background-color: var(--blue-color);}
     .button.blue-mbtn:hover::before, .button.blue-mbtn:hover::after{background-color: var(--purple-color);}
+    .page-not-main{max-width: 668px; padding: 28px 0 110px;}
 }
