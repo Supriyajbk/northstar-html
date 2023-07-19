@@ -14,10 +14,15 @@
 .post-content-main{padding: 128px 0 125px;}
 .post-flex-main{padding: 53px 0 87px;}
 
-.post-video-section{background-color: var(--dark-blue);}
+.post-video-section{background-color: var(--dark-blue); color: var(--white-90);}
 .post-video-thumb figure::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); z-index: 1;}
 .post-video-thumb{margin-bottom: 71px;}
-.post-video-section .post-video-main p{color: var(--white-90);}
+.post-video-text h1, .post-video-text h2, .post-video-text h3, .post-video-text h4, .post-video-text h5, .post-video-text h6{color: var(--white);}
+.post-video-text ul li a, .post-video-text ol li a{color: var(--blue-color);}
+.post-video-text ul li a:hover, .post-video-text ol li a:hover{color: var(--white);}
+.post-video-text p a{color: var(--blue-color);}
+.post-video-text p a:hover{color: var(--white);}
+
 
 /* Media Query */
 @media screen and (min-width: 1024px) {
