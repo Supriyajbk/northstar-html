@@ -44,7 +44,7 @@
     .revolution-cta-content{flex: 0 0 calc(100% - 694px);}
     
     .market-insight-main{min-height: 443px;}
-    .market-insight-content{flex: 0 0 475px; margin-right: 137px;}
+    .market-insight-content{flex: 0 0 475px; margin-right: 137px; padding: 143px 0 20px;}
     .market-insight-image{flex: 0 0 calc(100% - 612px);}
     .market-insight-thumb{position: absolute; top: 0; max-width: 790px; height: 100%;}
     .market-insight-thumb .simpleParallax{height: 100%;}

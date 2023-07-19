@@ -89,12 +89,15 @@
     .perks-item-icon img{margin: 0 auto 16px;}
 
     .testimonial-module{padding: 86px 0 51px;}
+    .testimonial-slider{display: block;}
     .testimonial-slider-nav{width: 100%; margin-bottom: 23px;}
     .testimonial-slider-nav .slick-list{overflow: visible;}
     .testimonial-image-slide{opacity: 0.5;}
     .testimonial-image-slide.slick-current{opacity: 1;}
     .testimonial-thumb{max-width: 132px; margin: 0 auto;}
     .testimonial-slider-for{width: 100%;}
+    .no-testimonial-slider{text-align: center;}
+    .no-testimonial-slider .testimonial-thumb{margin: 0 auto 30px;}
     .testimonial-slider-for .slick-list{overflow: visible;}
     .testimonial-slider-for .slick-arrow{width: 40px; height: 49px; font-size: 1.5rem; right: -20px; background-color: var(--dark-blue);}
     .testimonial-slider-for .slick-arrow:hover{background-color: rgba(9, 23, 53, .7);}
@@ -125,6 +128,7 @@
     .career-feature-text h3{font-size: 1.625rem; margin-bottom: 13px;}
 
     .testimonial-module{padding: 86px 0 51px;}
+    .testimonial-slider{display: block;}
     .testimonial-slider-nav{width: 100%; margin-bottom: 23px;}
     .testimonial-slider-nav .slick-list{overflow: visible;}
     .testimonial-image-slide{opacity: 0.5;}
@@ -132,6 +136,8 @@
     .testimonial-thumb{max-width: 132px; margin: 0 34px;}
     .testimonial-thumb img{width: 132px; height: 132px;}
     .testimonial-slider-for{width: 100%;}
+    .no-testimonial-slider{text-align: center;}
+    .no-testimonial-slider .testimonial-thumb{margin: 0 auto 20px;}
     .testimonial-slider-for .slick-list{overflow: visible;}
     .testimonial-slider-for .slick-arrow{width: 40px; height: 49px; font-size: 1.5rem; right: -20px; background-color: var(--dark-blue);}
     .testimonial-slider-for .slick-arrow:hover{background-color: rgba(9, 23, 53, .7);}
