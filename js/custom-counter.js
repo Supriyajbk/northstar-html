@@ -4,8 +4,8 @@ let $cwindow = jQuery(window);
 let animation_started = false;
 
 function check_if_view() {
-  let window_height = $window.height()
-  let window_top_position = $window.scrollTop();
+  let window_height = $cwindow.height()
+  let window_top_position = $cwindow.scrollTop();
   let window_bottom_position = window_top_position + window_height;
 
   $counter_elements.each(function() {

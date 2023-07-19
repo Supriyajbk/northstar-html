@@ -27,3 +27,11 @@ new simpleParallax(images, {
     orientation: 'up',
     scale: 1.3,
 });
+
+var images = document.querySelectorAll('.parallax_zoom_down');
+new simpleParallax(images, {
+    delay: 0.75,
+    orientation: 'down',
+    scale: 1.3,
+});
+

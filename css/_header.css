@@ -24,7 +24,7 @@
     .fixed-header ul.main-menu > li > a::before, .fixed-header ul.main-menu > li > a::after, .fixed-header ul.main-menu > li.current_page_parent > a::before,  .fixed-header ul.main-menu > li.current_page_parent > a::after{background-color: var(--blue-color);}
     ul.main-menu > li > a::after, ul.main-menu > li.current_page_parent > a::after{left: auto; right: 0;}
     ul.main-menu > li:hover > a::before, ul.main-menu > li:hover > a::after, ul.main-menu > li > a:hover::before, ul.main-menu > li > a:hover::after, ul.main-menu > li.current_page_parent > a::before, ul.main-menu > li.current_page_parent > a::after{width: 50%;}
-    ul.main-menu > li.current_page_parent > a, ul.main-menu > li.current_page_item > a{color: var(--white);}
+    ul.main-menu > li.current_page_parent > a, ul.main-menu > li.current_page_item > a{color: var(--white); padding-bottom: 13px;}
     ul.main-menu > li.current_page_parent > a::before, ul.main-menu > li.current_page_item > a::before, ul.main-menu > li.current_page_item > a::after, ul.main-menu > li.current_page_parent > a::after{background-color: var(--white); width: 100%; height: 2px;}
     ul.main-menu > li > ul{margin:0; position: absolute; background-color: var(--white); width: 199px; visibility: hidden; opacity: 0;}
     ul.main-menu > li > ul > li{margin: 0;}

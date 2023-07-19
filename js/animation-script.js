@@ -5,7 +5,7 @@ function check_if_in_view() {
   let window_height = $window.height();
   let window_top_position = $window.scrollTop();
   let window_bottom_position = (window_top_position + window_height);
-  jQuery.each($animation_elements, function() {
+  $animation_elements.each(function() {
     let $element = jQuery(this);
     let $attr = $element.attr('data-animation');
     let element_height = $element.outerHeight();
