@@ -6,6 +6,7 @@
 .fixed-header::after{transform: translateY(0);}
 .fixed-header .logo-dark{opacity: 1;}
 .sticky-header .logo-dark{opacity: 1;}
+.sticky-header::after{transform: translateY(0);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
