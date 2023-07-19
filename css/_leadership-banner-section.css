@@ -25,7 +25,7 @@
     .leadership-banner-text h1{font-size: 40px; line-height: 48px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .leadership-banner-main{display: block;}
+    .leadership-banner-main{display: block; min-height: 528px}
     .leadership-banner-image { max-width: 234px; margin: 0 auto; }
     .leadership-banner-text{padding: 0; text-align: center; margin-bottom: 50px;}
     .leadership-banner-text h1{font-size: 36px; margin-bottom: 9px;}
