@@ -63,12 +63,13 @@ let header = jQuery(".main-header");
       let lteams = jQuery(".leadership-team-main");
       lteams.each(function(){
         lteam = jQuery(this);
-        llist = lteams.children(".leadership-team-list");
+        llist = lteam.children(".leadership-team-list");
         if(llist.length > 4){
           llist.slice(4).hide();
           lbtn.on("click", function(e){
             e.preventDefault();
-            llist.slice(4).fadeToggle("slow");
+            llist.slice(4).fadeIn("slow");
+            jQuery(this).hide();
           });
         }
       });  
