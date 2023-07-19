@@ -18,11 +18,11 @@
     .expertise-list.slick-slide{margin: 0 20px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-   
     .expertise-list.slick-slide{margin: 0 10px;}
 }
 @media only screen and (min-width: 768px){
     .expertise-row{gap: 56px; padding: 30px 0 29px;}
+    .expertise-row .slick-track{display: flex; flex-wrap: nowrap;}
     .expertise-head{max-width: 507px; padding: 257px 0 297px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){

@@ -26,10 +26,10 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 15px; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 66px 153px 70px; margin: 0 0 35px; font-size: 20px; line-height: 30.6px; font-style: normal; position: relative; letter-spacing: normal; border-radius: 0; background-color: var(--dark-blue); color: var(--white-80); text-align: center;}
+blockquote{padding: 75px 153px 68px; margin: 0 0 35px; font-size: 20px; line-height: 30.6px; font-style: normal; position: relative; letter-spacing: normal; border-radius: 0; background-color: var(--dark-blue); color: var(--white-80); text-align: center;}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
-blockquote p::before{ content: ""; display: block; background-image: url("./images/quote.svg"); width: 24px; height: 17px; margin: 0 auto 20px; background-repeat: no-repeat; background-position: center; }
+blockquote p::before{ content: ""; display: block; background-image: url("./images/quote.svg"); width: 24px; height: 17px; margin: 0 auto 32px; background-repeat: no-repeat; background-position: center; }
 small {font-size: 14px; line-height: 20px;}
 big {font-size: 125%;}
 sup, sub {font-size: 10px; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
@@ -164,6 +164,8 @@ span.optional-text.black{color: var(--text-color);}
 .sub-heading a:hover{color: var(--blue-color);}
 span.optional-text.electric{color: var(--blue-color); letter-spacing: 0.2em;}
 .white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text h6{color: var(--white);}
+.white-text ul li a, .white-text ol li a{color: var(--blue-color);}
+.white-text ul li a:hover, .white-text ol li a:hover{color: var(--white);}
 
 .pos-relative{position: relative;}
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}

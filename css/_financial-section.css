@@ -19,7 +19,7 @@
     0% { stroke-dashoffset: 500;}
     100% { stroke-dashoffset: 0;}
 }
-.financial-list{background-color: var(--white);}
+.financial-list{background-color: var(--white); position: relative; overflow: hidden;}
 .financial-image{overflow: hidden;}
 .financial-thumb{transition: all 0.45s ease-in-out;}
 .financial-desc{transition: all 0.45s ease-in-out;}
