@@ -2,7 +2,7 @@
 
 .approach-list{color: var(--white);}
 .approach-bg{background-color: var(--black); opacity: 0.5; z-index: 0;}
-.approach-icon{max-width: 51px; margin-bottom: 22px;}
+.approach-icon{max-width: 51px; margin-bottom: 25px;}
 .approach-icon img{width: 100%; max-height: 51px; object-fit: contain;}
 .approach-text{max-width: 410px;}
 .approach-text h3{color: var(--white); margin-bottom: 14px; font-size: 30px; line-height: 34px;}
