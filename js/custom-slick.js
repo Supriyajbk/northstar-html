@@ -28,8 +28,7 @@ jQuery(document).ready(function(){
         arrows: false,
         fade: true,
         autoplay: true,
-        autoplaySpeed: 5000,
-        speed: 4000,
+        autoplaySpeed: 3000,
         adaptiveHeight: true,
         asNavFor: '.testimonial-slider-nav',
         responsive: [
