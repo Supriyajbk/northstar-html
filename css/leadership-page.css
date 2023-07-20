@@ -47,7 +47,7 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .leadership-pattern-bg{background-image: url("./images/pattern-block-mobile.svg"); top: -42px; left: -23px; width: 295px; height: 412px;}
     .leadership-page-main{display: block; padding: 0 0 1px;}
-    .leadership-aside{padding: 80px 45px 106px 36px; }
+    .leadership-aside{padding: 80px 45px 106px 36px;  margin-bottom: 28px;}
     .leadership-aside-white{top: -15px; clip-path: polygon(0 8%,100% 0,100% 88%,0% 95.5%);}
     .leadership-aside-bg{top: 15px; clip-path: polygon(0 8%,100% 0,100% 88%,0% 95.5%);}
     .our-team-main{padding-top: 10px;}
@@ -55,6 +55,6 @@
     .our-team-head h2{font-size: 24px; line-height: 28px;}
     .our-team-list{gap: 22px;}
     .our-team-image{flex: 0 0 70px;}
-    .our-team-text{flex: 0 0 calc(100% - 92px); padding-top: 16px;}
+    .our-team-text{flex: 1; padding-top: 16px;}
   
 }
