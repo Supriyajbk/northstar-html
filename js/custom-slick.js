@@ -216,11 +216,10 @@ jQuery('.firm-slider-nav').slick({
         ]
       });
 
-      // $expertiseSliderNav.on("setPosition", function(slide, i, currentSlide){
-
-      //   if(currentSlide.hasClass("slick-current")){
-      //     jQuery(this).addClass("icon-animation"); 
-      //   };
-      // })
+      
+      $expertiseSliderNav.on("setPosition", function(event, slick){
+        const currentSlide = slick.$slides.filter(".slick-current");
+        currentSlide.find(".expertise-icon").addClass("icon-animation");
+      });
       
 });
