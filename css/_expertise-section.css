@@ -11,6 +11,22 @@
 .expertise-icon{display: block; text-align: center; font-size: 27px; margin-bottom: 10px;}
 .expertise-text{font-size: 14px; line-height: 18px;}
 
+.icon-animation{
+	        animation: scale-up-center 0.75s cubic-bezier(0.390, 0.575, 0.565, 1.000) both infinite;
+}
+  @keyframes scale-up-center {
+    0% {
+        opacity: 0.5;
+              transform: skew(10deg) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+              transform: skew(0deg) scale(1);
+    }
+  }
+  
+  
+
 /*-- media css starts here --*/
 
 @media only screen and (min-width: 1024px){

@@ -28,7 +28,8 @@ let header = jQuery(".main-header");
     let listItems = list.children(".financial-list");
     if(listItems.length > 4){
       jQuery(listItems).slice(4).fadeToggle(900);
-      jQuery(this).text(jQuery(this).text() == 'load more' ? 'no posts' : 'load more');
+      // jQuery(this).text(jQuery(this).text() == 'load more' ? 'no posts' : 'load more');
+      jQuery(this).hide();
     }
   });
   jQuery('.accordion-header').on('click', function(e){
@@ -74,6 +75,8 @@ let header = jQuery(".main-header");
         }
       });  
     }
+
+
 
     
 });
