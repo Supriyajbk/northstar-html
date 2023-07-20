@@ -268,21 +268,13 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
     .button.blue-mbtn::before, .button.blue-mbtn::after{background-color: var(--blue-color);}
     .button.blue-mbtn:hover::before, .button.blue-mbtn:hover::after{background-color: var(--purple-color);}
 
-    .cky-notice-btn-wrapper{flex-direction: row !important; gap: 10px;}
-    .cky-btn.cky-btn-customize, .cky-btn.cky-btn-accept{width: 47%;}
+    body .cky-box-bottom-left{right: 15px; width: calc(100% - 30px); bottom: 15px;}
+    .cky-consent-container .cky-consent-bar{padding: 20px 20px; border-radius: 6px;}
+    .cky-notice .cky-title{margin: 0 0 10px 0;}
+    .cky-notice-des{line-height: 23px !important; margin-bottom: 15px;}
+    .cky-notice-btn-wrapper{flex-direction: row !important; gap: 15px;}
+    .cky-btn.cky-btn-customize, .cky-btn.cky-btn-accept{width: calc(50% - 15px); margin: 0 !important;}
     .cky-notice-btn-wrapper .cky-btn-accept{order: 1;}
     .cky-notice-btn-wrapper .cky-btn-customize{order: 2;}
-    .cky-notice-btn-wrapper .cky-btn-reject{order: 3;}
-}
-
-@media only screen and (max-width: 767px) and (min-width: 480px){
-    body .cky-box-bottom-left{right: 20px !important;}
-}
-@media only screen and (max-width: 440px) and (min-width: 200px){
-    body .cky-box-bottom-left{right: 0 !important;}
-    .cky-notice-btn-wrapper{flex-direction: row !important; gap: 0 10px;}
-    .cky-btn.cky-btn-customize, .cky-btn.cky-btn-accept{width: 48%;}
-    .cky-notice-btn-wrapper .cky-btn-accept{margin-top: 10px !important; order: 1;}
-    .cky-notice-btn-wrapper .cky-btn-customize{order: 2;}
-    .cky-notice-btn-wrapper .cky-btn-reject{order: 3;} 
+    .cky-notice-btn-wrapper .cky-btn-reject{order: 3; margin: 0;}
 }

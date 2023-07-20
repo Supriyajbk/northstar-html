@@ -14,7 +14,7 @@
 .default-desc-main{padding: 88px 0 118px;}
 .default-desc-text{color: var(--white); opacity: 0.9;}
 
-
+.no-banner-bg{min-height: 644px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
