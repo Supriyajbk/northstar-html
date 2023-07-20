@@ -13,6 +13,7 @@
 @media only screen and (min-width: 1024px){
     .home-banner-thumb img{max-height: 763px; overflow: hidden;}
     .home-banner-bg iframe{min-height: 763px; width: 100%; object-fit: cover;} 
+    body.page-template-strategy .home-banner-bg iframe{min-height: 644px;}
     .home-banner-main{width: 732px;}
     .home-banner-text h1{font-size: 46px; line-height: 58px; margin-bottom: 31px;}
 }
