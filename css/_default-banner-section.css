@@ -4,6 +4,8 @@
 .default-banner-text{color: var(--white); text-align: center; line-height: 1.53; letter-spacing: normal;}
 .default-banner-text h1{line-height: normal; letter-spacing: normal; margin-bottom: 20px; font-weight: 500; color: var(--white);}
 .default-banner-text p:not(:last-child){margin-bottom: 33px;}
+.no-banner-image{min-height: 644px;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
