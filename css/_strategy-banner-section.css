@@ -8,18 +8,18 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .page-template-strategy .home-banner-thumb img{max-height: 644px; overflow: hidden;}
+    .page-template-strategy .home-banner-thumb img{min-height: 644px; overflow: hidden;}
     .page-template-strategy .home-banner-main{width: 590px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .page-template-strategy .home-banner-bg{min-height: 531px;}
     .page-template-strategy .home-banner-main{width: 490px; padding: 45px 0;}
-
+    .page-template-strategy .home-banner-thumb img{min-height: 531px; overflow: hidden;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .page-template-strategy .home-banner-bg{clip-path: polygon(100% 0, 100% 94%, 50% 100%, 0 94%, 0 0); min-height: 531px;} 
     .page-template-strategy .home-banner-main{padding-top: 105px;}
-    .page-template-strategy .home-banner-thumb img{max-height: 531px; overflow: hidden;}
+    .page-template-strategy .home-banner-thumb img{min-height: 531px; overflow: hidden;}
     .page-template-strategy .home-banner-text h1{font-size: 36px; margin-bottom: 18px;}
     .page-template-strategy .home-banner-text p:not(:last-child){margin-bottom: 25px;}
 
