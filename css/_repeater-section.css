@@ -28,5 +28,6 @@
     .optional-repeater-main{display: block; padding: 50px 0 65px;}
     .optional-repeater-image{margin-bottom: 24px;}
     .optional-repeater-image img{max-height: 488px; overflow: hidden;}
+    .optional-repeater-text  span.optional-text{margin-bottom: 13px;}
     .optional-repeater-text h3{max-width: 100%;}
 }

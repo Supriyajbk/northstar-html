@@ -30,6 +30,6 @@
     .sparta-bg{min-height: 509px;}
     .sparta-thumb img{max-height: 509px;}
     .sparta-overlay{display: none;}
-    .sparta-gradient{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(89deg, rgba(0, 0, 0, 0.8) 5%, rgba(0, 0, 0, 0.3) 75%);}
+    .sparta-gradient{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(89deg, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0.3) 75%);}
     .sparta-icon{margin-bottom: 19px;}
 }
