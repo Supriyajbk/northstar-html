@@ -267,4 +267,9 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
     .button.blue-mbtn{background-color: var(--blue-color); border-color: transparent;}
     .button.blue-mbtn::before, .button.blue-mbtn::after{background-color: var(--blue-color);}
     .button.blue-mbtn:hover::before, .button.blue-mbtn:hover::after{background-color: var(--purple-color);}
+
+    body .cky-box-bottom-left{right: 0 !important;}
+    .cky-notice-btn-wrapper{flex-direction: row !important; gap: 0 10px;}
+    .cky-btn.cky-btn-customize, .cky-btn.cky-btn-accept{width: 48%;}
+    .cky-notice-btn-wrapper .cky-btn-accept{margin-top: 10px !important;}
 }
