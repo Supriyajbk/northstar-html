@@ -4,7 +4,7 @@
 .logo a{width: 100%; display: block; position: relative;}
 .logo-dark{top: 0; left: 0; opacity: 0; position: absolute;}
 .fixed-header::after{transform: translateY(0);}
-.fixed-header .logo-dark{opacity: 1;}
+.fixed-header .logo-dark{opacity: 1; transition: all 1s ease;}
 .sticky-header .logo-dark{opacity: 1;}
 .sticky-header::after{transform: translateY(0);}
 
