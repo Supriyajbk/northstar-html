@@ -10,7 +10,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .default-banner-thumb img{min-height: 644px; overflow: hidden;}
-    .default-banner-main{width: 590px;}
+    .default-banner-main{width: 590px; padding: 100px 0;}
     .default-banner-text{margin-bottom: 20px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
