@@ -53,7 +53,7 @@
     .firm-slider-text{max-width: 530px; padding: 308px 0 171px; margin: 0 auto; text-align: center;}
     .firm-slider-for ul.slick-dots{margin: 0; width: 232px; left: auto; right: 0; bottom: 0; top: 225px; display: block; position: absolute;}
     .firm-slider-for ul.slick-dots li{margin-bottom: 0; line-height: normal;}
-    .firm-slider-for ul.slick-dots li button{margin: 0; width: 100%; height: 100%; padding: 29px 32px 25px 0; font-size: 1.625rem; line-height: normal; color: rgba(255, 255, 255, 0.3); background-color: transparent; border-radius: 0; border-right: solid 1px rgba(255, 255, 255, 0.2);  border-width: 0 1px 0 0; text-align: right; font-weight: normal;}
+    .firm-slider-for ul.slick-dots li button{margin: 0; width: 100%; height: 100%; padding: 20px 32px 18px 0; font-size: 1.625rem; line-height: normal; color: rgba(255, 255, 255, 0.3); background-color: transparent; border-radius: 0; border-right: solid 1px rgba(255, 255, 255, 0.2);  border-width: 0 1px 0 0; text-align: right; font-weight: normal;}
     .firm-slider-for ul.slick-dots li button:hover{color: var(--white);}
     .firm-slider-for ul.slick-dots li.slick-active button{border-color: var(--blue-color); color: var(--white);}
     .firm-slider-main{min-height: 714px;}
