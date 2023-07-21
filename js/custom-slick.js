@@ -217,8 +217,9 @@ jQuery('.firm-slider-nav').slick({
       });
 
       
-      $expertiseSliderNav.on("setPosition", function(event, slick){
+      $expertiseSliderNav.on("setPosition afterChange", function(event, slick){
         const currentSlide = slick.$slides.filter(".slick-current");
+        jQuery(".expertise-icon").removeClass("icon-animation");
         currentSlide.find(".expertise-icon").addClass("icon-animation");
       });
       
