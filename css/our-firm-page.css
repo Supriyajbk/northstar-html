@@ -31,7 +31,8 @@
 .leadership-team-inner h5{color: var(--white); font-weight: normal; line-height: normal; position: relative; margin-bottom: 11px;}
 .leadership-team-inner h5::before{content: ""; position: absolute; width: 27px; height: 1px; background-color: var(--blue-color); left: 50%; transform: translateX(-50%); bottom: -9px;}
 .leadership-team-inner span{font-size: 0.938rem; color: var(--white-90); line-height: 1.438rem; font-style: italic; font-weight: 500;}
-
+.leadership-team-list:nth-child(5) > a{pointer-events: none; color: var(--text-color);}
+.leadership-team-list:nth-child(5) > a p{opacity: 0.9; font-weight: normal;}
 
 @media screen and (min-width: 1024px) {
     .page-template-our-firm .default-banner-text{margin-bottom: 57px; padding-top: 10px;}
@@ -105,15 +106,15 @@
     .core-values-main h4{font-size: 1.5rem; line-height: normal;}
     .core-values-main .button{margin-top: 6px;}
 
-
-    .firm-slider-main{padding: 196px 0 40px;}
+    .firm-slider-section{margin-top: -35px;}
+    .firm-slider-main{padding: 200px 0 40px;}
     .firm-slider-bg{clip-path: polygon(50% 5.4%,100% 0,100% 100%,0 100%,0 0);}
     .firm-slider-for{width: 100%;}
     .firm-slider-for .slick-list{overflow: visible;}
     .firm-slider-text{text-align: center; width: 520px; margin: 0 auto;}
     .firm-slider-text h3{font-size: 1.625rem; line-height: normal;}
     .firm-slider-for ul.slick-dots{position: relative; bottom: 0; margin-top: 101px;}
-    .form-slider-image img{min-height: 500px;}
+    .form-slider-image img{min-height: 505px;}
 
     .leadership-pattern-one, .leadership-pattern-two{display: none;}
     .leadership-team-wrap{padding: 63px 0 32px;}
@@ -153,13 +154,15 @@
     .market-insight-content{width: 100%;}
     .market-insight-content h3{font-size: 1.625rem; font-weight: 500; margin-bottom: 16px;}
 
-    .core-values-main{padding: 49px 0 43px;}
+    .core-values-main{padding: 49px 0 74px;}
     .core-values-bg{clip-path: polygon(100% 0,100% 92%,50% 100%,0 92%,0 0);}
     .core-values-main h4{font-size: 1.5rem; line-height: normal;}
     .core-values-main .button{margin-top: 6px;}
 
-    .firm-slider-main{padding: 196px 0 40px;}
+    .firm-slider-section{margin-top: -35px;}
+    .firm-slider-main{padding: 200px 0 40px;}
     .firm-slider-bg{clip-path: polygon(50% 5.4%,100% 0,100% 100%,0 100%,0 0);}
+    .form-slider-image img{min-height: 555px;}
     .firm-slider-for{width: 100%;}
     .firm-slider-for .slick-list{overflow: visible;}
     .firm-slider-text{text-align: center; width: 315px; margin: 0 auto;}

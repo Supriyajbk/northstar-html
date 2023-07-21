@@ -76,7 +76,5 @@ let header = jQuery(".main-header");
       });  
     }
 
-
-
-    
+    // jQuery('#leadership_team_content').remove(); 
 });
