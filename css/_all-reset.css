@@ -73,7 +73,7 @@ th {border-width: 0; padding: 14px 0 13px; background-color: var(--gray-color); 
 th span.icon{font-size: 14px; margin-left: 4px; top: 0px; position: relative; }
 td {border-width: 0; padding: 13px 10px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1rem; line-height: 1.7rem;}
 table tr:nth-child(even) td{background-color: rgba(0,0,0, 0.02);}
-table tr:last-child td{border-bottom: none;}
+/* table tr:last-child td{border-bottom: none;} */
 
 caption, th, td {text-align: left; padding-left: 18px;}
 del {color: var(--text-color);}
