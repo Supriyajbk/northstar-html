@@ -69,7 +69,8 @@ table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 
 table tr td:first-child {padding-left: 15px; text-align: left;}
 table:not(.annual-table) tr th:first-child {text-align: left; padding-left: 17px;}
 table tbody img {margin: 0 auto;}
-th {border-width: 0; padding: 14px 0 13px; background-color: var(--gray-color); color: var(--white); border-radius: 0;}
+th {border-width: 0; padding: 14px 0 13px; background-color: var(--dark-blue); color: var(--white);  border-radius: 0;}
+.white-text th { background-color: var(--gray-color); color: var(--white);}
 th span.icon{font-size: 14px; margin-left: 4px; top: 0px; position: relative; }
 td {border-width: 0; padding: 13px 10px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1rem; line-height: 1.7rem;}
 table tr:nth-child(even) td{background-color: rgba(0,0,0, 0.02);}

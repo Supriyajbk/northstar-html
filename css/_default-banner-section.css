@@ -9,13 +9,13 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .default-banner-thumb img{max-height: 644px; overflow: hidden;}
+    .default-banner-thumb img{min-height: 644px; overflow: hidden;}
     .default-banner-main{width: 590px;}
     .default-banner-text{margin-bottom: 20px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .default-banner-main{width: 490px;}
-
+    .default-banner-thumb img{min-height: 531px; overflow: hidden;}
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
