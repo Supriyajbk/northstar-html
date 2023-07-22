@@ -6,6 +6,7 @@
 .home-banner-text h1{color: var(--white);}
 .home-banner-text span{font-family: 'lexend', sansserif; font-weight: 400;  display: block;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .home-banner-text span{font-size: 20px; line-height:24px; margin-bottom: 18px; }

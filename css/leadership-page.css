@@ -2,8 +2,8 @@
 
 .leadership-pattern-bg{top: -85px; left: -255px; width: 739px; height: 606px; opacity: .03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
 .leadership-aside{filter: drop-shadow(1px 3px 16px rgba(0, 0, 0, 0.10));}
-.leadership-aside-white{ width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1; background-color: var(--white); clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);}
-.leadership-aside-bg { width: 100%; height: 100%; background-color: var(--mid-gray-color); position: absolute; left: 0; top: 25px; clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%); z-index: -1; }
+.leadership-aside-white{ width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1; background-color: var(--white); clip-path: polygon(0 10.3%,100% 0,100% 88%,0% 100%);}
+.leadership-aside-bg { width: 100%; height: 100%; background-color: var(--mid-gray-color); position: absolute; left: 0; top: 25px; clip-path:polygon(0 10.3%,100% 0,100% 88%,0% 100%); z-index: -1; }
 .our-team-list{margin-bottom: 10px;}
 .our-team-text{color: var(--gray-color); font-size: 1rem; line-height: 20px; font-family: "lexend", sans-serif;}
 .our-team-text span{display: block; color: var(--text-color);}
@@ -21,7 +21,7 @@
     .leadership-article{flex: 0 0 calc(100% - 488px); padding-top: 46px;}
     .leadership-article h3{padding-top: 15px;}
     .our-team-head h2{font-size: 26px; line-height: 30px; margin-bottom: 29px;}
-    .our-team-main{padding-top: 20px;}
+    /* .our-team-main{padding-top: 20px;} */
     .our-team-list{gap: 22px;}
     .our-team-image{flex: 0 0 70px;}
     .our-team-text{flex: 0 0 calc(100% - 92px); padding-top: 16px;}

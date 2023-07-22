@@ -6,6 +6,10 @@
 .join-team-text span.optional-text{margin-bottom: 10px;}
 .join-team-text h3{color: var(--white); margin-bottom: 18px;}
 
+.join-team-main{overflow: hidden;}
+.join-team-image{transition: all .5s ease; }
+.join-team-main:hover .join-team-image{transform: scale(1.1);}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .background-pattern{width: 100%; height: 100%; background-image: url("images/background-pattern.svg"); background-repeat: no-repeat; background-size: cover;}

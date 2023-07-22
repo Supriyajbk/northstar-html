@@ -39,6 +39,12 @@ figure.quote-thumb img{width: 24px;}
     .our-culture-page .optional-repeater-main.reverse .optional-repeater-image{flex: 0 0 calc(100% - 534px); margin:0 -200px 0 0;}
     .our-culture-page .optional-repeater-main.reverse .optional-repeater-text{flex: 0 0 408px;}
     .our-culture-page .optional-repeater-text p{color: rgba(31, 31, 31, 0.8);}
+
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .home-banner-section + .cta-panel-main{padding: 130px 0 30px;}
 }
 
 @media screen and (max-width: 1399px) and (min-width: 1024px) {
@@ -60,6 +66,9 @@ figure.quote-thumb img{width: 24px;}
 
     .feature-grid-main{padding: 129px 0; gap: 20px;}
     .feature-grid-list{flex: 0 0 calc(50% - 10px); min-height: 645px;}
+
+    .home-banner-section + .cta-panel-section{z-index: -1; margin-top: -130px;}
+    .home-banner-section + .cta-panel-main{min-height: 700px;}
 
 }
 
@@ -84,6 +93,8 @@ figure.quote-thumb img{width: 24px;}
     .feature-grid-pattern-two{bottom: -216px; left: -337px; width: 503px; height: 412px;}
     .feature-grid-main{gap: 24px; padding: 35px 0 64px;}
     .feature-grid-list{width: 100%; min-height: 503px;}
+
+    .home-banner-section + .cta-panel-section{z-index: -1; margin-top: -70px;}
 
 }
 
@@ -115,4 +126,6 @@ figure.quote-thumb img{width: 24px;}
     .feature-grid-list{width: 100%; min-height: 503px;}
     
     figure.quote-thumb{margin-bottom: 13px;}
+
+    .home-banner-section + .cta-panel-section{z-index: -1; margin-top: -55px;}
 }
