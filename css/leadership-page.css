@@ -9,6 +9,7 @@
 .our-team-text span{display: block; color: var(--text-color);}
 .our-team-text a{color: var(--text-color);}
 .our-team-text a:hover{color: var(--link-color);}
+.our-team-thumb img{border-radius: 50%;}
 .team-view-more{padding: 15px 0 10px}
 .team-view-link::after{ content: "\f107"; font-family: "Font Awesome 6 Sharp";}
 .team-view-link.open::after{content: "\f106";}
