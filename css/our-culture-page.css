@@ -79,6 +79,7 @@ figure.quote-thumb img{width: 24px;}
 
     .single-testimonial{margin-top: -65px;}
     .single-testimonial-main{padding: 122px 0 58px;}
+    .single-testimonial-content{max-width: 550px;}
     .quote-thumb{margin-bottom: 14px;}
     .single-testimonial-name{margin: 32px 0;}
 
@@ -86,7 +87,7 @@ figure.quote-thumb img{width: 24px;}
 
     .our-culture-page .optional-repeater-main{padding: 24px 0 40px; gap: 30px;}
     .our-culture-page .optional-repeater-image{width: 100%;}
-    .our-culture-page .optional-repeater-text{text-align: center;}
+    .our-culture-page .optional-repeater-text{text-align: center; max-width: 550px; margin: 0 auto;}
     .our-culture-page .optional-repeater-text h3{font-size: 1.625rem; margin-bottom: 15px; max-width: 100%;}
 
     .feature-grid-pattern-one{top: -296px; right: -252px; width: 503px; height: 412px;}

@@ -18,6 +18,10 @@
     .home-banner-main{width: 732px;}
     .home-banner-text h1{font-size: 46px; line-height: 58px; margin-bottom: 31px;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .home-banner-main{padding: 20px 0 0 0;}
+}
+
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .home-banner-bg{clip-path: polygon(100% 0,100% 94%,50% 100%,0 94%,0 0);}
     .home-banner-thumb img{max-height: 533px;}

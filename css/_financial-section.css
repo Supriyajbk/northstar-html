@@ -42,6 +42,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .financial-row{gap: 19px}
     .financial-list{flex: 0 0 calc(50% - 10px);}
+    .financial-head{max-width: 550px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .financial-pattern-bg{width: 390px; height: 1137px; left: -20px; top: -170px; opacity: 0.05; background-image: url("./images/pattern-bg-mobile.svg"); background-position: center top; background-size: cover;}

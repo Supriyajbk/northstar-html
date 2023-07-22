@@ -23,6 +23,7 @@
 .post-video-text p a{color: var(--blue-color);}
 .post-video-text p a:hover{color: var(--white);}
 .post-video-main table, th, td {border: 1px solid rgba(255, 255, 255, 0.3);}
+.post-video-main table th{background-color: var(--gray-color);}
 
 
 /* Media Query */

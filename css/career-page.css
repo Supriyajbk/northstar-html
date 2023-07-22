@@ -69,9 +69,9 @@
 
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    .career-banner-main{padding: 116px 0 266px; display: block;}
-    .career-banner-text{margin-bottom: 37px;}
-    .career-banner-image { bottom: -123px; left: 0; max-width: 325px; position: absolute; }
+    .career-banner-main{padding: 116px 0 266px; display: block; max-width: 400px; margin: 0 auto;}
+    .career-banner-text{margin-bottom: 37px; text-align: center}
+    .career-banner-image { bottom: -123px; left: 50%; transform: translateX(-50%); max-width: 325px; min-width: 325px; position: absolute; }
     .career-banner-thumb img{min-height: 388px; max-width: 325px;}
     .career-banner-pattern-one{left: 0; top: 30px; width: 155px; height: 468px; background-position: right;}
     .career-banner-pattern-two{right: 0; top: 349px;width: 182px; height: 468px;}
