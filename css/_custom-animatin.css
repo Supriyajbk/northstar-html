@@ -54,3 +54,74 @@
 
 .from-0-to-100{animation-name: from-0-to-100;}
 @keyframes from-0-to-100{ 0%{width: 0;} 100%{width: 100%;} }
+
+.swingup {
+   animation: swingup 1s linear 0s 1 normal forwards;
+}
+
+@keyframes swingup {
+	0% {
+		opacity: 0;
+		transform: rotateX(100deg);
+		transform-origin: bottom;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0);
+		transform-origin: bottom;
+	}
+}
+
+.swingdown {
+    animation: swingdown 1s linear 0s 1 normal forwards;
+ }
+
+ @keyframes swingdown {
+	0% {
+		opacity: 0;
+		transform: rotateX(-100deg);
+		transform-origin: top;
+	}
+	100% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
+}
+
+.swingleft {
+    animation: swingleft 1s linear 0s 1 normal forwards;
+ }
+
+@keyframes swingleft {
+	0% {
+		opacity: 0;
+		transform: rotateY(-100deg);
+		transform-origin: right;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateY(0);
+		transform-origin: right;
+	}
+}
+
+.swingright {
+    animation: swingright 1s linear 0s 1 normal forwards;
+ }
+
+@keyframes swingright {
+	0% {
+		opacity: 0;
+		transform: rotateY(100deg);
+		transform-origin: left;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateY(0);
+		transform-origin: left;
+	}
+}

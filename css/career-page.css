@@ -26,7 +26,8 @@
 .testimonial-text{font-size: 20px; line-height: 30px;}
 .testimonial-text::before{width: 23px; height: 27px; left: 0; top: 0; content: ""; display: block; background-image: url("./images/testimonial-quote.svg"); background-repeat: no-repeat; background-size: contain; position: absolute;}
 .author-info{margin-top: 29px;}
-.author-info p{font-size: 1.125rem; font-weight: 600; margin-bottom: -4px; line-height: 1.719rem;}
+.author-info p{font-size: 1.125rem; font-weight: 600; margin-bottom: -6px; line-height: 1.719rem;}
+.author-info span{font-size: 1rem;}
 
 .perks-main{padding: 88px 0 128px;}
 .perks-main h2{font-size: 2.125rem; font-weight: 500; text-align: center; margin-bottom: 67px;}
