@@ -11,7 +11,7 @@
 .our-team-text span{display: block; color: var(--text-color);}
 .our-team-text a{color: var(--text-color);}
 .our-team-text a:hover{color: var(--link-color);}
-.our-team-thumb img{border-radius: 50%;}
+.our-team-thumb img{border-radius: 50%; min-height: 70px; max-height: 70px; object-fit: cover; min-width: 70px; object-position: top;}
 .team-view-more{padding: 15px 0 10px}
 .team-view-link::after{ content: "\f107"; font-family: "Font Awesome 6 Sharp";}
 .team-view-link.open::after{content: "\f106";}
@@ -36,9 +36,10 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .leadership-page-main{display: block; padding: 34px 0 56px;}
-    .leadership-aside{padding: 80px 45px 106px 36px; }
-    .leadership-aside-white{top: -15px; clip-path: polygon(0 8%,100% 0,100% 88%,0% 95.5%);}
-    .leadership-aside-bg{top: 15px; clip-path: polygon(0 8%,100% 0,100% 88%,0% 95.5%);}
+    .leadership-aside{padding: 80px 45px 25px 36px; margin-bottom: 100px;}
+    /* .leadership-aside-white{top: -15px; clip-path: polygon(0 8%,100% 0,100% 88%,0% 95.5%);} */
+    .leadership-aside::after{height: 65px;}
+    .leadership-aside-bg{top: 60px; clip-path: polygon(0 0%,100% 0,100% 95%,0% 100%);}
     .our-team-main{padding-top: 10px;}
     .our-team-head{padding-bottom: 16px;}
     .our-team-head h2{font-size: 24px; line-height: 28px;}
@@ -50,9 +51,10 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .leadership-pattern-bg{background-image: url("./images/pattern-block-mobile.svg"); top: -42px; left: -23px; width: 295px; height: 412px;}
     .leadership-page-main{display: block; padding: 0 0 1px;}
-    .leadership-aside{padding: 80px 45px 106px 36px;  margin-bottom: 28px;}
-    .leadership-aside-white{top: -15px; clip-path: polygon(0 8%,100% 0,100% 88%,0% 95.5%);}
-    .leadership-aside-bg{top: 15px; clip-path: polygon(0 8%,100% 0,100% 88%,0% 95.5%);}
+    .leadership-aside{padding: 80px 45px 25px 36px; margin-bottom: 100px;}
+    /* .leadership-aside-white{top: -15px; clip-path: polygon(0 8%,100% 0,100% 88%,0% 95.5%);} */
+    .leadership-aside::after{height: 65px;}
+    .leadership-aside-bg{top: 60px; clip-path: polygon(0 0%,100% 0,100% 95%,0% 100%);}
     .our-team-main{padding-top: 10px;}
     .our-team-head{padding-bottom: 16px;}
     .our-team-head h2{font-size: 24px; line-height: 28px;}

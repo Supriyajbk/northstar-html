@@ -12,14 +12,15 @@
     .home-banner-text span{font-size: 20px; line-height:24px; margin-bottom: 18px; }
 }
 @media only screen and (min-width: 1024px){
-    .home-banner-thumb img{max-height: 763px; overflow: hidden;}
+    .home-banner-thumb img{max-height: 763px; min-height: 763px; overflow: hidden;}
     .home-banner-bg iframe{min-height: 763px; width: 100%; object-fit: cover; height: 100%;} 
     body.page-template-strategy .home-banner-bg iframe{min-height: 644px;}
     .home-banner-main{width: 732px;}
     .home-banner-text h1{font-size: 46px; line-height: 58px; margin-bottom: 31px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .home-banner-main{padding: 20px 0 0 0;}
+    .home-banner-main{padding: 0 0 29px 0;}
+    .home-banner-thumb img{min-height: 533px; max-height: 533px;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
