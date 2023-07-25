@@ -6,7 +6,7 @@
 .accordion-list:last-child{margin-bottom: 0;}
 .accordion-list.active{background-color: var(--white); }
 .accordion-header{padding: 15px 53px 18px 30px; font-size: 1rem; line-height: 1.25rem; cursor: pointer; position: relative; }
-.accordion-header::after{right: 20px; top: 50%; transform: translateY(-50%); position: absolute; transition: all 0.5s ease; content: "\f107"; font-family: "Font Awesome 6 Pro"; font-weight: 400; color: var(--electric-color); font-size: 22px; line-height: 24px;}
+.accordion-header::after{right: 20px; top: 15px; position: absolute; transition: all 0.5s ease; content: "\f107"; font-family: "Font Awesome 6 Pro"; font-weight: 400; color: var(--electric-color); font-size: 22px; line-height: 24px;}
 .accordion-header.open::after{content: "\f106"; color: var(--slate-color);}
 .accordion-content{display: none; padding: 4px 42px 40px 0px;; font-size: 16px; line-height: 1.75rem;}
 .accordion-content ul li::before{top: 13px;}
@@ -36,5 +36,5 @@
     .faqs-head{margin-bottom: 32px;}
     .faqs-head h2{margin-bottom: 17px;}
     .accordion-list{margin-bottom: 24px;}
-    .accordion-header{padding: 16px; padding-right: 52px; padding-left: 30px;}
+    .accordion-header{padding: 14px 52px 16px 15px;}
 }

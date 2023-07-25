@@ -1,5 +1,5 @@
 
-.main-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 850;}
+.main-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 850; transition: all 1s ease;}
 .main-header::after{width: 100%; height: 100%; top: 0; left: 0; transform: translateY(-100%); transition: all 0.45s ease-in-out; background-color: var(--white); box-shadow: 0 0 2px var(--light-gray-color); content: ""; display: block; position: absolute; z-index: -1;}
 .logo a{width: 100%; display: block; position: relative;}
 .logo-dark{top: 0; left: 0; opacity: 0; position: absolute;}
@@ -59,20 +59,21 @@
     .toggle_icon.open span.line3{transform: rotate(-45deg) translate(5px, -5px);}
     .fixed-header .toggle_icon span.line{background-color: var(--dark-purple);}
 
-    .navigation{width: 100%; height: 100vh; min-height: 100vh; top: 0; right: -100%; padding: 129px 20px 100px; margin-top: 74px; background-color: var(--dark-blue); background-image: url("./images/menu-bg@2x.jpg"); background-repeat: no-repeat; background-size: cover; position: fixed; overflow-y: auto; -webkit-overflow-scrolling: touch;}
-    .navigation.open{right: 0;}
+    .navigation{width: 100%; height: 100vh; min-height: 100vh; top: 0; left: -100%; padding: 129px 20px 100px; margin-top: 74px; background-color: var(--dark-blue); background-image: url("./images/menu-bg@2x.jpg"); background-repeat: no-repeat; background-size: cover; position: fixed; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: all 1s ease;}
+    .navigation.open{left: 0;}
     ul.main-menu{display: block; margin: 0; text-align: center;}
     ul.main-menu li::before{display: none;}
     ul.main-menu > li{margin: 0 0 48px;}
     ul.main-menu > li > a{color: var(--white); font-size: 32px; line-height: 38px; font-family: 'lexend', sans-serif; display: inline-block; position: relative;}
     ul.main-menu > li.sib > a{color: var(--white-50);}
     ul.main-menu > li > a.active{color: var(--blue-color);}
-    ul.main-menu > li.menu-item-has-children > a::after{right: -25px; top: calc(50% + 5px); transform: translateY(-50%); content: "\f107"; font-size: 16px; font-weight: 900; display: block; font-family: "Font Awesome 6 Sharp"; position: absolute;}
+    ul.main-menu > li.menu-item-has-children > a::after{right: -25px; top: calc(50% + 5px); transform: translateY(-50%); content: "\f107"; font-size: 16px; font-weight: 900; display: block; font-family: "Font Awesome 6 Sharp"; position: absolute; line-height: 0; transition: all .5s ease; }
+    ul.main-menu > li.menu-item-has-children > a.active::after{top: calc(50% + 2px); transform: rotate(180deg);}
     ul.main-menu > li > ul{display: none; margin: 0; padding: 24px 0 0;}
     ul.main-menu > li > ul > li{margin: 0 0 18px;}
     ul.main-menu > li > ul > li:last-child{margin-bottom: 0;}
     ul.main-menu > li > ul > li > a{color: var(--white); display: inline-block; font-size: 21px; line-height: 24px; font-weight: 500; font-family: 'lexend', sans-serif; position: relative;}
-    ul.main-menu > li > ul > li > a::after{right: -22px; top: calc(50% + 5px); transform: translateY(-50%); content: "\f061"; font-size: 14px; font-weight: 900; display: block; font-family: "Font Awesome 6 Sharp"; position: absolute;}
+    ul.main-menu > li > ul > li > a::after{right: -22px; top: calc(50% + 2.5px); transform: translateY(-50%); content: "\f061"; font-size: 14px; font-weight: 900; display: block; font-family: "Font Awesome 6 Sharp"; position: absolute;}
 }
 
 

@@ -38,9 +38,9 @@
     .trading-text span{margin-bottom: 12px;}
     .trading-text h2{font-size: 30px; line-height: 38px;}
     .statistic-main{padding: 23px 0 33px;}
-    .statistic-row{gap: 10px 26px;}
+    .statistic-row{gap: 10px 0; justify-content: center;}
     .statistic-bg{opacity: 0.24;}
-    .statistic-list{flex: 0 0 calc(50% - 13px);}
+    .statistic-list{flex: 0 0 50%; color: var(--white);}
     .statistic-list:nth-child(even):before{width: 1px; height: 51px; top: 50%; transform: translateY(-50%); left: 0px; opacity: 0.5; background-color: var(--white); content: ""; display: block; position: absolute;}
 }
 
@@ -55,8 +55,8 @@
     .trading-text span{margin-bottom: 12px;}
     .trading-text h2{font-size: 30px; line-height: 38px;}
     .statistic-main{padding: 23px 0 33px;}
-    .statistic-row{gap: 10px 26px;}
+    .statistic-row{gap: 10px 0; justify-content: center;}
     .statistic-bg{opacity: 0.24;}
-    .statistic-list{flex: 0 0 calc(50% - 13px);}
+    .statistic-list{flex: 0 0 50%; color: var(--white);}
     .statistic-list:nth-child(even):before{width: 1px; height: 51px; top: 50%; transform: translateY(-50%); left: 0px; opacity: 0.5; background-color: var(--white); content: ""; display: block; position: absolute;}
 }

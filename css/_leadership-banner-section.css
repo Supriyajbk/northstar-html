@@ -19,7 +19,8 @@
     .leadership-banner-text{flex: 0 0 calc(100% - 466px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .leadership-banner-main{gap: 0 20px;}
+    .leadership-overlay-bg{max-height: inherit;}
+    .leadership-banner-main{gap: 0 20px; min-height: 528px;}
     .leadership-banner-text{flex: 0 0 calc(100% - 320px); padding-top: 52px;}
     .leadership-banner-image{flex: 0 0 300px;}
     .leadership-banner-text h1{font-size: 40px; line-height: 48px;}

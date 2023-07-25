@@ -24,8 +24,8 @@ body .frm_forms .frm_form_fields .frm_submit{text-align: center; position: relat
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 
-body .frm_forms form .frm_required_field .frm_error::after{content: "\e405"; line-height: 0; right: 17px; top: 42px; font-size: 18px; position: absolute; font-family: "Font Awesome 6 Pro"; color: #e41414;}
-body .frm_forms form .frm_required_field div.frm_error{top: -15px; right: 0; font-size: 10px; line-height: 14px; color: var(--error); position: absolute;}
+body .frm_forms form .frm_required_field .frm_error::after{content: "\e405"; line-height: 0; right: 17px; top: 27px; font-size: 18px; position: absolute; font-family: "Font Awesome 6 Pro"; color: #e41414;}
+body .frm_forms form .frm_required_field div.frm_error{font-size: 0.875rem; line-height: normal; color: var(--error); padding: 7px 0 0px 21px; margin-bottom: -5px; text-align: right;}
 body .with_frm_style .frm_message, .frm_success_style{font-weight: 700; color: var(--text-color); border: none; background: none; text-align: center; } 
 body .with_frm_style .frm_message p{font-size: 1.25rem; color: var(--white); line-height: normal; font-weight: 400}
 
