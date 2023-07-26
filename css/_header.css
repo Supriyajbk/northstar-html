@@ -59,7 +59,8 @@
     .toggle_icon.open span.line3{transform: rotate(-45deg) translate(5px, -5px);}
     .fixed-header .toggle_icon span.line{background-color: var(--dark-purple);}
 
-    .navigation{width: 100%; height: 100vh; min-height: 100vh; top: 0; left: -100%; padding: 129px 20px 100px; margin-top: 74px; background-color: var(--dark-blue); background-image: url("./images/menu-bg@2x.jpg"); background-repeat: no-repeat; background-size: cover; position: fixed; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: all 1s ease;}
+    .navigation{width: 100%; height: 100vh; min-height: 100vh; top: 0; left: -100%; padding: 129px 20px 100px; margin-top: 74px; background-color: var(--dark-blue); background-image: url("./images/menu-bg2@2x.jpg"); background-repeat: no-repeat; background-size: cover; position: fixed; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: all 1s ease;}
+    .navigation::before{content: ""; position: absolute; width: 100%; height: 100vh; background-color: #091735; top: 0; left: 0; opacity: .78;}
     .navigation.open{left: 0;}
     ul.main-menu{display: block; margin: 0; text-align: center;}
     ul.main-menu li::before{display: none;}

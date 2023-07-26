@@ -19,6 +19,7 @@
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .default-banner-thumb img{max-height: 529px; min-height: 529px; overflow: hidden;}
     .default-banner-bg{clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);}
     .default-banner-overlay::after {
     width: 100%;
