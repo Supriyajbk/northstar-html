@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="style.css" media="all">
 <link rel="stylesheet" href="./core.bundle.css" media="all">
 </head>
-<body>
+<body class="home">
 <header class="main-header">
 <div class="container">
     <div class="header flex flex-vcenter">
@@ -37,24 +37,24 @@
             <ul class="main-menu flex">
                 <li class="menu-item-has-children"><a href="#">What We Do</a>
                     <ul class="sub-menu">
-                        <li><a href="#">Our Strategy</a></li>
-                        <li><a href="#">Markets</a></li>
+                        <li><a href="002-strategy.html">Our Strategy</a></li>
+                        <li><a href="003-our-firm.html">Markets</a></li>
                     </ul>   
                 </li>
                 <li class="menu-item-has-children"><a href="#">Who We Are</a>
                     <ul class="sub-menu">
-                        <li><a href="#">Our Strategy</a></li>
-                        <li><a href="#">Markets</a></li>
+                        <li><a href="002-strategy.html">Our Strategy</a></li>
+                        <li><a href="003-our-firm.html">Markets</a></li>
                     </ul>   
                 </li>
-                <li><a href="#">Our Culture</a></li>
-                <li class="menu-item-has-children"><a href="#">Careers</a>
+                <li><a href="004-our-culture.html">Our Culture</a></li>
+                <li class="menu-item-has-children"><a href="007-careers.html">Careers</a>
                      <ul class="sub-menu">
-                        <li><a href="#">Our Strategy</a></li>
-                        <li><a href="#">Markets</a></li>
+                        <li><a href="002-strategy.html">Our Strategy</a></li>
+                        <li><a href="003-our-firm.html">Markets</a></li>
                     </ul> 
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="009-contact.html">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -62,7 +62,7 @@
 </header>
 <main class="main-content">
 <section class="home-banner-section pos-relative">
-    <div class="home-banner-bg" data-animation="fade-in-up">
+    <div class="home-banner-bg">
         <picture class="home-banner-thumb object-fit">
             <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)">
             <img src="images/home-banner-mobile@2x.jpg" alt="home-mobile-banner"> 
@@ -82,44 +82,42 @@
     </div>
 </section>
 <section class="trading-section pos-relative">
-<div class="trading-bg">
+<div class="trading-bg background-bg">
     <picture class="trading-thumb object-fit pos-relative">
         <source srcset="images/trading-thumb@2x.jpg" media="(min-width: 768px)">
-        <img data-animation="fade-in-down" src="images/trading-thumb-mobile@2x.jpg" alt="trading-thumb-mobile"> 
+        <img src="images/trading-thumb-mobile@2x.jpg" alt="trading-thumb-mobile"> 
     </picture>
     <!-- <iframe title="vimeo-player" src="https://player.vimeo.com/video/37395625?h=6e25040438" width="640" height="360" frameborder="0"    allowfullscreen></iframe> -->
     <div class="trading-overlay background-bg"></div>
     <div class="trading-overlay-bg background-bg"></div>
 </div>
-<div class="container background-text">
-    <div class="trading-wrap flex">
-        <div class="trading-main">
-            <div class="trading-text">
-                <span>We’re Northstar Trading</span>
-                <h2>Revolutionizing Energy Trading with Data and Technology</h2>
-                <p>We’re quantitatively-oriented proprietary trading company that employs a highly analytical, data-driven, and technology-based approach to trading. Our primary focus is on identifying persistent mispricings in short-term financial power markets with a strong emphasis on risk management and controls.</p>
-                <a href="#" class="button btn-transparent white blue-mbtn">Who We Are</a>
-            </div>
+<div class="container trading-wrap flex">
+    <div class="trading-main">
+        <div class="trading-text" data-animation="fade-in-left">
+            <span>We’re Northstar Trading</span>
+            <h2>Revolutionizing Energy Trading with Data and Technology</h2>
+            <p>We’re quantitatively-oriented proprietary trading company that employs a highly analytical, data-driven, and technology-based approach to trading. Our primary focus is on identifying persistent mispricings in short-term financial power markets with a strong emphasis on risk management and controls.</p>
+            <a href="#" class="button btn-transparent white blue-mbtn">Who We Are</a>
         </div>
-        <div class="statistic-main aligncenter pos-relative counter-main">
-            <div class="statistic-bg background-bg"></div>
-            <div class="statistic-row flex">
-                <div class="statistic-list pos-relative">
-                    <span class="number counter" data-duration="2000" data-countto="15">15</span>
-                    <p>STATISTIC</p>
-                </div>
-                <div class="statistic-list pos-relative">
-                    <span class="number counter" data-duration="3000" data-countto="200">200</span>
-                    <p>STATISTIC</p>
-                </div>
-                <div class="statistic-list pos-relative">
-                    <span class="number counter" data-duration="4000" data-countto="35">35</span>
-                    <p>STATISTIC</p>
-                </div>
-                <div class="statistic-list pos-relative">
-                    <span class="number counter" data-duration="5000" data-countto="300">300</span>
-                    <p>STATISTIC</p>
-                </div>
+    </div>
+    <div class="statistic-main aligncenter pos-relative counter-main">
+        <div class="statistic-bg background-bg"></div>
+        <div class="statistic-row flex">
+            <div class="statistic-list pos-relative">
+                <span class="number counter" data-duration="2000" data-countto="15">15</span>
+                <p>STATISTIC</p>
+            </div>
+            <div class="statistic-list pos-relative">
+                <span class="number counter" data-duration="3000" data-countto="200">200</span>
+                <p>STATISTIC</p>
+            </div>
+            <div class="statistic-list pos-relative">
+                <span class="number counter" data-duration="4000" data-countto="35">35</span>
+                <p>STATISTIC</p>
+            </div>
+            <div class="statistic-list pos-relative">
+                <span class="number counter" data-duration="5000" data-countto="300">300</span>
+                <p>STATISTIC</p>
             </div>
         </div>
     </div>
@@ -131,7 +129,7 @@
         <div class="optional-repeater-image">
             <picture class="optional-repeater-thumb object-fit">
                 <source srcset="images/innovation-thumb@2x.jpg" media="(min-width: 768px)">
-                <img  data-animation="swingup" src="images/innovation-thumb-mobile@2x.jpg" alt="innovation-thumb-mobile">
+                <img src="images/innovation-thumb-mobile@2x.jpg" alt="innovation-thumb-mobile">
             </picture>
         </div>
         <div class="optional-repeater-text" data-animation="fade-in-right">
@@ -191,11 +189,11 @@
         <div class="join-team-image pos-relative">
             <picture class="join-team-thumb object-fit">
                 <source srcset="images/join-team@2x.jpg" media="(min-width: 768px)">
-                <img data-animation="fade-in-right" src="images/join-team-mobile@2x.jpg" alt="join-team-mobile">
+                <img src="images/join-team-mobile@2x.jpg" alt="join-team-mobile">
             </picture>
             <div class="join-team-bg background-bg"></div>
         </div>        
-        <div class="join-team-pos  background-text flex">
+        <div class="join-team-pos  background-text flex" data-animation="fade-in-down">
             <div class="join-team-text">
                 <span class="optional-text">Join Our Team</span>
                 <h3>Careers at Northstar</h3>
@@ -239,9 +237,9 @@
             </div>
             <div class="footer-privacy">
                 <ul class="privacy-links flex">
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Disclosures</a></li>
+                    <li><a href="010-default.html">Privacy</a></li>
+                    <li><a href="010-default.html">Terms</a></li>
+                    <li><a href="010-default.html">Disclosures</a></li>
                 </ul>
             </div>
         </div>

@@ -11,7 +11,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .header{transition: padding 0.45s ease-in-out; padding: 11px 0 0; gap: 21px; }
-    .fixed-header .header{padding: 0;}
+    .fixed-header .header{padding: 2px 0 6px;}
     .logo{flex: 0 0 189px; min-height: 42px; position: relative;}
     .logo img{width: 100%; object-fit: contain;}
     .navigation{flex: 0 0 calc(100% - 210px); padding-right: 4px;}
@@ -33,6 +33,7 @@
     ul.main-menu > li > ul > li:hover{background-color: #ebebeb;}
     ul.main-menu > li:hover > ul{visibility: visible; opacity: 1;}
     
+    .fixed-header ul.main-menu{padding-top: 17px;}
     .fixed-header ul.main-menu > li > a{color: var(--dark-blue);}
     .fixed-header ul.main-menu > li > a:hover, .fixed-header ul.main-menu > li.current_page_parent > a, .fixed-header ul.main-menu > li.current_page_item > a{color: var(--blue-color);}
     .fixed-header ul.main-menu > li.current_page_item > a::after, .fixed-header ul.main-menu > li.current_page_item > a::before, .fixed-header ul.main-menu > li.current_page_parent > a::after, .fixed-header ul.main-menu > li.current_page_parent > a::before{background-color: var(--blue-color);}

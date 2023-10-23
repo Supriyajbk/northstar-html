@@ -8,17 +8,6 @@
 .financial-desc{padding: 18px 14px 54px 28px; font-size: 1rem; line-height: 22.4px; background-color: var(--white); }
 .financial-desc h3{margin-bottom: 8px; font-size: 26px;}
 .financial-desc p{margin-bottom: 20px;}
-.financial-svg path{
-    stroke: var(--white);
-    stroke-width: 1px;
-    stroke-dasharray: 500;
-    stroke-dashoffset: 0;
-    animation: animateLine 5s linear infinite;
-}
-@keyframes animateLine {
-    0% { stroke-dashoffset: 500;}
-    100% { stroke-dashoffset: 0;}
-}
 .financial-list{background-color: var(--white); position: relative; overflow: hidden;}
 .financial-image{overflow: hidden;}
 .financial-thumb{transition: all 0.45s ease-in-out;}

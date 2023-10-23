@@ -18,7 +18,6 @@ figure.quote-thumb img{width: 24px;}
 .our-culture-page .cta-panel-overlay{background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 73%);}
 .our-culture-page .cta-panel-text h2{font-size: 1.875rem; line-height: normal; margin-bottom: 23px;}
 .our-culture-page .cta-panel-text .button{margin-top: 9px;}
-
 .our-culture-page .optional-repeater-main.reverse .optional-repeater-text{opacity: 1;}
 
 .feature-grid-pattern-one{top: -463px; right: -277px; width: 739px; height: 606px; opacity: .03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
@@ -31,7 +30,6 @@ figure.quote-thumb img{width: 24px;}
 .feature-grid-inner p{color: var(--white-90); line-height: 1.7rem;}
 
 .single-testimonial-thumb{max-width: 98px; margin: 0 auto;}
-
 .feature-grid-list{overflow: hidden;}
 
 @media screen and (min-width: 1400px) {
@@ -39,24 +37,17 @@ figure.quote-thumb img{width: 24px;}
     .our-culture-page .optional-repeater-main.reverse .optional-repeater-image{flex: 0 0 calc(100% - 534px); margin:0 -200px 0 0;}
     .our-culture-page .optional-repeater-main.reverse .optional-repeater-text{flex: 0 0 408px;}
     .our-culture-page .optional-repeater-text p{color: rgba(31, 31, 31, 0.8);}
-
-    
 }
-
 @media screen and (min-width: 1400px) {
     .home-banner-section + .cta-panel-main{padding: 130px 0 30px;}
 }
-
 @media screen and (max-width: 1399px) and (min-width: 1024px) {
     .our-culture-page .optional-repeater-main.reverse{gap: 50px;}
     .culture-banner-pattern{bottom: -300px; left: -333px;}
 }
-
 @media screen and (min-width: 1024px) {
-    .our-culture-page .home-banner-main{margin: 0 0 0 82px;}
-    
     .single-testimonial-main{max-width: 633px; margin: 0 auto; padding: 205px 0 121px;}
-
+    .our-culture-page .home-banner-main{margin: 0 0 0 82px;}
     .our-culture-page .cta-panel-bg img{min-height: 611px;}
     .our-culture-page .cta-panel-main{max-width: 410px; min-height: 611px;}
 
@@ -69,9 +60,7 @@ figure.quote-thumb img{width: 24px;}
 
     .home-banner-section + .cta-panel-section{z-index: -1; margin-top: -130px;}
     .home-banner-section + .cta-panel-main{min-height: 700px;}
-
 }
-
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .our-culture-page .home-banner-main{padding: 30px 0 0;}
     .our-culture-page .home-banner-text{text-align: center; max-width: 100%;}
@@ -84,7 +73,6 @@ figure.quote-thumb img{width: 24px;}
     .single-testimonial-name{margin: 32px 0;}
 
     .our-culture-page .cta-panel-bg img{min-height: 611px;}
-
     .our-culture-page .optional-repeater-main{padding: 24px 0 40px; gap: 30px;}
     .our-culture-page .optional-repeater-image{width: 100%;}
     .our-culture-page .optional-repeater-text{text-align: center; max-width: 550px; margin: 0 auto;}
@@ -94,11 +82,8 @@ figure.quote-thumb img{width: 24px;}
     .feature-grid-pattern-two{bottom: -216px; left: -337px; width: 503px; height: 412px;}
     .feature-grid-main{gap: 24px; padding: 35px 0 64px;}
     .feature-grid-list{width: 100%; min-height: 503px;}
-
     .home-banner-section + .cta-panel-section{z-index: -1; margin-top: -70px;}
-
 }
-
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .our-culture-page .home-banner-overlay::before{bottom: -4px; left: -352px; width: 564px; height: 464px;}
     .our-culture-page .home-banner-bg{clip-path: polygon(100% 0,100% 94%,50% 100%,0 94%,0 0);}
@@ -127,6 +112,5 @@ figure.quote-thumb img{width: 24px;}
     .feature-grid-list{width: 100%; min-height: 503px;}
     
     figure.quote-thumb{margin-bottom: 13px;}
-
     .home-banner-section + .cta-panel-section{z-index: -1; margin-top: -55px;}
 }
