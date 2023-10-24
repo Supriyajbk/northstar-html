@@ -23,8 +23,8 @@ figure.quote-thumb img{width: 24px;}
 .feature-grid-pattern-one{top: -463px; right: -277px; width: 739px; height: 606px; opacity: .03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
 .feature-grid-pattern-two{bottom: -233px; left: -337px; width: 739px; height: 606px; opacity: .03; background-image: url("./images/pattern-block-black.svg"); background-repeat: no-repeat; background-size: cover; z-index: -1; position: absolute;}
 .feature-grid-overlay{background-color: rgba(0, 0, 0, 0.5); position: absolute; width: 100%; height: 100%; z-index: 1;}
-.feature-grid-thumb{position: absolute; width: 100%; height: 100%; top: 0; left: 0;}
-.feature-grid-content{padding: 30px 0; width: 100%; height: 100%; z-index: 1;}
+.feature-grid-thumb{position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: -1;}
+.feature-grid-content{padding: 30px 0; width: 100%; height: 100%;}
 .feature-grid-inner{max-width: 363px;}
 .feature-grid-inner h3{color: var(--white); line-height: normal; font-weight: normal; margin-bottom: 17px;}
 .feature-grid-inner p{color: var(--white-90); line-height: 1.7rem;}
