@@ -32,6 +32,7 @@ figure.quote-thumb img{width: 24px;}
 .single-testimonial-thumb{max-width: 98px; margin: 0 auto;}
 .feature-grid-list{overflow: hidden;}
 
+
 @media screen and (min-width: 1400px) {
     .our-culture-page .optional-repeater-main.reverse{flex-direction: row-reverse; gap: 0 126px;}
     .our-culture-page .optional-repeater-main.reverse .optional-repeater-image{flex: 0 0 calc(100% - 534px); margin:0 -200px 0 0;}

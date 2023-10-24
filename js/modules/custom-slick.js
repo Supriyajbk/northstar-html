@@ -82,7 +82,7 @@ jQuery(document).ready(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-    customPaging: function(slider, i) { return '<button class="tab">' + $(slider.$slides[i]).attr('data-name') + '</button>'; },
+    customPaging: function(slider, i) { return '<button class="tab">' + jQuery(slider.$slides[i]).attr('data-name') + '</button>'; },
     arrows: false,
     vertical: true,
     verticalSwiping: true,

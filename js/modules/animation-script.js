@@ -1,7 +1,7 @@
 import jQuery from 'jquery';
 var $animation_elements = jQuery('[data-animation]');
-
 var $window = jQuery(window);
+var $document = jQuery(document);
 
 function check_if_in_view() {
   $animation_elements.each(function() {
@@ -30,4 +30,8 @@ function check_if_in_view() {
   });
 }
 $window.on("scroll load", check_if_in_view);
-$window.trigger("scroll load");
+$window.trigger("scroll");
+$document.ready(function() { 
+  check_if_in_view();
+  setTimeout(check_if_in_view, 100);
+});
