@@ -2,8 +2,12 @@
 /* Careers banner section */
 .career-banner-section{background-color: var(--blue-color);}
 .career-banner-main{ z-index: 1;}
-.career-banner-pattern-one{content: ""; position: absolute; background-image: url("./images/pattern-block-white.svg"); background-size: cover; background-repeat: no-repeat; width: 726px; height: 597.5px; left: -224px; top: 109px; z-index: 0; opacity: .1;}
-.career-banner-pattern-two{content: ""; position: absolute; background-image: url("./images/pattern-block-white.svg"); background-size: cover; background-repeat: no-repeat; width: 726px; height: 597.5px; right: -316px; top: 110px; z-index: 0; opacity: .1;}
+.career-banner-pattern-one{animation: careerPatternOne 5s linear forwards; animation-play-state: paused; content: ""; position: absolute; background-image: url("./images/pattern-block-white.svg"); background-size: cover; background-repeat: no-repeat; width: 726px; height: 597.5px; left: -224px; top: 109px; z-index: 0; opacity: .1;}
+.career-banner-pattern-one.visible{animation-play-state: running;}
+@keyframes careerPatternOne{ from{ opacity: 0.2; transform: translate(0, 0); } to{ opacity: 0.1; transform: translate(20px, 20px); } }
+.career-banner-pattern-two{animation: careerPatternTwo 5s linear forwards;  animation-play-state: paused; content: ""; position: absolute; background-image: url("./images/pattern-block-white.svg"); background-size: cover; background-repeat: no-repeat; width: 726px; height: 597.5px; right: -316px; top: 110px; z-index: 0; opacity: .1;}
+@keyframes careerPatternTwo{ from{ opacity: 0.2; transform: translate(0, 0); } to{ opacity: 0.1; transform: translate(-20px, -20px); } }
+.career-banner-pattern-two.visible{animation-play-state: running;}
 .career-banner-text{color: var(--white);}
 .career-banner-text h1{color: var(--white); margin-bottom: 21px;}
 .career-banner-text p{margin-bottom: 27px;}
@@ -13,7 +17,7 @@
 
 .career-feature-section{background-color: #091735;}
 .career-feature-main{padding: 176px 0 157px; z-index: 1; gap: 127px;}
-.career-feature-main::before{content: ""; position: absolute; width: 1026px; height: 662px; background-image: url("./images/logo-symbol.svg"); right: -550px; top: 124px; z-index: -1; opacity: .1;}
+.career-feature-svg{position: absolute; width: 1026px; height: 662px; right: -550px; top: 124px; z-index: -1; opacity: .1;}
 .career-feature-list{gap: 94px;}
 .career-feature-list.reverse{flex-direction: row-reverse;}
 .career-feature-text h3{font-size: 1.875rem; color: var(--white); font-weight: 500;}

@@ -4,14 +4,10 @@ import {DrawSVGPlugin} from '../lib/DrawSVGPlugin.min.js'
 
 gsap.registerPlugin(DrawSVGPlugin)
 
-function getRandomInt(min, max) {
-  return Math.random() * (max - min) + min;
-}
-
 const ele = jQuery(".ui-ele");
 ele.each(function(){
     const _self = jQuery(this);
-    const _path = _self.find("path");
+    const _path = _self.find("mask path");
     var tl = gsap.timeline({
         play: true,
         delay: 0.5,
