@@ -14,7 +14,7 @@ function check_if_in_view() {
 
     var tolerance = Number($self.data("tolerance"));
     if(isNaN(tolerance)){
-      tolerance = -100;
+      tolerance = 0;
     }
     if($self.is(':in-viewport('+ tolerance + ')')) {
       setTimeout(() => {
