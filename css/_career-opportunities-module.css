@@ -1,5 +1,7 @@
 
-.post-career-section::before{content: ""; position: absolute; width: 100%; height: 285px; background-image: url("./images/white-pattern-big.svg"); background-size: cover; bottom: 0; z-index: -1;}
+.post-career-section::before{content: ""; position: absolute; width: 100%; height: 285px; background-image: url("./images/white-pattern-big.svg"); background-size: cover; bottom: 0; z-index: -1; animation: postCareer 2s ease-in-out infinite; }
+@keyframes postCareer{ 0% { opacity: 1; } 50%{ opacity: 0; } 100% { opacity: 1; } }
+
 .post-career-wrap{padding: 75px 0 109px;}
 .post-career-title h4{font-size: 26px;}
 .post-career-heading{margin-bottom: 85px;}
@@ -17,24 +19,21 @@
 .post-career-main.full-width .post-career-title{flex: 0 0 100%; margin-right: 0;}
 .post-career-main.full-width .post-career-text{flex: 0 0 100%;}
 
+/* Media query */
 @media screen and (min-width: 1024px) {
     .post-career-title{flex: 0 0 408px; margin-right: 102px;}
     .post-career-text{flex: 0 0 calc(100% - 510px); }
-
     .post-career-section .post-career-dropdown{max-width: 228px;}
 }
-
 @media screen and (max-width: 1299px) and (min-width:1024px) {
     .post-career-title{flex: 0 0 360px; margin-right: 40px;}
     .post-career-text{flex: 0 0 calc(100% - 400px);}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .post-career-wrap{padding: 50px 0 64px;}
     .post-career-title{margin-bottom: 32px; width: 100%;}
     .post-career-text{width: 100%;}
 }
-
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .post-career-wrap{padding: 50px 0 64px;}
     .post-career-heading{margin-bottom: 39px;}

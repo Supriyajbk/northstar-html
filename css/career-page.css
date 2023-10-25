@@ -17,7 +17,10 @@
 
 .career-feature-section{background-color: #091735;}
 .career-feature-main{padding: 176px 0 157px; z-index: 1; gap: 127px;}
-.career-feature-svg{position: absolute; width: 1026px; height: 662px; right: -550px; top: 124px; z-index: -1; opacity: .1;}
+.career-feature-svg{position: absolute; width: 1026px; height: 662px; right: -550px; top: 124px; z-index: -1; }
+.career-feature-svg path{ stroke:var(--white); stroke-width: 3px; stroke-dasharray:500; stroke-dashoffset:0; stroke-linecap: round; stroke-linejoin: round; animation: animateLine 5s linear infinite; opacity: 0.1; }
+@keyframes animateLine { 0% { stroke-dashoffset:500; } 100% { stroke-dashoffset:0;} }
+  
 .career-feature-list{gap: 94px;}
 .career-feature-list.reverse{flex-direction: row-reverse;}
 .career-feature-text h3{font-size: 1.875rem; color: var(--white); font-weight: 500;}
