@@ -21,7 +21,6 @@
     "grunt-contrib-concat": "^2.1.0",
     "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "gsap": "^3.12.2",
     "jquery": "^3.7.1",
     "lerp": "^1.0.3",
     "magnific-popup": "^1.1.0",

@@ -5,7 +5,6 @@
 .join-team-text{color: var(--white);}
 .join-team-text span.optional-text{margin-bottom: 10px;}
 .join-team-text h3{color: var(--white); margin-bottom: 18px;}
-
 .join-team-main{overflow: hidden;}
 
 
@@ -14,8 +13,7 @@
     .background-pattern{width: 100%; height: 100%; background-image: url("images/background-pattern.svg"); background-repeat: no-repeat; background-size: cover;}
     .join-team-bg{background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.52) 51%, rgba(0, 0, 0, 0.85) 100%);}
     .join-team-pos{padding: 76px 117px; align-items: flex-end;}
-    .join-team-text{max-width: 522px;}
-
+    .join-team-text{max-width: 522px; top: -40px; position: relative;}
     .join-team-thumb{max-height: 656px;}
     .join-team-main.no-join-team-image{min-height: 656px; background-image: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(0,0,0,.52) 51%,rgba(0,0,0,.85) 100%);}
 }

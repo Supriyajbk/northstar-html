@@ -4,7 +4,6 @@ import './lib/slick.min';
 import './lib/jquery.selectBox';
 import './lib/jquery.parallax-scroll';
 import './modules/animation-script';
-import './modules/custom-gsap';
 import './modules/custom-counter';
 import './modules/custom-script';
 import './modules/custom-selectBox';
