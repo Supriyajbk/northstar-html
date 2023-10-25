@@ -1,4 +1,5 @@
-.leadership-overlay-bg{max-height: 470px; clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);}
+.leadership-overlay-bg{max-height: 470px; clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);}
+.leadership-overlay-bg.clip{clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);}
 .leadership-overlay{z-index: 0; object-fit:contain; background-image: linear-gradient(0deg, rgba(9, 23, 53, 0.83) 0%, rgba(9, 23, 53, 0.83) 100%), linear-gradient(90deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%);}
 .leadership-banner-main{padding-top: 125px; position: relative; z-index: 1;}
 .leadership-banner-text{color: var(--white); font-size: 20px; line-height: 24px;}
