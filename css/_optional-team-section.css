@@ -39,4 +39,5 @@
     .optional-team-slider ul.slick-dots{position: relative; bottom: 0; margin-top: 24px;}
     .optional-team-slider ul.slick-dots li.slick-active button{border-color: var(--blue-color);}
     .optional-team-slider ul.slick-dots li button{border: solid 1px var(--text-color);}
+    
 }

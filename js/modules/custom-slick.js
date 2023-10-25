@@ -134,7 +134,7 @@ jQuery('.firm-slider-nav').slick({
 
     if(jQuery(window).width() <= 1023){
       let teamSlider = jQuery(".optional-team-slider");
-      teamSettings = {
+      jQuery(".optional-team-slider").slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         dots: true,
@@ -152,8 +152,8 @@ jQuery('.firm-slider-nav').slick({
                 }
             }
           ]
-      };
-      teamSlider.slick(teamSettings);
+      })
+    
 
         jQuery('.perks-slider').slick({
           slidesToShow: 2,

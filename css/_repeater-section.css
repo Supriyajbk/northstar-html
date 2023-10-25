@@ -25,9 +25,9 @@
     .optional-repeater-text h3{max-width: 100%;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .optional-repeater-main{display: block; padding: 50px 0 65px;}
-    .optional-repeater-image{margin-bottom: 24px;}
+    .optional-repeater-main{display: block; padding: 30px 0 65px;}
     .optional-repeater-image img{max-height: 488px; overflow: hidden;}
+    .optional-repeater-text{padding-top: 64px;}
     .optional-repeater-text  span.optional-text{margin-bottom: 13px;}
     .optional-repeater-text h3{max-width: 100%;}
 }

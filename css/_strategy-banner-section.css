@@ -18,7 +18,8 @@
     .strategy-banner-thumb img{min-height: 531px; overflow: hidden;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .strategy-banner-bg{clip-path: polygon(100% 0, 100% 94%, 50% 100%, 0 94%, 0 0); min-height: 531px;} 
+    .strategy-banner-bg{min-height: 531px;}
+    .strategy-banner-bg.clip{clip-path: polygon(100% 0, 100% 94%, 50% 100%, 0 94%, 0 0);} 
     .strategy-banner-main{padding-top: 105px;}
     .strategy-banner-thumb img{min-height: 531px; overflow: hidden;}
     .strategy-banner-text h1{font-size: 36px; margin-bottom: 18px;}

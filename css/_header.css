@@ -30,7 +30,7 @@
     ul.main-menu > li > ul{margin:0; position: absolute; background-color: var(--white); width: 199px; visibility: hidden; opacity: 0;}
     ul.main-menu > li > ul > li{margin: 0;}
     ul.main-menu > li > ul > li > a{padding: 15px 26px; font-size: 14px; line-height: 24px; color:  #091735; font-family: 'lexend',sanserif; font-weight: 500; display: block;}
-    ul.main-menu > li > ul > li:hover{background-color: #ebebeb;}
+    ul.main-menu > li > ul > li.current_page_item > a, ul.main-menu > li > ul > li > a:hover{background-color: #ebebeb;}
     ul.main-menu > li:hover > ul{visibility: visible; opacity: 1;}
     
     .fixed-header ul.main-menu{padding-top: 17px;}
