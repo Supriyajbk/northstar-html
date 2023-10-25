@@ -4,7 +4,7 @@
 ul.privacy-links{margin: 0; gap: 0 28px;}
 ul.privacy-links li{font-size: 16px; font-weight: 500; line-height: 1.7; margin-bottom: 0;}
 ul.privacy-links li > a{color: var(--white-90);}
-ul.privacy-links li > a:hover{color: var(--blue-color);}
+ul.privacy-links li.current_page_item > a, ul.privacy-links li > a:hover{color: var(--blue-color);}
 ul.privacy-links li::before{top: 5px; left: -18px; height: 19px; width: 1px; background-color: var(--white-50); border-radius: 0;}
 ul.privacy-links li:last-child:before{left: -10px;}
 ul.privacy-links li:first-child::before{display: none;}

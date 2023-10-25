@@ -4,9 +4,9 @@
 .career-banner-main{ z-index: 1;}
 .career-banner-pattern-one{animation: careerPatternOne 5s linear forwards; animation-play-state: paused; content: ""; position: absolute; background-image: url("./images/pattern-block-white.svg"); background-size: cover; background-repeat: no-repeat; width: 726px; height: 597.5px; left: -224px; top: 109px; z-index: 0; opacity: .1;}
 .career-banner-pattern-one.visible{animation-play-state: running;}
-@keyframes careerPatternOne{ from{ opacity: 0.2; transform: translate(0, 0); } to{ opacity: 0.1; transform: translate(20px, 20px); } }
+@keyframes careerPatternOne{ from{ opacity: 0.1; transform: translate(0, 0); } to{ opacity: 0.2; transform: translate(20px, 20px); } }
 .career-banner-pattern-two{animation: careerPatternTwo 5s linear forwards;  animation-play-state: paused; content: ""; position: absolute; background-image: url("./images/pattern-block-white.svg"); background-size: cover; background-repeat: no-repeat; width: 726px; height: 597.5px; right: -316px; top: 110px; z-index: 0; opacity: .1;}
-@keyframes careerPatternTwo{ from{ opacity: 0.2; transform: translate(0, 0); } to{ opacity: 0.1; transform: translate(-20px, -20px); } }
+@keyframes careerPatternTwo{ from{ opacity: 0.1; transform: translate(0, 0); } to{ opacity: 0.2; transform: translate(-20px, -20px); } }
 .career-banner-pattern-two.visible{animation-play-state: running;}
 .career-banner-text{color: var(--white);}
 .career-banner-text h1{color: var(--white); margin-bottom: 21px;}
