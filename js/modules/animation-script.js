@@ -11,7 +11,12 @@ function check_if_in_view() {
     const delay = Number($self.data('animation-delay') || 0);
     const timeline = $self[0].tl
     const counter = $self[0].counter
-    if($self.is(':in-viewport')) {
+
+    var tolerance = Number($self.data("tolerance"));
+    if(isNaN(tolerance)){
+      tolerance = -100;
+    }
+    if($self.is(':in-viewport('+ tolerance + ')')) {
       setTimeout(() => {
         if (animateType) _.animateRun($self, animateType);
         else $self.addClass('visible ' + animation);
@@ -30,7 +35,7 @@ function check_if_in_view() {
   });
 }
 $window.on("scroll load", check_if_in_view);
-$window.trigger("scroll");
+$window.trigger("scroll load");
 $document.ready(function() { 
   check_if_in_view();
   setTimeout(check_if_in_view, 100);

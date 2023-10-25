@@ -14,6 +14,22 @@
 .financial-desc{transition: all 0.45s ease-in-out;}
 .financial-list:hover .financial-thumb{transform: scale(1.5);}
 .financial-list:hover .financial-desc{transform: scale(0.95);}
+.financial-svg path {
+    stroke:var(--white);
+    stroke-width:1px;
+    stroke-dasharray:500;
+    stroke-dashoffset:0;
+    animation:animateLine 5s linear infinite
+  }
+  @keyframes animateLine {
+    0% {
+      stroke-dashoffset:500
+    }
+    100% {
+      stroke-dashoffset:0
+    }
+  }
+  
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
