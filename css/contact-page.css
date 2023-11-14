@@ -39,7 +39,7 @@ ul.contact-links li a span{color: var(--blue-color); margin-right: 7px;}
     .contact-sparta-logo{flex: 0 0 135px; margin-right: 38px; padding-top: 12px;}
     .contact-sparta-content{flex: 0 0 calc(100% - 173px);}
 
-    .contact-location-items{gap: 19px;}
+    .contact-location-items{gap: 19px; justify-content: center;}
     .contact-location-main{padding: 55px 0 84px;}
     .contact-location-list{flex: 0 0 calc(33.33% - 12.7px);}
     ul.contact-links{margin: -4px 0 0 0;}
@@ -68,7 +68,7 @@ ul.contact-links li a span{color: var(--blue-color); margin-right: 7px;}
     .contact-location-pattern{bottom: -589px; left: -85px;; width: 1198px; height: 739px;}
     .contact-location-main{padding: 31px 0 61px;}
     .contact-loaction-heading{margin-bottom: 80px;}
-    .contact-location-items{gap: 20px;}
+    .contact-location-items{gap: 20px; justify-content: center;}
     .contact-location-list{flex:0 0 calc(33.33% - 14px);}
     .contact-location-desc{padding: 21px 28px 24px 23px;}
     .contact-location-desc h3{font-size: 1.5rem; margin-bottom: 13px;}
