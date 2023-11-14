@@ -19,6 +19,8 @@
 .post-career-main.full-width .post-career-title{flex: 0 0 100%; margin-right: 0;}
 .post-career-main.full-width .post-career-text{flex: 0 0 100%;}
 
+.post-career-wrap h4{margin-bottom: 0;}
+
 /* Media query */
 @media screen and (min-width: 1024px) {
     .post-career-title{flex: 0 0 408px; margin-right: 102px;}
