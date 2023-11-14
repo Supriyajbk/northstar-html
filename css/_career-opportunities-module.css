@@ -20,12 +20,15 @@
 .post-career-main.full-width .post-career-text{flex: 0 0 100%;}
 
 .post-career-wrap h4{margin-bottom: 0;}
+.post-career-wrap p{text-align: center;}
 
 /* Media query */
 @media screen and (min-width: 1024px) {
     .post-career-title{flex: 0 0 408px; margin-right: 102px;}
     .post-career-text{flex: 0 0 calc(100% - 510px); }
     .post-career-section .post-career-dropdown{max-width: 228px;}
+
+    .post-career-wrap p{text-align: center; max-width: 800px; margin: 0 auto;}
 }
 @media screen and (max-width: 1299px) and (min-width:1024px) {
     .post-career-title{flex: 0 0 360px; margin-right: 40px;}
