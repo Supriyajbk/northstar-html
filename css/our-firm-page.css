@@ -80,10 +80,7 @@
     .market-insight-content{flex: 0 0 475px; margin-right: 50px;}
     .market-insight-image{flex: 0 0 calc(100% - 525px);}
     
-    .leadership-team-wrap{padding: 100px 0;}
-    .leadership-team-list:nth-child(5){flex: 0 0 48.95%;}
-    /* .leadership-team-list:nth-child(5) .leadership-team-inner{padding: 20px 70px 20px 0;} */
-    
+    .leadership-team-wrap{padding: 100px 0;}    
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
