@@ -26,6 +26,7 @@
     .post-career-title{flex: 0 0 408px; margin-right: 102px;}
     .post-career-text{flex: 0 0 calc(100% - 510px); }
     .post-career-section .post-career-dropdown{max-width: 228px;}
+    .post-career-desc{max-width: 600px;}
 }
 @media screen and (max-width: 1299px) and (min-width:1024px) {
     .post-career-title{flex: 0 0 360px; margin-right: 40px;}
