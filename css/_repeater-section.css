@@ -15,7 +15,7 @@
     .optional-repeater-image{flex: 0 0 calc(100% - 612px); min-width: 790px; margin-left: -200px;}
     .optional-repeater-text{flex: 0 0 510px;}
 
-    .optional-revert .optional-repeater-image{margin-left: 0;}
+    .optional-revert .optional-repeater-image{margin-left: 0; margin-right: -200px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .optional-repeater-main{gap: 26px 51px;}
