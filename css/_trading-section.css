@@ -14,7 +14,8 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .trading-thumb img{min-height: 856px;}
-    .trading-bg iframe{width: 100%; height: 100%; min-height: 856px; object-fit: cover;}
+    .trading-section .trading-bg{ width: 100vw; max-width: 100%; padding-bottom: 56.5%; height: auto; overflow: hidden; }
+    .trading-bg iframe{width: 100%; height: 100%; min-height: 856px; top: 0; left: 0; object-fit: cover; object-position: center; position: absolute;}
     .trading-wrap{height: 100%; padding: 40px 0 0; flex-direction: column; min-height: 856px;}
     .trading-overlay{ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.28) 1%, rgba(0, 0, 0, 0.16) 58%, rgba(255, 255, 255, 0) 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));}
     .trading-main{max-width: 615px; padding-top: 203px;}
@@ -23,10 +24,13 @@
     .statistic-list{flex: 0 0 119px; position: relative;}
     .statistic-list::before{width: 1px; height: 51px; top: 50%; transform: translateY(-50%); left: -30px; opacity: 0.2; background-color: var(--white); content: ""; display: block; position: absolute;}
     .statistic-list:first-child:before{display: none;}
+
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .trading-thumb img{min-height: 800px;}
-    .trading-bg iframe {width: 100%; height: 100%; min-height: 800px; object-fit: cover;}
+    .trading-section .trading-bg{padding: 50%;}
+    .trading-bg iframe {width: 100%; height: 100%; min-height: 800px; min-width: 1500px; top: 0; left: -50%; position: absolute; object-fit: fill; object-position: center;}
+ 
     .trading-wrap{height: 100%; padding: 150px 0 0; flex-direction: row; text-align: center; min-height: 840px;}
     .trading-main{max-width: 550px; margin: 0 auto;}
     .trading-overlay{ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.28) 1%, rgba(0, 0, 0, 0.16) 58%, rgba(255, 255, 255, 0) 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));}
@@ -41,9 +45,11 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .trading-wrap{height: 100%; padding: 143px 0 0; flex-direction: column; text-align: center;}
+    .trading-section .trading-bg{padding: 50%;}
+    .trading-bg iframe {width: 100%; height: 100%; min-height: 800px; min-width: 1500px; top: 25px; left: -50%; position: absolute; object-fit: fill; object-position: center;}
+ 
     .trading-main{margin-bottom: 55px;}
     .trading-thumb img{min-height: 980px;}
-    .trading-bg iframe{width: 100%; height: 100%; min-height: 873px; object-fit: cover;}
     .trading-overlay{background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0.16) 57.24%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.44) 0%, rgba(0, 0, 0, 0.44) 100%);}
     .trading-text span{margin-bottom: 12px;}
     .trading-text h2{font-size: 30px; line-height: 38px;}
