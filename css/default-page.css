@@ -22,6 +22,7 @@
 @media only screen and (min-width: 1024px){
     .default-feature-text{max-width: 742px; margin-top: 44px;}
     .default-feature-text h2{font-size: 40px; line-height: 50px;margin-bottom: 40px;} 
+    body.privacy-policy .default-content-main{padding: 5rem 0; min-height: 400px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .default-feature-text{max-width: 600px;}

@@ -122,6 +122,7 @@
     .testimonial-text::before{left: 50%;  transform: translateX(-50%);}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
+    .career-feature-section.no-carrer-reason-row{margin-top: 12rem;}
     .career-banner-pattern-one{left: 0; top: 30px; width: 155px; height: 468px; background-position: right;}
     .career-banner-pattern-two{right: 0; top: 349px;width: 182px; height: 468px;}
     .career-banner-main{padding: 166px 0 266px;}

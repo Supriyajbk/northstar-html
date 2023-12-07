@@ -76,7 +76,7 @@
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
-    .page-template-our-firm .default-banner-thumb img{min-height: 644px;}
+    /* .page-template-our-firm .default-banner-thumb img{min-height: 644px;} */
     .market-insight-content{flex: 0 0 475px; margin-right: 50px;}
     .market-insight-image{flex: 0 0 calc(100% - 525px);}
     
@@ -84,7 +84,7 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    .page-template-our-firm .default-banner-thumb img{min-height: 450px;}
+    /* .page-template-our-firm .default-banner-thumb img{min-height: 450px;} */
     .page-template-our-firm  .default-banner-text{margin-bottom: 20px;}
     .banner-num-list{flex: 0 0 85px; padding: 0 20px;}
 
